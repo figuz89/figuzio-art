@@ -1,0 +1,107 @@
+name: Temporary build - Figuz AndroidTV Bluetooth
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: contains(github.event.issue.title, '[BT-BUILD]')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout public hosting branch
+        uses: actions/checkout@v4
+        with:
+          ref: androidtvbluetooth-figuz
+          fetch-depth: 0
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install Android SDK 34
+        run: sdkmanager "platforms;android-34" "build-tools;34.0.0"
+
+      - name: Clone upstream AndroidTVBluetooth
+        run: |
+          rm -rf /tmp/AndroidTVBluetooth
+          git clone --depth 1 https://github.com/saihgupr/AndroidTVBluetooth.git /tmp/AndroidTVBluetooth
+          rm -f /tmp/AndroidTVBluetooth/local.properties
+
+      - name: Apply Figuz customisation
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          root = Path("/tmp/AndroidTVBluetooth")
+
+          main = root / "app/src/main/java/com/saihgupr/btcontrol/MainActivity.java"
+          s = main.read_text()
+          anchor = "                List<BluetoothDevice> deviceList = new ArrayList<>(pairedDevices);\n"
+          patch = (
+              anchor
+              + "\n"
+              + "                // Figuz customisation: keep the Google TV remote paired, but hide it from this UI.\n"
+              + "                deviceList.removeIf(device -> \"C4:19:D1:5A:16:E8\".equalsIgnoreCase(device.getAddress()));\n"
+          )
+          if anchor not in s:
+              raise SystemExit("MainActivity patch anchor not found; upstream changed.")
+          main.write_text(s.replace(anchor, patch, 1))
+
+          gradle = root / "app/build.gradle"
+          g = gradle.read_text()
+          old = 'applicationId "com.saihgupr.btcontrol"'
+          new = 'applicationId "com.figuz89.btcontrol"'
+          if old not in g:
+              raise SystemExit("applicationId patch anchor not found; upstream changed.")
+          gradle.write_text(g.replace(old, new, 1))
+
+          strings = root / "app/src/main/res/values/strings.xml"
+          x = strings.read_text()
+          x = x.replace(
+              "<string name=\"app_name\">AndroidTVBluetooth</string>",
+              "<string name=\"app_name\">AndroidTVBluetooth Figuz</string>",
+              1,
+          )
+          x = x.replace(
+              "<string name=\"app_title\">AndroidTV Bluetooth Controller</string>",
+              "<string name=\"app_title\">AndroidTV Bluetooth Controller · Figuz</string>",
+              1,
+          )
+          strings.write_text(x)
+          PY
+
+      - name: Build APK
+        working-directory: /tmp/AndroidTVBluetooth
+        run: |
+          chmod +x gradlew
+          ./gradlew --no-daemon assembleDebug
+
+      - name: Publish APK to public branch
+        run: |
+          mkdir -p downloads
+          cp /tmp/AndroidTVBluetooth/app/build/outputs/apk/debug/AndroidTVBluetooth.apk downloads/AndroidTVBluetooth-Figuz.apk
+          cp /tmp/AndroidTVBluetooth/LICENSE downloads/AndroidTVBluetooth-Figuz-LICENSE.txt
+
+          cat > downloads/AndroidTVBluetooth-Figuz-README.txt <<'TXT'
+          Custom build of saihgupr/AndroidTVBluetooth v1.2.x for Figuz.
+          Change: hides Google TV Remote MAC C4:19:D1:5A:16:E8 from the in-app paired-device list.
+          The remote remains paired and functional.
+          Custom application ID: com.figuz89.btcontrol
+          Upstream: https://github.com/saihgupr/AndroidTVBluetooth
+          TXT
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add downloads/AndroidTVBluetooth-Figuz.apk downloads/AndroidTVBluetooth-Figuz-LICENSE.txt downloads/AndroidTVBluetooth-Figuz-README.txt
+          git commit -m "Publish custom AndroidTV Bluetooth APK" || exit 0
+          git push origin HEAD:androidtvbluetooth-figuz
