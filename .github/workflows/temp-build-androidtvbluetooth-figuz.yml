@@ -28,12 +28,20 @@ jobs:
       - name: Install Android SDK 34
         shell: bash
         run: |
-          export ANDROID_HOME=/usr/local/lib/android/sdk
-          export ANDROID_SDK_ROOT=/usr/local/lib/android/sdk
-          SDKMANAGER=/usr/local/lib/android/sdk/cmdline-tools/16.0/bin/sdkmanager
+          SDK_ROOT="${ANDROID_HOME:-${ANDROID_SDK_ROOT:-/usr/local/lib/android/sdk}}"
+          SDKMANAGER="$(command -v sdkmanager || true)"
+          if [ -z "$SDKMANAGER" ]; then
+            SDKMANAGER="$(find "$SDK_ROOT/cmdline-tools" -type f -name sdkmanager 2>/dev/null | head -n 1)"
+          fi
+          if [ -z "$SDKMANAGER" ] || [ ! -x "$SDKMANAGER" ]; then
+            echo "sdkmanager not found under $SDK_ROOT"
+            find "$SDK_ROOT" -maxdepth 4 -type f -name sdkmanager -print || true
+            exit 1
+          fi
+          echo "Using SDK root: $SDK_ROOT"
+          echo "Using sdkmanager: $SDKMANAGER"
           yes | "$SDKMANAGER" --licenses >/dev/null || true
           "$SDKMANAGER" "platforms;android-34" "build-tools;34.0.0"
-
       - name: Clone upstream AndroidTVBluetooth
         run: |
           rm -rf /tmp/AndroidTVBluetooth
