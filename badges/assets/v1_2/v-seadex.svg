@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="201" height="68" viewBox="0 0 201 68" role="img" aria-label="SeaDex">
+<defs>
+<linearGradient id="metal" x1="0" y1="0" x2=".07" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".22" stop-color="#e7ebf2"/><stop offset=".42" stop-color="#aab6c6"/><stop offset=".57" stop-color="#ffffff"/><stop offset=".77" stop-color="#aab6c6"/><stop offset="1" stop-color="#6c7786"/></linearGradient>
+<linearGradient id="outline" x1=".08" y1="0" x2=".95" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".32" stop-color="#aab6c6"/><stop offset=".68" stop-color="#6c7786"/><stop offset="1" stop-color="#e7ebf2"/></linearGradient>
+<linearGradient id="body" x1="0" y1="0" x2=".2" y2="1"><stop offset="0" stop-color="#202023"/><stop offset=".48" stop-color="#080b0e"/><stop offset="1" stop-color="#060608"/></linearGradient>
+<linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity=".17"/><stop offset=".48" stop-color="#ffffff" stop-opacity=".02"/><stop offset=".5" stop-color="#ffffff" stop-opacity="0"/><stop offset="1" stop-color="#ffffff" stop-opacity=".01"/></linearGradient>
+<filter id="textshadow" x="-15%" y="-30%" width="140%" height="170%"><feDropShadow dx="0" dy="1.2" stdDeviation=".8" flood-color="#000000" flood-opacity=".75"/></filter>
+<filter id="halo" x="-25%" y="-50%" width="150%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+<clipPath id="edge"><rect x="5" y="5" width="191" height="58" rx="12"/></clipPath>
+<pattern id="grain" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M0 7 L7 0" stroke="#ffffff" stroke-width=".35" opacity=".035"/></pattern>
+</defs>
+<rect x="4.5" y="5" width="192" height="58" rx="13" fill="none" stroke="#aab6c6" stroke-width="3.5" opacity=".25" filter="url(#halo)"/>
+<rect x="4" y="4" width="193" height="60" rx="13" fill="url(#body)" stroke="url(#outline)" stroke-width="2.2"/>
+<g clip-path="url(#edge)"><rect x="5" y="5" width="191" height="58" fill="url(#gloss)"/><rect x="5" y="5" width="191" height="58" fill="url(#grain)"/><path d="M12 8 H189" stroke="#ffffff" opacity=".38" stroke-width="1.2"/></g>
+<g fill="none" stroke="url(#metal)" stroke-width="3.2" stroke-linecap="round"><path d="M11 28 C20 14 37 14 49 27"/><path d="M11 37 C20 23 37 23 49 36"/><path d="M11 46 C20 32 37 32 49 45"/></g><text x="68" y="45" font-size="34" font-weight="850" letter-spacing="-1.6" text-anchor="start" fill="url(#metal)" filter="url(#textshadow)">SeaDex</text>
+</svg>
