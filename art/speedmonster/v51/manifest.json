@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "release": "v51",
+  "immutableVersionedPaths": true,
+  "images": [
+    {
+      "folder": "Dystopian Worlds",
+      "role": "coverImageUrl",
+      "path": "art/speedmonster/v51/moods-and-vibes/dystopian-worlds/cover.webp",
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "bytes": 293926,
+      "sha256": "64254753ce1be4608a73d52792f1e71f33bf4160241f7c3b5a3617afb45ccbc8",
+      "gitBlobSha": "4352d2903e86678dfaea6e9cb2d3bc44b628c0f9"
+    },
+    {
+      "folder": "Dystopian Worlds",
+      "role": "heroBackdropUrl",
+      "path": "art/speedmonster/v51/moods-and-vibes/dystopian-worlds/hero.webp",
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "bytes": 303332,
+      "sha256": "ed9decdd508268165b4030d77ccd7d9aa1029382d0a936ba10ced89d19a6fa58",
+      "gitBlobSha": "1030639fd5e8ec129122ebac3bf592231ad3ce26"
+    }
+  ]
+}
