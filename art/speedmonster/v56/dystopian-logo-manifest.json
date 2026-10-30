@@ -1,0 +1,17 @@
+{
+  "release": "v56",
+  "supplementToArtworkCommit": "19201359fb89665a913787bb24b7ad3203af98c0",
+  "purpose": "Add missing independent transparent Dystopian Worlds title logo. Existing cover and hero are unchanged.",
+  "images": [
+    {
+      "path": "art/speedmonster/v56/moods-and-vibes/dystopian-worlds/title-logo.png",
+      "mime": "image/png",
+      "width": 1200,
+      "height": 360,
+      "bytes": 23506,
+      "sha256": "774f4690ece9961d4082e4ed7ea1a8274efe61870ba6d6c9536b9ca9113dceb6",
+      "font": "Arial Black",
+      "transparent": true
+    }
+  ]
+}
