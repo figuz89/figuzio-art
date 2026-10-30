@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "release": "v55",
+  "immutableVersionedPaths": true,
+  "newImages": [
+    {
+      "folder": "Top Movies",
+      "role": "cover",
+      "path": "art/speedmonster/v55/discover/top-movies/cover.webp",
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 165724,
+      "sha256": "01e179b5e71878a4178e4fd25d02dbd981c6df1ac924c4dcd338e7c00e3195aa",
+      "gitBlobSha": "9afbf1cdff158c0b821f1f3aaa6089eb0cc4e2da"
+    },
+    {
+      "folder": "Top Movies",
+      "role": "hero",
+      "path": "art/speedmonster/v55/discover/top-movies/hero.webp",
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 234010,
+      "sha256": "c71e4583ef1af4418a7d3c2b54f9149bc696d3947457479ce5a89c1a32def39b",
+      "gitBlobSha": "e03f1116b59c5cbce85db1b0803fcbae7ea06534"
+    },
+    {
+      "folder": "Top Series",
+      "role": "cover",
+      "path": "art/speedmonster/v55/discover/top-series/cover.webp",
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 119006,
+      "sha256": "24700c906989a5ddf5edf5a831e346e6e70ce3e91587ca1f293f2047619605f8",
+      "gitBlobSha": "03625524da2b3ee9321c60fb228c69d39ba05090"
+    },
+    {
+      "folder": "Top Series",
+      "role": "hero",
+      "path": "art/speedmonster/v55/discover/top-series/hero.webp",
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 177130,
+      "sha256": "8c1830c32c81dc98f856bff894bf4e524bba56c9dabb32c48a872d3fd5d2627a",
+      "gitBlobSha": "9f386dda315cbf93825c0b264773fefed22a9d88"
+    },
+    {
+      "folder": "New Movies",
+      "role": "cover",
+      "path": "art/speedmonster/v55/discover/new-movies/cover.webp",
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 231476,
+      "sha256": "8e7af22df06c52b010038887520e39f656bf8ab63e2f20a74e6d00e932682a57",
+      "gitBlobSha": "ab35d11cb0e8d4f4080a193df68e9a4a31683a67"
+    },
+    {
+      "folder": "New Movies",
+      "role": "hero",
+      "path": "art/speedmonster/v55/discover/new-movies/hero.webp",
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 236494,
+      "sha256": "26dbc798cb00c17027a489d4b597b27499482582649e5c0089335448fd021d96",
+      "gitBlobSha": "4c3f4bd3c8eeb073d49b769be24f94b62e9a899e"
+    },
+    {
+      "folder": "New Series",
+      "role": "cover",
+      "path": "art/speedmonster/v55/discover/new-series/cover.webp",
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 151942,
+      "sha256": "19694aac4b21f2d496ad5601b43377a45d8bd575490d9127d35fa3622d017bb5",
+      "gitBlobSha": "1c7c65a43c485e8523260c5f26b480fae7f9897e"
+    },
+    {
+      "folder": "New Series",
+      "role": "hero",
+      "path": "art/speedmonster/v55/discover/new-series/hero.webp",
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 180264,
+      "sha256": "4b6c8015fbeef36bb5c0557103232b268dbd245ebb999e6379794bb9b3d866d9",
+      "gitBlobSha": "1d471867715efd6cbf7155ba0b931f7fb774e77f"
+    },
+    {
+      "folder": "Popular Movies",
+      "role": "cover",
+      "path": "art/speedmonster/v55/discover/popular-movies/cover.webp",
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 238924,
+      "sha256": "899cdf08cbf0732279458fe520fde597bf5044b8218c031a3df8e76ca31dae23",
+      "gitBlobSha": "d912ae583b2c7d6a622ff7116a966cf2abe27e36"
+    },
+    {
+      "folder": "Popular Movies",
+      "role": "hero",
+      "path": "art/speedmonster/v55/discover/popular-movies/hero.webp",
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 234710,
+      "sha256": "1642aef6613bf53d42b3d65604012a9f0144d0e86c045202d8dfbb15ca926a42",
+      "gitBlobSha": "126c9473ab84f2bf4b534b44891fd16e4fd7045f"
+    },
+    {
+      "folder": "Popular TV",
+      "role": "cover",
+      "path": "art/speedmonster/v55/discover/popular-tv/cover.webp",
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 149914,
+      "sha256": "3f132e310ebfbf7991220997fb6a103912d0785a4c943738bd5fea8ee116df3e",
+      "gitBlobSha": "dfb83cf5439025b7d2147ea5b9363554d36b3641"
+    },
+    {
+      "folder": "Popular TV",
+      "role": "hero",
+      "path": "art/speedmonster/v55/discover/popular-tv/hero.webp",
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 244694,
+      "sha256": "ecad9df001a4615a554b56fc8e1cf72ebee72a328b007c217158971c32feff95",
+      "gitBlobSha": "51b6e645c05837d71ed86ddd978e73f8c6402e79"
+    }
+  ],
+  "reusedTitleLogos": [
+    {
+      "folder": "Top Movies",
+      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/fd6795c1ce31712408c24e23b07115bafbc3c224/art/speedmonster/v54/discover/top-movies/title-logo.png",
+      "sha256": "502ff4c2b4856b4226be00adb1adcc2c3d00d0200ad69cc4695e3c7776a9c62b",
+      "width": 1200,
+      "height": 360
+    },
+    {
+      "folder": "Top Series",
+      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/fd6795c1ce31712408c24e23b07115bafbc3c224/art/speedmonster/v54/discover/top-series/title-logo.png",
+      "sha256": "c621bf7f1fd089d0ee5873705b3a0612d2dda5251a5fe6f813e13188a7f328eb",
+      "width": 1200,
+      "height": 360
+    },
+    {
+      "folder": "New Movies",
+      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/fd6795c1ce31712408c24e23b07115bafbc3c224/art/speedmonster/v54/discover/new-movies/title-logo.png",
+      "sha256": "c7bfcb49713cb2106c524aa6158e3a65db0125b8395cfc7dc15c48424815c27d",
+      "width": 1200,
+      "height": 360
+    },
+    {
+      "folder": "New Series",
+      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/fd6795c1ce31712408c24e23b07115bafbc3c224/art/speedmonster/v54/discover/new-series/title-logo.png",
+      "sha256": "d5e3fffc713c7cf227088de15c987638a6b24c05419aba773b025b0b6eaa5eca",
+      "width": 1200,
+      "height": 360
+    },
+    {
+      "folder": "Popular Movies",
+      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/fd6795c1ce31712408c24e23b07115bafbc3c224/art/speedmonster/v54/discover/popular-movies/title-logo.png",
+      "sha256": "9c77f809fee8804829316c0ea6d38a1af90f9b1e306fe43a12b967405a099652",
+      "width": 1200,
+      "height": 360
+    },
+    {
+      "folder": "Popular TV",
+      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/fd6795c1ce31712408c24e23b07115bafbc3c224/art/speedmonster/v54/discover/popular-tv/title-logo.png",
+      "sha256": "5828e3154e6f3776f0bb36a4d5c0f32075fe55bda8d5306a6b4c4d58bf1290f2",
+      "width": 1200,
+      "height": 360
+    }
+  ]
+}
