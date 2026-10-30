@@ -1,0 +1,1958 @@
+{
+  "version": "v57",
+  "collection": "International Cinema",
+  "description": "Countries & Cultures: original generated cinematic illustrations, externally composed canonical flags and shared native typography. Regional images are representative scenes, not fictional merged geography.",
+  "flagAttribution": "Flagpedia / FlagCDN; Wikimedia-based public-domain flag graphics, rendered without mirroring or aspect-ratio changes. https://flagpedia.net/download",
+  "assets": [
+    {
+      "title": "Norwegian Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/norwegian-cinema/cover.webp",
+      "bytes": 539388,
+      "sha256": "c23edfe363ca6c567a0cdf15a84aab1f6c2b8dd7226a1a5e2e6f180c6f5364c6",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Norwegian Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/norwegian-cinema/hero.webp",
+      "bytes": 522206,
+      "sha256": "ec2e3492dc0230a5989fa3309f82f861122149f6dc0c4d41624f4499beef5934",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Norwegian Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/norwegian-cinema/title-logo.png",
+      "bytes": 24305,
+      "sha256": "ebe712d000aa7801820166a29b1ad3103b75e2d7505ff482485545a015c826f4",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Moroccan Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/moroccan-cinema/cover.webp",
+      "bytes": 440898,
+      "sha256": "eec7805403eddd51144986ac5b219dc6197e697739ff79a313acca9e4eb99910",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Moroccan Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/moroccan-cinema/hero.webp",
+      "bytes": 410540,
+      "sha256": "814c77bc6de8fdc64163e600d2407980a32ea94fd3b9e1748a547aa198e280e0",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Moroccan Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/moroccan-cinema/title-logo.png",
+      "bytes": 25320,
+      "sha256": "c6fc64218d807c4014ccdd54456bb1909afdbdb1ed65c21ecbab2eec463ebbcb",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Swedish Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/swedish-cinema/cover.webp",
+      "bytes": 644506,
+      "sha256": "44f06e1c80902663245b6898321189f53005bebf70b8c7163d14b1a9e63080d1",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Swedish Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/swedish-cinema/hero.webp",
+      "bytes": 641734,
+      "sha256": "c9e0b3c1cff02c4ce36dbfeac6e6e244773501dc7eb3048b603e410c5b09aad7",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Swedish Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/swedish-cinema/title-logo.png",
+      "bytes": 21867,
+      "sha256": "49df16a7763811c14b39c9b942ec48486d290dee1c95a3186a626069aab87945",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Danish Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/danish-cinema/cover.webp",
+      "bytes": 605536,
+      "sha256": "01fb2a0e192b0cffe6ea449d4f67511f75409afb32488d307084252d9c846947",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Danish Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/danish-cinema/hero.webp",
+      "bytes": 543598,
+      "sha256": "ae9322c24f087cda982b7a988be8538666b2022b5665a8084107f8af3e88391e",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Danish Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/danish-cinema/title-logo.png",
+      "bytes": 20315,
+      "sha256": "62f83134065e158cb4686aaba3dff47855144cd5fce6f8c92e4405a51401905e",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Nordic Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/nordic-cinema/cover.webp",
+      "bytes": 599530,
+      "sha256": "467652d3efe45f13f4cbb571efc5fedb56f0a96cc7b8b54f09b152d28f9908db",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Nordic Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/nordic-cinema/hero.webp",
+      "bytes": 536182,
+      "sha256": "c98dbba3611ca0b21e2dd703a47b5b3eeab28ead8e81a1e2de7f6bd541f3b5bf",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Nordic Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/nordic-cinema/title-logo.png",
+      "bytes": 20680,
+      "sha256": "76c2eb9428af0745ed7cdf4a1ab91172ec2ce2abb452e68d07c9f1dd3a6ca87c",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Latin American Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/latin-american-cinema/cover.webp",
+      "bytes": 560104,
+      "sha256": "35b9e213a2baa26bb089ec0c302144e5b59be77e84f7686810415f0d1376e1e6",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Latin American Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/latin-american-cinema/hero.webp",
+      "bytes": 582366,
+      "sha256": "3fa8275a8b40d07ed9469f7a9b9243d91a7e43ee67c3652a862faf9a02b3c0eb",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Latin American Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/latin-american-cinema/title-logo.png",
+      "bytes": 19349,
+      "sha256": "862519915f38329ea3c7d3045602e3ba3a9c79021abb487e5fed49625fed2cd3",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "North American Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/north-american-cinema/cover.webp",
+      "bytes": 623582,
+      "sha256": "758e001112f90c4d553c6b5d2c41b35b3564a20bb425e5b7c4c65023afa0bf3c",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "North American Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/north-american-cinema/hero.webp",
+      "bytes": 646628,
+      "sha256": "e24795bf13adb6a11b6119e87147fa20a53cce625915580941c85f54820906c4",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "North American Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/north-american-cinema/title-logo.png",
+      "bytes": 20882,
+      "sha256": "27a4e643ee3d25560d31d10c34e7f6e4b2b0f4f95fe2d52ad7b57356a6f2e2f2",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "East Asian Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/east-asian-cinema/cover.webp",
+      "bytes": 590412,
+      "sha256": "01894c3ee226a9440e2a2be25573dcd957315e369ae66206b10954a9e562cdc7",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "East Asian Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/east-asian-cinema/hero.webp",
+      "bytes": 530980,
+      "sha256": "726d81188489267ae8a871734367531cb5cdb69deed025b4f38c7ff35dd52924",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "East Asian Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/east-asian-cinema/title-logo.png",
+      "bytes": 22662,
+      "sha256": "367c32afb1f5503bb1dcfb9dc4bfc5453454432e20dcdce5d6b10d77b5258ce6",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Southeast Asian Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/southeast-asian-cinema/cover.webp",
+      "bytes": 370868,
+      "sha256": "6aae156ef4a1f6996a7ec10dab0644acbb296f49540c6aed0f11d71c1ded4c1a",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Southeast Asian Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/southeast-asian-cinema/hero.webp",
+      "bytes": 375990,
+      "sha256": "9369056e64758287ef61853d773ec8b8ae791f77ff8ed5a196afe005dbd6f6b9",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Southeast Asian Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/southeast-asian-cinema/title-logo.png",
+      "bytes": 21203,
+      "sha256": "7c4a56da245a49737c31dced67c4fee2d17890a8f36067ac3058cd407181bf8e",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "South Asian Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/south-asian-cinema/cover.webp",
+      "bytes": 633200,
+      "sha256": "9ba0641a203b5f39cfffc43002c655eb1b7c5ebdecf855f372cb3c8a4dcf4db8",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "South Asian Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/south-asian-cinema/hero.webp",
+      "bytes": 639314,
+      "sha256": "c62863babf87d1fff04b479dd9535054d684eb55e6d7338939a890cf37268109",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "South Asian Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/south-asian-cinema/title-logo.png",
+      "bytes": 21884,
+      "sha256": "d8439e1c6b544faf946a7e9859c4317aa8a8741e07754051a1aeecd88db35f4d",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Middle Eastern Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/middle-eastern-cinema/cover.webp",
+      "bytes": 513922,
+      "sha256": "6dfe588dd8a5d0eec8821ba120321b6235bb53958d6b0b3af72dbbcb98d5f76b",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Middle Eastern Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/middle-eastern-cinema/hero.webp",
+      "bytes": 467094,
+      "sha256": "1053939bfdb5b4f756e0240de5620b24d6aae824382e0f56fdc5bfb0d10bebc9",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Middle Eastern Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/middle-eastern-cinema/title-logo.png",
+      "bytes": 18508,
+      "sha256": "46324931b464599711ba7496947b82712f0b83d21ee250681528b77222fdf6fa",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "African Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/african-cinema/cover.webp",
+      "bytes": 494204,
+      "sha256": "c056dd559e98d2b5d541b86996ce79ce9a03c8cb3b15c961a0f3b884ef735344",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "African Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/african-cinema/hero.webp",
+      "bytes": 471408,
+      "sha256": "c72146865248916b174f91eb486287dbbd80218dee907e26f51b2f97b3e1fdad",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "African Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/african-cinema/title-logo.png",
+      "bytes": 20860,
+      "sha256": "20a149642a72340fd3d23a5f7ec67d6e96dc9c21a1040f79a98ff71e57266480",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Algerian Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/algerian-cinema/cover.webp",
+      "bytes": 594866,
+      "sha256": "9962e92191f15091814b4a190197f8d47fa07386e9a9f1aa680c2a292301c922",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Algerian Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/algerian-cinema/hero.webp",
+      "bytes": 557178,
+      "sha256": "8106b02ad83f19af59810e61f0cd35a258bbea7edb1d8632093b5450daa5bddc",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Algerian Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/algerian-cinema/title-logo.png",
+      "bytes": 22457,
+      "sha256": "c9ed87620972382df79cbd7f612e24eeb586892dd701aad99646dc8e201e0b94",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Argentine Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/argentine-cinema/cover.webp",
+      "bytes": 593100,
+      "sha256": "ca90f61e8679b531fe751388c01939e764c6c56274701b1da76ea8684ada98c3",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Argentine Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/argentine-cinema/hero.webp",
+      "bytes": 591756,
+      "sha256": "a75bf7389afe76c9f86ac54cde09a722eae8713c284e57e474613453e2b7ae5d",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Argentine Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/argentine-cinema/title-logo.png",
+      "bytes": 22372,
+      "sha256": "ec424a5b7bfa15a503f8745670b894aed252ab066cfcf014262c69a8e905fcb7",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Australian Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/australian-cinema/cover.webp",
+      "bytes": 406208,
+      "sha256": "18927a9b097c0568d466f3fa1b072e601d19b178b9dcd0eed4321d63da058f36",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Australian Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/australian-cinema/hero.webp",
+      "bytes": 409476,
+      "sha256": "d03b7305e324bc68305174cb852fed279806300d22eeff723bf82996e40d253a",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Australian Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/australian-cinema/title-logo.png",
+      "bytes": 22165,
+      "sha256": "b93a025e287247bf7d555bd5ccb9760aacb2f350b8fa0814b8dd1b8bdf1a9d8b",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Bangladesh Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/bangladesh-cinema/cover.webp",
+      "bytes": 604874,
+      "sha256": "52a90f87cad08466cff140c403e1e1150e54288a3e485db0292c201901e5ff92",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Bangladesh Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/bangladesh-cinema/hero.webp",
+      "bytes": 601556,
+      "sha256": "d71ff32b6eed28d49117fc94f2ec8521bb9f269212612be2c14de97832eee0bd",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Bangladesh Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/bangladesh-cinema/title-logo.png",
+      "bytes": 21457,
+      "sha256": "634d2c0fb0e41b888278556f584a6409201c15cead1975e8c9c19de70ba3befd",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Belgian Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/belgian-cinema/cover.webp",
+      "bytes": 678238,
+      "sha256": "f0b2fd0e655540e5f3af0f6b984a66d1d8742c5abdd9193aed61c75d4d99490f",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Belgian Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/belgian-cinema/hero.webp",
+      "bytes": 675170,
+      "sha256": "72ffad46b931c89d5fe8f6c58da66a9b437f9514d966c7de5e5177f1fe631bd4",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Belgian Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/belgian-cinema/title-logo.png",
+      "bytes": 20079,
+      "sha256": "83a95b8ddbc2b4806ff8cd23334d0d6cba98ce9ef38c4eda5986f6b57bbcae18",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Brazilian Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/brazilian-cinema/cover.webp",
+      "bytes": 445380,
+      "sha256": "b25747eb14cfdb6155e7c9bf72e6112a4175710e2c90404f9f5fd76bae81bc2b",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Brazilian Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/brazilian-cinema/hero.webp",
+      "bytes": 450118,
+      "sha256": "2f2f57a07d2c1a8fa891e32f0d49b9cf2795fd5d1af7dc7dbc9ae566ac563edf",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Brazilian Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/brazilian-cinema/title-logo.png",
+      "bytes": 22166,
+      "sha256": "dc300c3d5ed490363ea7ba626514d0eb6b36cffd6adff1bee04969b257ac69f9",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "British Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/british-cinema/cover.webp",
+      "bytes": 438684,
+      "sha256": "e6493cdc287606cee11c7f157c4978bb5f409f4c9e8bfd9d42d2bf5b0e03122b",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "British Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/british-cinema/hero.webp",
+      "bytes": 410724,
+      "sha256": "087f11e0551b2ebd3545eea6c3e8d1ee9d9abad5ffd8dffc2d425e8ca9f85b9f",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "British Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/british-cinema/title-logo.png",
+      "bytes": 19537,
+      "sha256": "b9299a9308e2f031e5d030525510fdb87aa189239b240ece0330b664fc8963ab",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Canadian Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/canadian-cinema/cover.webp",
+      "bytes": 654948,
+      "sha256": "2f341d45a85c4789d088cc72a6815e1f96dbf055e01ddbf39de2d1b0ed715da5",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Canadian Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/canadian-cinema/hero.webp",
+      "bytes": 631164,
+      "sha256": "ab0a7497f81453ef13ccbcd9d72713f3296d52d256904cf534ec331747bd2eed",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Canadian Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/canadian-cinema/title-logo.png",
+      "bytes": 22925,
+      "sha256": "89242c116a532e6ec85fa98f5d05f445ae01a928b13a4f5751d0dc8f8af4e684",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Chilean Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/chilean-cinema/cover.webp",
+      "bytes": 523100,
+      "sha256": "38a25923bdf3759fa25585a436a661f5e17f9c50b0baa08f145d832b42ba7e01",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Chilean Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/chilean-cinema/hero.webp",
+      "bytes": 511736,
+      "sha256": "ac1d9d00513b31b27cd628770edc7821b3781b9016167f0ddb1ddb5c3acfcb67",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Chilean Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/chilean-cinema/title-logo.png",
+      "bytes": 20323,
+      "sha256": "fdbe9aca716552c3d15f57451d8a430cf0f706dc2daf4cad8575fe5bb558e091",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Chinese Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/chinese-cinema/cover.webp",
+      "bytes": 527588,
+      "sha256": "09e1b2a49610ccf044e50719df14cef70a504abe8c7e44fdf22af16f5b1d8e23",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Chinese Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/chinese-cinema/hero.webp",
+      "bytes": 516804,
+      "sha256": "e86f181f62632f93355a28b85000a82ea5e92b61f5d2e68f4778af2dd867ed14",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Chinese Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/chinese-cinema/title-logo.png",
+      "bytes": 20440,
+      "sha256": "dd8b5e9766f7ca806ff255c84ac22c9b17781c5431232df17b544b6241b54f34",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Colombian Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/colombian-cinema/cover.webp",
+      "bytes": 619616,
+      "sha256": "f2481330d3cc74a0d77f23f3dc5b755bbcc347c2fcde534344802809daa841f3",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Colombian Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/colombian-cinema/hero.webp",
+      "bytes": 626722,
+      "sha256": "e7e620ee50b84549e22cca77393e9a1b95bfbd313e3e83617fef8a31dff17aa7",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Colombian Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/colombian-cinema/title-logo.png",
+      "bytes": 24517,
+      "sha256": "da7475e6a6122f697a2051ade7ea7d9f42af83242d63596924935b55648b66dd",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Dutch Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/dutch-cinema/cover.webp",
+      "bytes": 666068,
+      "sha256": "cfb03524c842b50fa2df91b9a4411799ed266b48e4d0434409fa9aecd4a8cc2d",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Dutch Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/dutch-cinema/hero.webp",
+      "bytes": 660982,
+      "sha256": "e7a4724424dd022098e65849676589d8bb2dd16286f5db7443e356cf0d8994d3",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Dutch Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/dutch-cinema/title-logo.png",
+      "bytes": 17826,
+      "sha256": "2546e0c06552f7198a92aa7e7749f68bfc05e2d6d1eb85a17b8fc9a38160a6a3",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Egyptian Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/egyptian-cinema/cover.webp",
+      "bytes": 505934,
+      "sha256": "1e4af38725ff92986402cf6c19c8d93592486852c04aa4151e3d6f49c14031a6",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Egyptian Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/egyptian-cinema/hero.webp",
+      "bytes": 486498,
+      "sha256": "4040aea5ea2c7fef8506cfe61b2e2ef2957066b1a26dcb239b81e5fe65ed9e0b",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Egyptian Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/egyptian-cinema/title-logo.png",
+      "bytes": 20950,
+      "sha256": "f936edbb0d740fb3895cee5de437d9d95a70ab28fb69cb410863e2421f3b73fc",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Emirati Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/emirati-cinema/cover.webp",
+      "bytes": 704720,
+      "sha256": "3b4dcb25e7a832bf40c404982c2f9690a619933e763cd0bbe46522ac4316a9ee",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Emirati Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/emirati-cinema/hero.webp",
+      "bytes": 666940,
+      "sha256": "e5374569d88752ab95830e0c9626c95ecf5223471065e9debfbfb1f885aa7567",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Emirati Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/emirati-cinema/title-logo.png",
+      "bytes": 20102,
+      "sha256": "27bf5b05040f50d60accf1fed41cd639ea6e3d25d678149b3c5912842c4c6a8b",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Ethiopian Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/ethiopian-cinema/cover.webp",
+      "bytes": 608256,
+      "sha256": "c98000a95b54a300120c2f86d70ed30b7133d1b85df08666eeca9bca14995bc0",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Ethiopian Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/ethiopian-cinema/hero.webp",
+      "bytes": 567762,
+      "sha256": "9892d664217ebc5f398cc148686554185b0d2a60937b81bc526bd1ef9b0eaa54",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Ethiopian Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/ethiopian-cinema/title-logo.png",
+      "bytes": 21906,
+      "sha256": "2961eecc357452cf87acfa4383d0cf79cba3de2fb741097a51bd2f4b5244ac54",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Filipino Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/filipino-cinema/cover.webp",
+      "bytes": 559140,
+      "sha256": "c27ef11fc541c4799f84e7d8e19eeafb45f82fcfe91d718692f8dc3b07e22372",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Filipino Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/filipino-cinema/hero.webp",
+      "bytes": 524904,
+      "sha256": "cdc092dd16923dcb0f2fd3ce7c660248397f93af5ebf7eb6655747062cbd74c6",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Filipino Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/filipino-cinema/title-logo.png",
+      "bytes": 19350,
+      "sha256": "0ef49d01e7b2e5a80c9ba363ead1d8f863701c4600a7f6d58226c3e34f8ec5f7",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Finnish Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/finnish-cinema/cover.webp",
+      "bytes": 528966,
+      "sha256": "08712ab34838fb06168bc140cc89693db81bf409a6e3a37694fa6d288cf8babe",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Finnish Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/finnish-cinema/hero.webp",
+      "bytes": 494168,
+      "sha256": "2fdb402e250fccb9ec4b0cb934391e3089d29858d9fdd42255df02a0a9e93cbd",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Finnish Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/finnish-cinema/title-logo.png",
+      "bytes": 19696,
+      "sha256": "78c6d20f0b52773d5c9717b2760fb10cd132e2b67c59b116a7f5b103f2bf87bc",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "French Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/french-cinema/cover.webp",
+      "bytes": 480402,
+      "sha256": "0a1df0a0435178a36b2e10ba28b131027a1abd9b3bae7fad7653558bb05e12b2",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "French Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/french-cinema/hero.webp",
+      "bytes": 442406,
+      "sha256": "d4c1db9f10d906ebc1b9f3dc7631729af132941799f380bc819fe70c01834206",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "French Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/french-cinema/title-logo.png",
+      "bytes": 19552,
+      "sha256": "197fab8cc1fb9b5f7bb06a4a832b95031c282bb77a40e2640f14510c4e359bd9",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "German Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/german-cinema/cover.webp",
+      "bytes": 645064,
+      "sha256": "2e247eac1d991382a537223c7beda63b2387f50a13e17f13f055c1a499bea103",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "German Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/german-cinema/hero.webp",
+      "bytes": 615682,
+      "sha256": "05f17d5075f71e016aab2e793f15d617f55bcb894b7a2eb7e8229a59c99d19e0",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "German Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/german-cinema/title-logo.png",
+      "bytes": 21973,
+      "sha256": "13df017fc6a36c1b0bba40952daf8c293e10dd03bf9083a0ba58a4a9285fb1c8",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Ghanaian Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/ghanaian-cinema/cover.webp",
+      "bytes": 501862,
+      "sha256": "0cb13adc9d65c2005245199ce04ae852dd2e293932e972ebc979f4f61ded5795",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Ghanaian Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/ghanaian-cinema/hero.webp",
+      "bytes": 491820,
+      "sha256": "864a5a7311f1c00ab8b94ab473afab2217e2ad6faadb2e1850537abdb3a4bc98",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Ghanaian Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/ghanaian-cinema/title-logo.png",
+      "bytes": 23455,
+      "sha256": "8de599ec72222d792f334d91fe90af2c8439228718143fe30d7f226d4e353048",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Greek Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/greek-cinema/cover.webp",
+      "bytes": 497442,
+      "sha256": "052212b8b79ab65a731279e4c421718626f75efb0cbcdfd00b6c5ac994620721",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Greek Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/greek-cinema/hero.webp",
+      "bytes": 476588,
+      "sha256": "b7f6ffaa5be7ac0af5dc1d57a2f6dd26a6d90b6589da3e3799cdb196437f549d",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Greek Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/greek-cinema/title-logo.png",
+      "bytes": 17789,
+      "sha256": "ee8f8d940c2b75e173d068b8c74627a4fea33cee7f48ce8c05128a33526f3383",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Hong Kong Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/hong-kong-cinema/cover.webp",
+      "bytes": 479462,
+      "sha256": "f189acd2041f5eb0037df835c65658893300638323544e9a82537b67be2fd725",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Hong Kong Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/hong-kong-cinema/hero.webp",
+      "bytes": 481660,
+      "sha256": "34607a275df3996ed378d5ca36e7e3e2913ae96c781b920c4ba4c23cba5f49b3",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Hong Kong Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/hong-kong-cinema/title-logo.png",
+      "bytes": 23127,
+      "sha256": "f3e2642c4c07b06d4ae9f901b11a9d46a9bceff93b8ac511b6355213a35c9650",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Icelandic Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/icelandic-cinema/cover.webp",
+      "bytes": 591884,
+      "sha256": "5cf799c1381d8b2528cfaaec9993755a8f184a049a7b6caabad443884cab221f",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Icelandic Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/icelandic-cinema/hero.webp",
+      "bytes": 600638,
+      "sha256": "e73a7ac9cc96dbc33b3c2460c1ae6005885f500a7768a181edfd2d7fb45bd0e8",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Icelandic Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/icelandic-cinema/title-logo.png",
+      "bytes": 21274,
+      "sha256": "d8a09e566b6497e46d147d73de034ee47bb380a3e52c00d3ee05fd67227b2557",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Indian Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/indian-cinema/cover.webp",
+      "bytes": 400178,
+      "sha256": "e26d5a2bde283dfb5ec6b2463a6a9edb282da7eff6aaff745d33e5db8456fee2",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Indian Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/indian-cinema/hero.webp",
+      "bytes": 363242,
+      "sha256": "007b67783989bdd6a2bc219505c3a76e5b2999ad7e1bf1d580108c2aff749bc8",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Indian Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/indian-cinema/title-logo.png",
+      "bytes": 19261,
+      "sha256": "8ad652579edc74b534a822edb43a08df8721c3fb019d5b2c771782dbb598aaab",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Indonesian Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/indonesian-cinema/cover.webp",
+      "bytes": 405108,
+      "sha256": "3a2503c93a56b1d0eeaab99b83ee5a30896f2f2ea34f3c5a2c16db7f4b14a65a",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Indonesian Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/indonesian-cinema/hero.webp",
+      "bytes": 422030,
+      "sha256": "71f4abfda56165b43b005eb9dc5300a5ca95c9b35580098b7a8a66b7b7a4a8bd",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Indonesian Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/indonesian-cinema/title-logo.png",
+      "bytes": 23615,
+      "sha256": "e3174da2896ff750032d6b963b0ddbcb5f08212bd6e10c89823c31b6e527eea4",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Iraqi Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/iraqi-cinema/cover.webp",
+      "bytes": 516168,
+      "sha256": "3b00ef887369c95cd26e66b942da0eaa166abdaf5b0533d27c94e71874d2b356",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Iraqi Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/iraqi-cinema/hero.webp",
+      "bytes": 476594,
+      "sha256": "a47a6ba7c619277c310e947f1e6c72d90aec63a9514b8051c8bd4c6c825036b7",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Iraqi Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/iraqi-cinema/title-logo.png",
+      "bytes": 17568,
+      "sha256": "de35ba0ed877cb9abccd202cb834673ded11882e701b2d836a4db3d7b8ffd2ed",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Irish Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/irish-cinema/cover.webp",
+      "bytes": 635200,
+      "sha256": "3a76750801937acafabcde888fdee768341c8705c4458a7f9dd9912c50df81c9",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Irish Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/irish-cinema/hero.webp",
+      "bytes": 611112,
+      "sha256": "bb748cceaf29ab6f138ece1224cd6e26ce1abce6458d452a55b4cbf29b305b16",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Irish Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/irish-cinema/title-logo.png",
+      "bytes": 17547,
+      "sha256": "341359ecbe7d32cd87031182f5214d1c73a62b4b83a4d62cb1006525cb81f299",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Israeli Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/israeli-cinema/cover.webp",
+      "bytes": 586168,
+      "sha256": "8d57f10c715a5ca3ea802a81f9d930f39818c95cc429cbc7af04665d0b550e20",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Israeli Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/israeli-cinema/hero.webp",
+      "bytes": 573764,
+      "sha256": "9cc0806eccf4fc41fc4fee312c971d144133d9b97d58f1f4409df0664cbd5a8d",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Israeli Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/israeli-cinema/title-logo.png",
+      "bytes": 19749,
+      "sha256": "1bc2aa9a53dba206a6be53258e4f54535f2b625585732accdd5963ac28376674",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Italian Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/italian-cinema/cover.webp",
+      "bytes": 684270,
+      "sha256": "e26bc8d9ffced875cef26c6bbd5c620fe00dc31d0301b822b517c072cd308b91",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Italian Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/italian-cinema/hero.webp",
+      "bytes": 665922,
+      "sha256": "3ffa4beec4305bc4206196ad5f1c9f211143ffec04598c36cc50779b2dd42aa2",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Italian Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/italian-cinema/title-logo.png",
+      "bytes": 19973,
+      "sha256": "9948a11d7f4f7dd906b8352d65f49cdf51e58a1207f24427485a5065fdfd0394",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Japanese Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/japanese-cinema/cover.webp",
+      "bytes": 566350,
+      "sha256": "ed6a31578217a0634828692b7c552a867f758738ea2d523a4a733145364cbad4",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Japanese Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/japanese-cinema/hero.webp",
+      "bytes": 552716,
+      "sha256": "7a847682b22f816988a7335688513a0a4d5d31b16da2ed4aaf55a1185da64d37",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Japanese Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/japanese-cinema/title-logo.png",
+      "bytes": 21278,
+      "sha256": "6daa4ed326acc0fcdf4a600c9bf374fcd9d5464a7ad0174e5c27d4de85ca921e",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Jordanian Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/jordanian-cinema/cover.webp",
+      "bytes": 475730,
+      "sha256": "5989b001537094f94c38415d90d5fcc4ff8d00d94db399c6f8d435eb80533534",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Jordanian Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/jordanian-cinema/hero.webp",
+      "bytes": 460980,
+      "sha256": "31a9e7102b93df958155ea67fe67d18f03c4a2a52040464bfb314d2ace0a9181",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Jordanian Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/jordanian-cinema/title-logo.png",
+      "bytes": 24797,
+      "sha256": "e7afcd5c7686f3819e1b6a8c3d83e88ec52cdc94c9bb5570dcc52d7bf177eebf",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Kenyan Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/kenyan-cinema/cover.webp",
+      "bytes": 679202,
+      "sha256": "1685ae283ee56475e575f27f0c98cbb8ec0c64574dc144d4b051e39b96b5367b",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Kenyan Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/kenyan-cinema/hero.webp",
+      "bytes": 636804,
+      "sha256": "4dbed3cbb7d4fcb32c59e2360cefaf28c90f8453664b567555d0547c6436b066",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Kenyan Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/kenyan-cinema/title-logo.png",
+      "bytes": 20064,
+      "sha256": "a53b536d4c30b6ee6f3f0ed4be005a23ff23d140d1437fa19d26da2ad41acf52",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Korean Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/korean-cinema/cover.webp",
+      "bytes": 722570,
+      "sha256": "5101bf0c767bb02fd68ca41f519e34efc7c79597ca5f0f350da8106563e8dffb",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Korean Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/korean-cinema/hero.webp",
+      "bytes": 688468,
+      "sha256": "aecf43ea77e83b08afd3f483b82547b3994bd308f5ad6013c980da494aa5764a",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Korean Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/korean-cinema/title-logo.png",
+      "bytes": 20517,
+      "sha256": "28b7ac4fff34ecb81f42edc4431b0140f9d413e7d8a6a814c78da1cbf65ac50b",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Lebanese Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/lebanese-cinema/cover.webp",
+      "bytes": 683592,
+      "sha256": "81deeaf318c263a661875ec70025d4278f446b7e095a8ab705c43d58f180c909",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Lebanese Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/lebanese-cinema/hero.webp",
+      "bytes": 669212,
+      "sha256": "a57e7f2869197381951fe3ab4504dad56764f44394dbd56e34a4b63fbb9dff27",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Lebanese Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/lebanese-cinema/title-logo.png",
+      "bytes": 21202,
+      "sha256": "9a85e6581865bd4f0ee4c3adc0150465943e6fc3428cc316f3d417d78fdaf6e1",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Mexican Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/mexican-cinema/cover.webp",
+      "bytes": 721726,
+      "sha256": "0554843a06233cbc3cdf9dadbf1b60bfc3a05d497e80116026d47c2ac4015487",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Mexican Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/mexican-cinema/hero.webp",
+      "bytes": 706562,
+      "sha256": "6ec60f7fd27773fbd11be0a2d3867902e8b0f2fb7a0e3aff495492ef291d5af7",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Mexican Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/mexican-cinema/title-logo.png",
+      "bytes": 21781,
+      "sha256": "034e2fbe98a49c5538fd584dc348c34e9406a1d0912b18b82fc5d2a6a1c3e7a6",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Nepali Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/nepali-cinema/cover.webp",
+      "bytes": 557938,
+      "sha256": "7351cd11188cb09283f87c1f1297f24b8861efd99c0418fa65e2524d08ac8cd3",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Nepali Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/nepali-cinema/hero.webp",
+      "bytes": 528198,
+      "sha256": "ba5dd1bc77bf64eefe0c42fa5bb0fd21c23feaf015d5476be91d999e7f78acc0",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Nepali Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/nepali-cinema/title-logo.png",
+      "bytes": 18536,
+      "sha256": "2bcdea0495b5224e66ddfed818c3a9cf34d0d123eb0bccc3402866615f746eef",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Nigerian Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/nigerian-cinema/cover.webp",
+      "bytes": 826818,
+      "sha256": "6d5d1239d76841eb1c661e8e5be5d4e841a794165367a62f30bd75f56020a445",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Nigerian Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/nigerian-cinema/hero.webp",
+      "bytes": 790174,
+      "sha256": "5ada718b273109a31f7294ca0c2756cb12cb02fe0a040c13668766e6bbd6b0a1",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Nigerian Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/nigerian-cinema/title-logo.png",
+      "bytes": 22523,
+      "sha256": "cb8f32d0804953d7451d0ec015ab3169999e2a9b6e96eab794ab108755c74aec",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Pakistani Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/pakistani-cinema/cover.webp",
+      "bytes": 556106,
+      "sha256": "133897ce63c3c98b5148f4b4cf1c2ec96aa978dabbb478acf2b3336e3b8f6cfd",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Pakistani Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/pakistani-cinema/hero.webp",
+      "bytes": 538200,
+      "sha256": "8b0d8900fa290e38594c1952bc35aab7aa3a5317e79136ac2f2fc803ed66ef26",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Pakistani Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/pakistani-cinema/title-logo.png",
+      "bytes": 22769,
+      "sha256": "771fb973faee43939537c10d73e44b5dbfb096bb6977c8ddcd81c4192f0f206d",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Persian Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/persian-cinema/cover.webp",
+      "bytes": 503378,
+      "sha256": "bf4bb23c49d21ce5c7fa2318ed4a857042e228f1fe373c64a477962feaffbba8",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Persian Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/persian-cinema/hero.webp",
+      "bytes": 486644,
+      "sha256": "4a15236941bb18071928ce6d5fb4ef8d8b04d3b12e6e80db7d1fcdeca28c878b",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Persian Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/persian-cinema/title-logo.png",
+      "bytes": 21018,
+      "sha256": "a78305359db1d1ea20ed37c63ab13b592dd04af8e7b05fffa0fe539153c66fd6",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Polish Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/polish-cinema/cover.webp",
+      "bytes": 542974,
+      "sha256": "95ac8b0cc277dca8232828c0a70a5dd79bc233f6e4e4c9322145ad9f1c6abd13",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Polish Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/polish-cinema/hero.webp",
+      "bytes": 535370,
+      "sha256": "1becf1f1650444a289fc2893226cdede12f5d3209714f4b1624d656a7d4614d2",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Polish Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/polish-cinema/title-logo.png",
+      "bytes": 18457,
+      "sha256": "e82a38b9497eb801449918d98563704bb2d46af20f657a577351aa2e90936a99",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Portuguese Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/portuguese-cinema/cover.webp",
+      "bytes": 620436,
+      "sha256": "da221089201e2fa60ffde85fbc61e7146607f868de8001e4370fb31029df6c47",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Portuguese Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/portuguese-cinema/hero.webp",
+      "bytes": 625958,
+      "sha256": "d28f897c3b26c5447f83297ba46e0c027d08fa86eade58d7160e49b7384bb97b",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Portuguese Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/portuguese-cinema/title-logo.png",
+      "bytes": 21157,
+      "sha256": "308f9430bddf71d086c6c84b4caecbc2237790ff65de4117f3191323ed2082be",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Russian Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/russian-cinema/cover.webp",
+      "bytes": 548804,
+      "sha256": "5898f042822ce75a54c35e762c37acfdec7441884253f1d1a7ea253bde342444",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Russian Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/russian-cinema/hero.webp",
+      "bytes": 511516,
+      "sha256": "4faa11ab50c0b09369bf1714f0125bd0fe66e7688f06284fe275229d2543556e",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Russian Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/russian-cinema/title-logo.png",
+      "bytes": 22249,
+      "sha256": "1375212703b31cff2a802e824252c5c060280b665c314911da732b6b3aad622a",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Saudi Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/saudi-cinema/cover.webp",
+      "bytes": 448580,
+      "sha256": "5ea005c056b7662fd56c55261973c195e46f86168d7c5bd9164ef621f71b83e3",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Saudi Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/saudi-cinema/hero.webp",
+      "bytes": 427116,
+      "sha256": "7c2ce80be18061837d879f43c490abb57b7594118cec92698449aaf417f5c399",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Saudi Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/saudi-cinema/title-logo.png",
+      "bytes": 18892,
+      "sha256": "5c11a03e6e053d238e546e770e28a743151a3cf570aa47e8125874ebe4495e16",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Senegalese Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/senegalese-cinema/cover.webp",
+      "bytes": 484018,
+      "sha256": "0b0e12a51bd30f8f04bf185b389ed4c27950e1a321736221973180bc7237a416",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Senegalese Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/senegalese-cinema/hero.webp",
+      "bytes": 474108,
+      "sha256": "de2b4712d377d99b67dfb74545c046dafd2a6458cb366551c4574285000b2a5f",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Senegalese Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/senegalese-cinema/title-logo.png",
+      "bytes": 21256,
+      "sha256": "47b7de6689c7dea545e3550425981d588bd33b14b01e01c8afb93d1a3f6ddf58",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "South African Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/south-african-cinema/cover.webp",
+      "bytes": 498798,
+      "sha256": "cfd873e891eddb93dba28c6ad0f3951e33399325f8cfbd4f96a25d12dc037366",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "South African Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/south-african-cinema/hero.webp",
+      "bytes": 534180,
+      "sha256": "202774c62e9c301f5ea115de56efb6742c6f28a30d5d25f22c923c459e1544b1",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "South African Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/south-african-cinema/title-logo.png",
+      "bytes": 18871,
+      "sha256": "9adc38222b1326dd0cdf8bb226f016c9308aae7be69c050e097ec55e3723d6f3",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Spanish Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/spanish-cinema/cover.webp",
+      "bytes": 716628,
+      "sha256": "51c771ccc5549baf7d4a951ca2a3aa42f12654fa25b082d0006e432d95e7ce39",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Spanish Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/spanish-cinema/hero.webp",
+      "bytes": 662140,
+      "sha256": "5dfd8687f71c4c89d03866336e42355839705ed5cd2488003cd7b4e9ca653a0f",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Spanish Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/spanish-cinema/title-logo.png",
+      "bytes": 21467,
+      "sha256": "8bfdeb0740a2a0d539f46e26904d6a3c687807d741a717d81b8de6299b50947d",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Sri Lankan Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/sri-lankan-cinema/cover.webp",
+      "bytes": 519918,
+      "sha256": "f6571ce342fbaadd7c51b5a2bab4f506ef036e5a0cf9d5553d829b873e401f7d",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Sri Lankan Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/sri-lankan-cinema/hero.webp",
+      "bytes": 515732,
+      "sha256": "e8030c837ad4a22e9a79f43df8c203fefbd6df93627be19401f72e60f4c12d14",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Sri Lankan Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/sri-lankan-cinema/title-logo.png",
+      "bytes": 23009,
+      "sha256": "88bad94ee09d544f2e1e43ed447d8207ab6a2a6d37f7c0ea8e4f623778d875b6",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Taiwanese Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/taiwanese-cinema/cover.webp",
+      "bytes": 482478,
+      "sha256": "e8ddc8b85497dab033ef7f05536ce6c8a245b807c55637f275c19dd0e5ddeb1a",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Taiwanese Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/taiwanese-cinema/hero.webp",
+      "bytes": 460610,
+      "sha256": "17e3abbb29bc06293b47355be9da6b19b4e92a1edb393f95545c1f27a4310625",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Taiwanese Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/taiwanese-cinema/title-logo.png",
+      "bytes": 22705,
+      "sha256": "00c54e8e59c31c8dd392e9bfa9ff816853114e01b882b447d4c28badde095867",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Thai Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/thai-cinema/cover.webp",
+      "bytes": 509710,
+      "sha256": "79ca153b717e0a3117752b6d57e0c74cc196cecffddd555898c6fc86cc00943e",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Thai Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/thai-cinema/hero.webp",
+      "bytes": 483970,
+      "sha256": "4801bdbc3efa44ad42390ca83905cb16ae00ea2bccb316412ce80977954e675e",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Thai Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/thai-cinema/title-logo.png",
+      "bytes": 15956,
+      "sha256": "210d7f9f0da3de97a78867464e6ad00127aeaa773178dbd4e6f7cb11bc628fbd",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Tunisian Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/tunisian-cinema/cover.webp",
+      "bytes": 573894,
+      "sha256": "628f4cdc4debb5da0fc024b4d5584df9be0637e1bf111b7fc5a122816dd43a34",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Tunisian Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/tunisian-cinema/hero.webp",
+      "bytes": 538348,
+      "sha256": "c78ed3674d1624f25868d70deb3679425eaa4b7ac2a84b57273c60c733b7e079",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Tunisian Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/tunisian-cinema/title-logo.png",
+      "bytes": 22535,
+      "sha256": "33153ae4620f676df1ce5bcd80a9685e492a61a5d139b95114f38687b84a60e7",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Turkish Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/turkish-cinema/cover.webp",
+      "bytes": 541664,
+      "sha256": "a66f81ef275831223151332c7c1fc5659de41ee0b2b05ebc42a12721fafb363c",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Turkish Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/turkish-cinema/hero.webp",
+      "bytes": 538914,
+      "sha256": "10a6f466f1c01a4cffceb6c6d16f22d4ba9852c4cb26941f2dfa23a1c4506ee2",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Turkish Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/turkish-cinema/title-logo.png",
+      "bytes": 20552,
+      "sha256": "c3d57e61e917d5a736842b0e1eaf945110bb76757d34af84762cb41b925340f5",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "US Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/us-cinema/cover.webp",
+      "bytes": 511938,
+      "sha256": "e0b124e05f439fb2f8e79a4b1e4eba97116ed572f75754903e45907c6e56089e",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "US Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/us-cinema/hero.webp",
+      "bytes": 497778,
+      "sha256": "0d73a9047970d8308f243ff031362e4acd0f72b88575179734f4949a90c9cc1d",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "US Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/us-cinema/title-logo.png",
+      "bytes": 14931,
+      "sha256": "5f23d41742ed7a9c2af2366dd599d52d96f82d921f50401ae04ebc1e0aa68ccf",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    },
+    {
+      "title": "Vietnamese Cinema",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57/international-cinema/vietnamese-cinema/cover.webp",
+      "bytes": 507334,
+      "sha256": "252e0d96fcfb359b95d8ba9d8cf311e5029854d2a930c73a031b0a0e4fbc2280",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Vietnamese Cinema",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57/international-cinema/vietnamese-cinema/hero.webp",
+      "bytes": 488294,
+      "sha256": "3b6af2c48a6b03e58600c7596ccedad189b876032b3407e4383aad3c38adc92d",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp"
+    },
+    {
+      "title": "Vietnamese Cinema",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57/international-cinema/vietnamese-cinema/title-logo.png",
+      "bytes": 20952,
+      "sha256": "a6eeda4fdfae888f5fdf15c320c83dbc392995fe3820ddca9028678517bd0982",
+      "width": 1200,
+      "height": 360,
+      "format": "png"
+    }
+  ]
+}
