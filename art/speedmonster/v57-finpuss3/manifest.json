@@ -1,0 +1,71 @@
+{
+  "version": "v57-finpuss3",
+  "description": "Emotional title correction and petrol 2020s car",
+  "images": [
+    {
+      "folder": "Emotional",
+      "folderId": "folder-SJGV86EH",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57-finpuss3/moods-and-vibes/emotional/cover.webp",
+      "bytes": 321832,
+      "sha256": "8be100ea953cfd7d5882922d21a43b17a3de68482a02981735294693c2d194a3",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp",
+      "hasAlpha": false,
+      "migratedBytesUnchanged": false
+    },
+    {
+      "folder": "Emotional",
+      "folderId": "folder-SJGV86EH",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57-finpuss3/moods-and-vibes/emotional/hero.webp",
+      "bytes": 297600,
+      "sha256": "924bbf0755e829c156811af23afa0f8beeceda3c9079c7021ac30efb80eb84c1",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp",
+      "hasAlpha": false,
+      "migratedBytesUnchanged": true
+    },
+    {
+      "folder": "Emotional",
+      "folderId": "folder-SJGV86EH",
+      "field": "titleLogoUrl",
+      "path": "art/speedmonster/v57-finpuss3/moods-and-vibes/emotional/title-logo.png",
+      "bytes": 14245,
+      "sha256": "b22414afea4cf08f64cb037ea78455bbb6a679cec8aaf2fe18cb8489d4d28cd3",
+      "width": 1200,
+      "height": 360,
+      "format": "png",
+      "hasAlpha": true,
+      "migratedBytesUnchanged": false
+    },
+    {
+      "folder": "2020s Movies",
+      "folderId": "folder-N0O4TY4I",
+      "field": "coverImageUrl",
+      "path": "art/speedmonster/v57-finpuss3/by-decade/2020s/cover.webp",
+      "bytes": 341466,
+      "sha256": "304090714e7504390b5abd74014ea44c7be7e06231142bae44fe0cb8c5ad096e",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp",
+      "hasAlpha": false,
+      "migratedBytesUnchanged": false
+    },
+    {
+      "folder": "2020s Movies",
+      "folderId": "folder-N0O4TY4I",
+      "field": "heroBackdropUrl",
+      "path": "art/speedmonster/v57-finpuss3/by-decade/2020s/hero.webp",
+      "bytes": 293638,
+      "sha256": "393dbdcc6d6ed06a50a3f71eb85c5b4c64f6b84367d5f19f70f4200d6a27b091",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp",
+      "hasAlpha": false,
+      "migratedBytesUnchanged": false
+    }
+  ]
+}
