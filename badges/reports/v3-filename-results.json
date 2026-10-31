@@ -1,6 +1,6 @@
 {
   "engine": "java.util.regex.Pattern.find; ordered imageURL dedupe; individual and joined candidates",
-  "caseCount": 326,
+  "caseCount": 368,
   "results": [
     {
       "case": "film-A",
@@ -8,10 +8,10 @@
         "Animals.2026.2160p.NF.WEB-DL.DV.HDR.MULTi"
       ],
       "matched": [
-        "q-webdl",
-        "r-2160",
         "v-dolbyvision",
         "v-hdr",
+        "r-2160",
+        "q-webdl",
         "s-netflix"
       ]
     },
@@ -22,11 +22,11 @@
       ],
       "matched": [
         "a-dtsma",
+        "v-dolbyvision",
         "ch-71",
+        "r-2160",
         "q-remux",
         "q-bluray",
-        "r-2160",
-        "v-dolbyvision",
         "c-hevc",
         "e-unrated",
         "e-hybrid"
@@ -39,12 +39,12 @@
       ],
       "matched": [
         "a-truehd",
-        "ch-51",
-        "q-remux",
-        "q-bluray",
-        "r-2160",
         "v-dolbyvision",
-        "v-hdr10"
+        "v-hdr10",
+        "ch-51",
+        "r-2160",
+        "q-remux",
+        "q-bluray"
       ]
     },
     {
@@ -53,8 +53,8 @@
         "Film.2026.1080p.nf.WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-netflix"
       ]
     },
@@ -64,8 +64,8 @@
         "Film.2026.WEB-DL.NF.1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-netflix"
       ]
     },
@@ -75,8 +75,8 @@
         "Film.2026.1080p.nf.WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-netflix"
       ]
     },
@@ -86,8 +86,8 @@
         "Film.2026.WEBRip.NF.1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-netflix"
       ]
     },
@@ -97,8 +97,8 @@
         "Film-2026-1080p-nf-WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-netflix"
       ]
     },
@@ -108,8 +108,8 @@
         "Film-2026-WEB-DL-NF-1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-netflix"
       ]
     },
@@ -119,8 +119,8 @@
         "Film-2026-1080p-nf-WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-netflix"
       ]
     },
@@ -130,8 +130,8 @@
         "Film-2026-WEBRip-NF-1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-netflix"
       ]
     },
@@ -141,8 +141,8 @@
         "Film 2026 1080p nf WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-netflix"
       ]
     },
@@ -152,8 +152,8 @@
         "Film 2026 WEB-DL NF 1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-netflix"
       ]
     },
@@ -163,8 +163,8 @@
         "Film 2026 1080p nf WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-netflix"
       ]
     },
@@ -174,8 +174,8 @@
         "Film 2026 WEBRip NF 1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-netflix"
       ]
     },
@@ -185,8 +185,8 @@
         "Film_2026_1080p_nf_WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-netflix"
       ]
     },
@@ -196,8 +196,8 @@
         "Film_2026_WEB-DL_NF_1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-netflix"
       ]
     },
@@ -207,8 +207,8 @@
         "Film_2026_1080p_nf_WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-netflix"
       ]
     },
@@ -218,8 +218,8 @@
         "Film_2026_WEBRip_NF_1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-netflix"
       ]
     },
@@ -229,8 +229,8 @@
         "Film.2026.1080p.nflx.WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-netflix"
       ]
     },
@@ -240,8 +240,8 @@
         "Film.2026.WEB-DL.NFLX.1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-netflix"
       ]
     },
@@ -251,8 +251,8 @@
         "Film.2026.1080p.nflx.WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-netflix"
       ]
     },
@@ -262,8 +262,8 @@
         "Film.2026.WEBRip.NFLX.1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-netflix"
       ]
     },
@@ -273,8 +273,8 @@
         "Film-2026-1080p-nflx-WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-netflix"
       ]
     },
@@ -284,8 +284,8 @@
         "Film-2026-WEB-DL-NFLX-1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-netflix"
       ]
     },
@@ -295,8 +295,8 @@
         "Film-2026-1080p-nflx-WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-netflix"
       ]
     },
@@ -306,8 +306,8 @@
         "Film-2026-WEBRip-NFLX-1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-netflix"
       ]
     },
@@ -317,8 +317,8 @@
         "Film 2026 1080p nflx WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-netflix"
       ]
     },
@@ -328,8 +328,8 @@
         "Film 2026 WEB-DL NFLX 1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-netflix"
       ]
     },
@@ -339,8 +339,8 @@
         "Film 2026 1080p nflx WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-netflix"
       ]
     },
@@ -350,8 +350,8 @@
         "Film 2026 WEBRip NFLX 1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-netflix"
       ]
     },
@@ -361,8 +361,8 @@
         "Film_2026_1080p_nflx_WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-netflix"
       ]
     },
@@ -372,8 +372,8 @@
         "Film_2026_WEB-DL_NFLX_1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-netflix"
       ]
     },
@@ -383,8 +383,8 @@
         "Film_2026_1080p_nflx_WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-netflix"
       ]
     },
@@ -394,8 +394,8 @@
         "Film_2026_WEBRip_NFLX_1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-netflix"
       ]
     },
@@ -405,8 +405,8 @@
         "Film.2026.1080p.atvp.WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-appletv"
       ]
     },
@@ -416,8 +416,8 @@
         "Film.2026.WEB-DL.ATVP.1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-appletv"
       ]
     },
@@ -427,8 +427,8 @@
         "Film.2026.1080p.atvp.WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-appletv"
       ]
     },
@@ -438,8 +438,8 @@
         "Film.2026.WEBRip.ATVP.1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-appletv"
       ]
     },
@@ -449,8 +449,8 @@
         "Film-2026-1080p-atvp-WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-appletv"
       ]
     },
@@ -460,8 +460,8 @@
         "Film-2026-WEB-DL-ATVP-1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-appletv"
       ]
     },
@@ -471,8 +471,8 @@
         "Film-2026-1080p-atvp-WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-appletv"
       ]
     },
@@ -482,8 +482,8 @@
         "Film-2026-WEBRip-ATVP-1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-appletv"
       ]
     },
@@ -493,8 +493,8 @@
         "Film 2026 1080p atvp WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-appletv"
       ]
     },
@@ -504,8 +504,8 @@
         "Film 2026 WEB-DL ATVP 1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-appletv"
       ]
     },
@@ -515,8 +515,8 @@
         "Film 2026 1080p atvp WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-appletv"
       ]
     },
@@ -526,8 +526,8 @@
         "Film 2026 WEBRip ATVP 1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-appletv"
       ]
     },
@@ -537,8 +537,8 @@
         "Film_2026_1080p_atvp_WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-appletv"
       ]
     },
@@ -548,8 +548,8 @@
         "Film_2026_WEB-DL_ATVP_1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-appletv"
       ]
     },
@@ -559,8 +559,8 @@
         "Film_2026_1080p_atvp_WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-appletv"
       ]
     },
@@ -570,8 +570,8 @@
         "Film_2026_WEBRip_ATVP_1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-appletv"
       ]
     },
@@ -581,8 +581,8 @@
         "Film.2026.1080p.amzn.WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-prime"
       ]
     },
@@ -592,8 +592,8 @@
         "Film.2026.WEB-DL.AMZN.1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-prime"
       ]
     },
@@ -603,8 +603,8 @@
         "Film.2026.1080p.amzn.WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-prime"
       ]
     },
@@ -614,8 +614,8 @@
         "Film.2026.WEBRip.AMZN.1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-prime"
       ]
     },
@@ -625,8 +625,8 @@
         "Film-2026-1080p-amzn-WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-prime"
       ]
     },
@@ -636,8 +636,8 @@
         "Film-2026-WEB-DL-AMZN-1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-prime"
       ]
     },
@@ -647,8 +647,8 @@
         "Film-2026-1080p-amzn-WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-prime"
       ]
     },
@@ -658,8 +658,8 @@
         "Film-2026-WEBRip-AMZN-1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-prime"
       ]
     },
@@ -669,8 +669,8 @@
         "Film 2026 1080p amzn WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-prime"
       ]
     },
@@ -680,8 +680,8 @@
         "Film 2026 WEB-DL AMZN 1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-prime"
       ]
     },
@@ -691,8 +691,8 @@
         "Film 2026 1080p amzn WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-prime"
       ]
     },
@@ -702,8 +702,8 @@
         "Film 2026 WEBRip AMZN 1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-prime"
       ]
     },
@@ -713,8 +713,8 @@
         "Film_2026_1080p_amzn_WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-prime"
       ]
     },
@@ -724,8 +724,8 @@
         "Film_2026_WEB-DL_AMZN_1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-prime"
       ]
     },
@@ -735,8 +735,8 @@
         "Film_2026_1080p_amzn_WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-prime"
       ]
     },
@@ -746,8 +746,8 @@
         "Film_2026_WEBRip_AMZN_1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-prime"
       ]
     },
@@ -757,8 +757,8 @@
         "Film.2026.1080p.dsnp.WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-disney"
       ]
     },
@@ -768,8 +768,8 @@
         "Film.2026.WEB-DL.DSNP.1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-disney"
       ]
     },
@@ -779,8 +779,8 @@
         "Film.2026.1080p.dsnp.WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-disney"
       ]
     },
@@ -790,8 +790,8 @@
         "Film.2026.WEBRip.DSNP.1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-disney"
       ]
     },
@@ -801,8 +801,8 @@
         "Film-2026-1080p-dsnp-WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-disney"
       ]
     },
@@ -812,8 +812,8 @@
         "Film-2026-WEB-DL-DSNP-1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-disney"
       ]
     },
@@ -823,8 +823,8 @@
         "Film-2026-1080p-dsnp-WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-disney"
       ]
     },
@@ -834,8 +834,8 @@
         "Film-2026-WEBRip-DSNP-1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-disney"
       ]
     },
@@ -845,8 +845,8 @@
         "Film 2026 1080p dsnp WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-disney"
       ]
     },
@@ -856,8 +856,8 @@
         "Film 2026 WEB-DL DSNP 1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-disney"
       ]
     },
@@ -867,8 +867,8 @@
         "Film 2026 1080p dsnp WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-disney"
       ]
     },
@@ -878,8 +878,8 @@
         "Film 2026 WEBRip DSNP 1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-disney"
       ]
     },
@@ -889,8 +889,8 @@
         "Film_2026_1080p_dsnp_WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-disney"
       ]
     },
@@ -900,8 +900,8 @@
         "Film_2026_WEB-DL_DSNP_1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-disney"
       ]
     },
@@ -911,8 +911,8 @@
         "Film_2026_1080p_dsnp_WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-disney"
       ]
     },
@@ -922,8 +922,8 @@
         "Film_2026_WEBRip_DSNP_1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-disney"
       ]
     },
@@ -933,8 +933,8 @@
         "Film.2026.1080p.hmax.WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hbomax"
       ]
     },
@@ -944,8 +944,8 @@
         "Film.2026.WEB-DL.HMAX.1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hbomax"
       ]
     },
@@ -955,8 +955,8 @@
         "Film.2026.1080p.hmax.WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hbomax"
       ]
     },
@@ -966,8 +966,8 @@
         "Film.2026.WEBRip.HMAX.1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hbomax"
       ]
     },
@@ -977,8 +977,8 @@
         "Film-2026-1080p-hmax-WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hbomax"
       ]
     },
@@ -988,8 +988,8 @@
         "Film-2026-WEB-DL-HMAX-1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hbomax"
       ]
     },
@@ -999,8 +999,8 @@
         "Film-2026-1080p-hmax-WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hbomax"
       ]
     },
@@ -1010,8 +1010,8 @@
         "Film-2026-WEBRip-HMAX-1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hbomax"
       ]
     },
@@ -1021,8 +1021,8 @@
         "Film 2026 1080p hmax WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hbomax"
       ]
     },
@@ -1032,8 +1032,8 @@
         "Film 2026 WEB-DL HMAX 1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hbomax"
       ]
     },
@@ -1043,8 +1043,8 @@
         "Film 2026 1080p hmax WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hbomax"
       ]
     },
@@ -1054,8 +1054,8 @@
         "Film 2026 WEBRip HMAX 1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hbomax"
       ]
     },
@@ -1065,8 +1065,8 @@
         "Film_2026_1080p_hmax_WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hbomax"
       ]
     },
@@ -1076,8 +1076,8 @@
         "Film_2026_WEB-DL_HMAX_1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hbomax"
       ]
     },
@@ -1087,8 +1087,8 @@
         "Film_2026_1080p_hmax_WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hbomax"
       ]
     },
@@ -1098,8 +1098,8 @@
         "Film_2026_WEBRip_HMAX_1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hbomax"
       ]
     },
@@ -1109,8 +1109,8 @@
         "Film.2026.1080p.hbomax.WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hbomax"
       ]
     },
@@ -1120,8 +1120,8 @@
         "Film.2026.WEB-DL.HBOMAX.1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hbomax"
       ]
     },
@@ -1131,8 +1131,8 @@
         "Film.2026.1080p.hbomax.WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hbomax"
       ]
     },
@@ -1142,8 +1142,8 @@
         "Film.2026.WEBRip.HBOMAX.1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hbomax"
       ]
     },
@@ -1153,8 +1153,8 @@
         "Film-2026-1080p-hbomax-WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hbomax"
       ]
     },
@@ -1164,8 +1164,8 @@
         "Film-2026-WEB-DL-HBOMAX-1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hbomax"
       ]
     },
@@ -1175,8 +1175,8 @@
         "Film-2026-1080p-hbomax-WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hbomax"
       ]
     },
@@ -1186,8 +1186,8 @@
         "Film-2026-WEBRip-HBOMAX-1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hbomax"
       ]
     },
@@ -1197,8 +1197,8 @@
         "Film 2026 1080p hbomax WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hbomax"
       ]
     },
@@ -1208,8 +1208,8 @@
         "Film 2026 WEB-DL HBOMAX 1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hbomax"
       ]
     },
@@ -1219,8 +1219,8 @@
         "Film 2026 1080p hbomax WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hbomax"
       ]
     },
@@ -1230,8 +1230,8 @@
         "Film 2026 WEBRip HBOMAX 1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hbomax"
       ]
     },
@@ -1241,8 +1241,8 @@
         "Film_2026_1080p_hbomax_WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hbomax"
       ]
     },
@@ -1252,8 +1252,8 @@
         "Film_2026_WEB-DL_HBOMAX_1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hbomax"
       ]
     },
@@ -1263,8 +1263,8 @@
         "Film_2026_1080p_hbomax_WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hbomax"
       ]
     },
@@ -1274,8 +1274,8 @@
         "Film_2026_WEBRip_HBOMAX_1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hbomax"
       ]
     },
@@ -1285,8 +1285,8 @@
         "Film.2026.1080p.skyshowtime.WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-skyshowtime"
       ]
     },
@@ -1296,8 +1296,8 @@
         "Film.2026.WEB-DL.SKYSHOWTIME.1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-skyshowtime"
       ]
     },
@@ -1307,8 +1307,8 @@
         "Film.2026.1080p.skyshowtime.WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-skyshowtime"
       ]
     },
@@ -1318,8 +1318,8 @@
         "Film.2026.WEBRip.SKYSHOWTIME.1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-skyshowtime"
       ]
     },
@@ -1329,8 +1329,8 @@
         "Film-2026-1080p-skyshowtime-WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-skyshowtime"
       ]
     },
@@ -1340,8 +1340,8 @@
         "Film-2026-WEB-DL-SKYSHOWTIME-1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-skyshowtime"
       ]
     },
@@ -1351,8 +1351,8 @@
         "Film-2026-1080p-skyshowtime-WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-skyshowtime"
       ]
     },
@@ -1362,8 +1362,8 @@
         "Film-2026-WEBRip-SKYSHOWTIME-1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-skyshowtime"
       ]
     },
@@ -1373,8 +1373,8 @@
         "Film 2026 1080p skyshowtime WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-skyshowtime"
       ]
     },
@@ -1384,8 +1384,8 @@
         "Film 2026 WEB-DL SKYSHOWTIME 1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-skyshowtime"
       ]
     },
@@ -1395,8 +1395,8 @@
         "Film 2026 1080p skyshowtime WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-skyshowtime"
       ]
     },
@@ -1406,8 +1406,8 @@
         "Film 2026 WEBRip SKYSHOWTIME 1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-skyshowtime"
       ]
     },
@@ -1417,8 +1417,8 @@
         "Film_2026_1080p_skyshowtime_WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-skyshowtime"
       ]
     },
@@ -1428,8 +1428,8 @@
         "Film_2026_WEB-DL_SKYSHOWTIME_1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-skyshowtime"
       ]
     },
@@ -1439,8 +1439,8 @@
         "Film_2026_1080p_skyshowtime_WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-skyshowtime"
       ]
     },
@@ -1450,8 +1450,360 @@
         "Film_2026_WEBRip_SKYSHOWTIME_1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKST-46-WEB-DL",
+      "candidates": [
+        "Film.2026.1080p.skst.WEB-DL"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKST-46-WEB-DL",
+      "candidates": [
+        "Film.2026.WEB-DL.SKST.1080p"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKST-46-WEBRip",
+      "candidates": [
+        "Film.2026.1080p.skst.WEBRip"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKST-46-WEBRip",
+      "candidates": [
+        "Film.2026.WEBRip.SKST.1080p"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKST-45-WEB-DL",
+      "candidates": [
+        "Film-2026-1080p-skst-WEB-DL"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKST-45-WEB-DL",
+      "candidates": [
+        "Film-2026-WEB-DL-SKST-1080p"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKST-45-WEBRip",
+      "candidates": [
+        "Film-2026-1080p-skst-WEBRip"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKST-45-WEBRip",
+      "candidates": [
+        "Film-2026-WEBRip-SKST-1080p"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKST-32-WEB-DL",
+      "candidates": [
+        "Film 2026 1080p skst WEB-DL"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKST-32-WEB-DL",
+      "candidates": [
+        "Film 2026 WEB-DL SKST 1080p"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKST-32-WEBRip",
+      "candidates": [
+        "Film 2026 1080p skst WEBRip"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKST-32-WEBRip",
+      "candidates": [
+        "Film 2026 WEBRip SKST 1080p"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKST-95-WEB-DL",
+      "candidates": [
+        "Film_2026_1080p_skst_WEB-DL"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKST-95-WEB-DL",
+      "candidates": [
+        "Film_2026_WEB-DL_SKST_1080p"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKST-95-WEBRip",
+      "candidates": [
+        "Film_2026_1080p_skst_WEBRip"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKST-95-WEBRip",
+      "candidates": [
+        "Film_2026_WEBRip_SKST_1080p"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHO-46-WEB-DL",
+      "candidates": [
+        "Film.2026.1080p.skysho.WEB-DL"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHO-46-WEB-DL",
+      "candidates": [
+        "Film.2026.WEB-DL.SKYSHO.1080p"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHO-46-WEBRip",
+      "candidates": [
+        "Film.2026.1080p.skysho.WEBRip"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHO-46-WEBRip",
+      "candidates": [
+        "Film.2026.WEBRip.SKYSHO.1080p"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHO-45-WEB-DL",
+      "candidates": [
+        "Film-2026-1080p-skysho-WEB-DL"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHO-45-WEB-DL",
+      "candidates": [
+        "Film-2026-WEB-DL-SKYSHO-1080p"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHO-45-WEBRip",
+      "candidates": [
+        "Film-2026-1080p-skysho-WEBRip"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHO-45-WEBRip",
+      "candidates": [
+        "Film-2026-WEBRip-SKYSHO-1080p"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHO-32-WEB-DL",
+      "candidates": [
+        "Film 2026 1080p skysho WEB-DL"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHO-32-WEB-DL",
+      "candidates": [
+        "Film 2026 WEB-DL SKYSHO 1080p"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHO-32-WEBRip",
+      "candidates": [
+        "Film 2026 1080p skysho WEBRip"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHO-32-WEBRip",
+      "candidates": [
+        "Film 2026 WEBRip SKYSHO 1080p"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHO-95-WEB-DL",
+      "candidates": [
+        "Film_2026_1080p_skysho_WEB-DL"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHO-95-WEB-DL",
+      "candidates": [
+        "Film_2026_WEB-DL_SKYSHO_1080p"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHO-95-WEBRip",
+      "candidates": [
+        "Film_2026_1080p_skysho_WEBRip"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHO-95-WEBRip",
+      "candidates": [
+        "Film_2026_WEBRip_SKYSHO_1080p"
+      ],
+      "matched": [
+        "r-1080",
+        "q-webrip",
         "s-skyshowtime"
       ]
     },
@@ -1461,8 +1813,8 @@
         "Film.2026.1080p.pmtp.WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-paramount"
       ]
     },
@@ -1472,8 +1824,8 @@
         "Film.2026.WEB-DL.PMTP.1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-paramount"
       ]
     },
@@ -1483,8 +1835,8 @@
         "Film.2026.1080p.pmtp.WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-paramount"
       ]
     },
@@ -1494,8 +1846,8 @@
         "Film.2026.WEBRip.PMTP.1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-paramount"
       ]
     },
@@ -1505,8 +1857,8 @@
         "Film-2026-1080p-pmtp-WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-paramount"
       ]
     },
@@ -1516,8 +1868,8 @@
         "Film-2026-WEB-DL-PMTP-1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-paramount"
       ]
     },
@@ -1527,8 +1879,8 @@
         "Film-2026-1080p-pmtp-WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-paramount"
       ]
     },
@@ -1538,8 +1890,8 @@
         "Film-2026-WEBRip-PMTP-1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-paramount"
       ]
     },
@@ -1549,8 +1901,8 @@
         "Film 2026 1080p pmtp WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-paramount"
       ]
     },
@@ -1560,8 +1912,8 @@
         "Film 2026 WEB-DL PMTP 1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-paramount"
       ]
     },
@@ -1571,8 +1923,8 @@
         "Film 2026 1080p pmtp WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-paramount"
       ]
     },
@@ -1582,8 +1934,8 @@
         "Film 2026 WEBRip PMTP 1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-paramount"
       ]
     },
@@ -1593,8 +1945,8 @@
         "Film_2026_1080p_pmtp_WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-paramount"
       ]
     },
@@ -1604,8 +1956,8 @@
         "Film_2026_WEB-DL_PMTP_1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-paramount"
       ]
     },
@@ -1615,8 +1967,8 @@
         "Film_2026_1080p_pmtp_WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-paramount"
       ]
     },
@@ -1626,8 +1978,8 @@
         "Film_2026_WEBRip_PMTP_1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-paramount"
       ]
     },
@@ -1637,8 +1989,8 @@
         "Film.2026.1080p.pcok.WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-peacock"
       ]
     },
@@ -1648,8 +2000,8 @@
         "Film.2026.WEB-DL.PCOK.1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-peacock"
       ]
     },
@@ -1659,8 +2011,8 @@
         "Film.2026.1080p.pcok.WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-peacock"
       ]
     },
@@ -1670,8 +2022,8 @@
         "Film.2026.WEBRip.PCOK.1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-peacock"
       ]
     },
@@ -1681,8 +2033,8 @@
         "Film-2026-1080p-pcok-WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-peacock"
       ]
     },
@@ -1692,8 +2044,8 @@
         "Film-2026-WEB-DL-PCOK-1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-peacock"
       ]
     },
@@ -1703,8 +2055,8 @@
         "Film-2026-1080p-pcok-WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-peacock"
       ]
     },
@@ -1714,8 +2066,8 @@
         "Film-2026-WEBRip-PCOK-1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-peacock"
       ]
     },
@@ -1725,8 +2077,8 @@
         "Film 2026 1080p pcok WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-peacock"
       ]
     },
@@ -1736,8 +2088,8 @@
         "Film 2026 WEB-DL PCOK 1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-peacock"
       ]
     },
@@ -1747,8 +2099,8 @@
         "Film 2026 1080p pcok WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-peacock"
       ]
     },
@@ -1758,8 +2110,8 @@
         "Film 2026 WEBRip PCOK 1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-peacock"
       ]
     },
@@ -1769,8 +2121,8 @@
         "Film_2026_1080p_pcok_WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-peacock"
       ]
     },
@@ -1780,8 +2132,8 @@
         "Film_2026_WEB-DL_PCOK_1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-peacock"
       ]
     },
@@ -1791,8 +2143,8 @@
         "Film_2026_1080p_pcok_WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-peacock"
       ]
     },
@@ -1802,8 +2154,8 @@
         "Film_2026_WEBRip_PCOK_1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-peacock"
       ]
     },
@@ -1813,8 +2165,8 @@
         "Film.2026.1080p.hulu.WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hulu"
       ]
     },
@@ -1824,8 +2176,8 @@
         "Film.2026.WEB-DL.HULU.1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hulu"
       ]
     },
@@ -1835,8 +2187,8 @@
         "Film.2026.1080p.hulu.WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hulu"
       ]
     },
@@ -1846,8 +2198,8 @@
         "Film.2026.WEBRip.HULU.1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hulu"
       ]
     },
@@ -1857,8 +2209,8 @@
         "Film-2026-1080p-hulu-WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hulu"
       ]
     },
@@ -1868,8 +2220,8 @@
         "Film-2026-WEB-DL-HULU-1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hulu"
       ]
     },
@@ -1879,8 +2231,8 @@
         "Film-2026-1080p-hulu-WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hulu"
       ]
     },
@@ -1890,8 +2242,8 @@
         "Film-2026-WEBRip-HULU-1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hulu"
       ]
     },
@@ -1901,8 +2253,8 @@
         "Film 2026 1080p hulu WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hulu"
       ]
     },
@@ -1912,8 +2264,8 @@
         "Film 2026 WEB-DL HULU 1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hulu"
       ]
     },
@@ -1923,8 +2275,8 @@
         "Film 2026 1080p hulu WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hulu"
       ]
     },
@@ -1934,8 +2286,8 @@
         "Film 2026 WEBRip HULU 1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hulu"
       ]
     },
@@ -1945,8 +2297,8 @@
         "Film_2026_1080p_hulu_WEB-DL"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hulu"
       ]
     },
@@ -1956,8 +2308,8 @@
         "Film_2026_WEB-DL_HULU_1080p"
       ],
       "matched": [
-        "q-webdl",
         "r-1080",
+        "q-webdl",
         "s-hulu"
       ]
     },
@@ -1967,8 +2319,8 @@
         "Film_2026_1080p_hulu_WEBRip"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hulu"
       ]
     },
@@ -1978,8 +2330,8 @@
         "Film_2026_WEBRip_HULU_1080p"
       ],
       "matched": [
-        "q-webrip",
         "r-1080",
+        "q-webrip",
         "s-hulu"
       ]
     },
@@ -2232,8 +2584,8 @@
         "The.Apple.2026.1080p.WEB-DL"
       ],
       "matched": [
-        "q-webdl",
-        "r-1080"
+        "r-1080",
+        "q-webdl"
       ]
     },
     {
@@ -2242,8 +2594,8 @@
         "Mad.Max.2015.2160p.WEB-DL"
       ],
       "matched": [
-        "q-webdl",
-        "r-2160"
+        "r-2160",
+        "q-webdl"
       ]
     },
     {
@@ -2289,8 +2641,8 @@
         "Hulu.2026.1080p.WEB-DL"
       ],
       "matched": [
-        "q-webdl",
-        "r-1080"
+        "r-1080",
+        "q-webdl"
       ]
     },
     {
@@ -2299,8 +2651,8 @@
         "Peacock.2010.1080p.WEB-DL"
       ],
       "matched": [
-        "q-webdl",
-        "r-1080"
+        "r-1080",
+        "q-webdl"
       ]
     },
     {
@@ -2345,8 +2697,8 @@
         "Film.2026.1080p.WEB-DL"
       ],
       "matched": [
-        "q-webdl",
-        "r-1080"
+        "r-1080",
+        "q-webdl"
       ]
     },
     {
@@ -3059,8 +3411,8 @@
         "Film.2026.Unrated.1080p.BluRay"
       ],
       "matched": [
-        "q-bluray",
         "r-1080",
+        "q-bluray",
         "e-unrated"
       ]
     },
@@ -3070,8 +3422,8 @@
         "Film.2026.Extended.1080p.BluRay"
       ],
       "matched": [
-        "q-bluray",
         "r-1080",
+        "q-bluray",
         "e-extended"
       ]
     },
@@ -3081,8 +3433,8 @@
         "Film.2026.Director's.Cut.1080p.BluRay"
       ],
       "matched": [
-        "q-bluray",
         "r-1080",
+        "q-bluray",
         "e-directors-cut"
       ]
     },
@@ -3092,8 +3444,8 @@
         "Film.2026.Directors-Cut.1080p.BluRay"
       ],
       "matched": [
-        "q-bluray",
         "r-1080",
+        "q-bluray",
         "e-directors-cut"
       ]
     },
@@ -3103,8 +3455,8 @@
         "Film.2026.Director’s Cut.1080p.BluRay"
       ],
       "matched": [
-        "q-bluray",
         "r-1080",
+        "q-bluray",
         "e-directors-cut"
       ]
     },
@@ -3114,8 +3466,8 @@
         "Film.2026.Theatrical.1080p.BluRay"
       ],
       "matched": [
-        "q-bluray",
         "r-1080",
+        "q-bluray",
         "e-theatrical"
       ]
     },
@@ -3125,8 +3477,8 @@
         "Film.2026.PROPER.1080p.BluRay"
       ],
       "matched": [
-        "q-bluray",
         "r-1080",
+        "q-bluray",
         "e-proper"
       ]
     },
@@ -3136,8 +3488,8 @@
         "Film.2026.REPACK2.1080p.BluRay"
       ],
       "matched": [
-        "q-bluray",
         "r-1080",
+        "q-bluray",
         "e-repack"
       ]
     },
@@ -3147,8 +3499,8 @@
         "Film.2026.HYBRID.1080p.BluRay"
       ],
       "matched": [
-        "q-bluray",
         "r-1080",
+        "q-bluray",
         "e-hybrid"
       ]
     },
@@ -3174,8 +3526,8 @@
         "Hybrid.2019.1080p.WEB-DL"
       ],
       "matched": [
-        "q-webdl",
-        "r-1080"
+        "r-1080",
+        "q-webdl"
       ]
     },
     {
@@ -3184,8 +3536,163 @@
         "Extended.Family.2026.1080p.WEB-DL"
       ],
       "matched": [
+        "r-1080",
+        "q-webdl"
+      ]
+    },
+    {
+      "case": "release-unrated-and-hybrid",
+      "candidates": [
+        "Kingsman.The.Secret.Service.2014.Unrated.UHD.BluRay.2160p.DTS-HD.MA.7.1.DV.HEVC.HYBRID.REMUX-FraMeSToR"
+      ],
+      "matched": [
+        "a-dtsma",
+        "v-dolbyvision",
+        "ch-71",
+        "r-2160",
+        "q-remux",
+        "q-bluray",
+        "c-hevc",
+        "e-unrated",
+        "e-hybrid"
+      ]
+    },
+    {
+      "case": "release-seadex-and-extended",
+      "candidates": [
+        "Film.2025.Extended.1080p.BluRay.HEVC.SeaDex"
+      ],
+      "matched": [
+        "r-1080",
+        "q-bluray",
+        "v-seadex",
+        "c-hevc",
+        "e-extended"
+      ]
+    },
+    {
+      "case": "release-seadex-extended-hybrid",
+      "candidates": [
+        "Film.2025.Extended.HYBRID.2160p.BluRay.REMUX.DV.HDR10.TrueHD7.1.SeaDex.HEVC"
+      ],
+      "matched": [
+        "a-truehd",
+        "v-dolbyvision",
+        "v-hdr10",
+        "ch-71",
+        "r-2160",
+        "q-remux",
+        "q-bluray",
+        "v-seadex",
+        "c-hevc",
+        "e-extended",
+        "e-hybrid"
+      ]
+    },
+    {
+      "case": "usenet-amzn-ddp-atmos",
+      "candidates": [
+        "Black.Bag.2025.2160p.AMZN.WEB-DL.DDP5.1.Atmos.H.265-FLUX"
+      ],
+      "matched": [
+        "a-ddp-atmos",
+        "ch-51",
+        "r-2160",
         "q-webdl",
-        "r-1080"
+        "s-prime",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "usenet-atvp-dv-hdr",
+      "candidates": [
+        "Severance.S02E03.2160p.ATVP.WEB-DL.DV.HDR10Plus.DDP5.1.Atmos.H265-TEST"
+      ],
+      "matched": [
+        "a-ddp-atmos",
+        "v-dolbyvision",
+        "v-hdr10plus",
+        "ch-51",
+        "r-2160",
+        "q-webdl",
+        "s-appletv",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "usenet-directors-truehd",
+      "candidates": [
+        "Alien.1979.Directors.Cut.2160p.UHD.BluRay.REMUX.HEVC.TrueHD.5.1-TEST"
+      ],
+      "matched": [
+        "a-truehd",
+        "ch-51",
+        "r-2160",
+        "q-remux",
+        "q-bluray",
+        "c-hevc",
+        "e-directors-cut"
+      ]
+    },
+    {
+      "case": "usenet-dsnp-av1",
+      "candidates": [
+        "Film.2025.DSNP.WEB-DL.2160p.DDP5.1.Atmos.AV1-TEST"
+      ],
+      "matched": [
+        "a-ddp-atmos",
+        "ch-51",
+        "r-2160",
+        "q-webdl",
+        "s-disney",
+        "c-av1"
+      ]
+    },
+    {
+      "case": "usenet-unknown-service",
+      "candidates": [
+        "Film.2025.2160p.UNKNOWN.WEB-DL.TrueHD5.1.x265-TEST"
+      ],
+      "matched": [
+        "a-truehd",
+        "ch-51",
+        "r-2160",
+        "q-webdl",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "usenet-repack-audio",
+      "candidates": [
+        "Film.2024.1080p.BluRay.DTS-HD.MA.5.1.x264.REPACK2-TEST"
+      ],
+      "matched": [
+        "a-dtsma",
+        "ch-51",
+        "r-1080",
+        "q-bluray",
+        "c-avc",
+        "e-repack"
+      ]
+    },
+    {
+      "case": "layout-stress",
+      "candidates": [
+        "Film.2025.Extended.IMAX.Enhanced.2160p.UHD.BluRay.REMUX.DV.HDR10Plus.TrueHD7.1.Atmos.HEVC.HYBRID.PROPER-TEST"
+      ],
+      "matched": [
+        "a-truehd-atmos",
+        "v-dolbyvision",
+        "v-hdr10plus",
+        "ch-71",
+        "r-2160",
+        "q-remux",
+        "q-bluray",
+        "v-imax-enh",
+        "c-hevc",
+        "e-extended",
+        "e-proper",
+        "e-hybrid"
       ]
     },
     {
@@ -3323,11 +3830,11 @@
       ],
       "matched": [
         "a-dtsma",
+        "v-dolbyvision",
         "ch-71",
+        "r-2160",
         "q-remux",
         "q-bluray",
-        "r-2160",
-        "v-dolbyvision",
         "c-hevc",
         "e-unrated",
         "e-hybrid"

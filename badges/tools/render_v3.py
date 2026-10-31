@@ -9,6 +9,8 @@ import math
 import os
 from pathlib import Path
 import sys
+import subprocess
+from io import BytesIO
 from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -18,6 +20,7 @@ CACHE = ROOT / '.v3-cache'
 PACK = json.loads((ROOT / 'badges/Figuz_Smart_Badges_v3.json').read_text(encoding='utf-8'))
 BY_ID = {b['id']: b for b in PACK['filters']}
 FONT_DIR = Path(os.environ.get('FIGUZ_FONT_DIR', 'C:/Windows/Fonts'))
+OPTICAL_LOGOS = {'s-prime','s-disney','s-skyshowtime','s-paramount'}
 
 
 def font(size, bold=False, narrow=False):
@@ -38,12 +41,12 @@ def text_mask(text, narrow=False):
     return im.crop(im.getbbox())
 
 
-def metal(mask):
+def metal(mask, content_height=56):
     # Palette sampled directly from high-alpha rows of v2 r-1080.png. The only
     # transformation on original logo sources is alpha geometry -> neutral metal.
     palette = [(255,255,255),(244,250,255),(218,228,240),(185,201,221),(203,216,230),(245,250,253),(211,220,231),(168,183,203),(141,160,186),(168,186,209),(198,214,234)]
     mask = mask.crop(mask.getbbox())
-    mask = fit(mask, 408, 56)
+    mask = fit(mask, 408, content_height)
     # Preserve source proportions, leave 4 px at each side, and keep a common
     # 64 px canvas like the v2 audio assets. 2 px relief stays inside this canvas.
     canvas = Image.new('L', (mask.width+8, 64))
@@ -73,7 +76,8 @@ def metal(mask):
 def render_assets():
     for path in sorted((CACHE/'masks').glob('s-*.png')):
         with Image.open(path) as src:
-            metal(src.convert('RGBA').getchannel('A')).save(ASSETS / path.name, optimize=True)
+            content_height = 60 if path.stem in OPTICAL_LOGOS else 56
+            metal(src.convert('RGBA').getchannel('A'), content_height).save(ASSETS / path.name, optimize=True)
     labels = {'c-hevc':'HEVC','c-avc':'AVC','c-av1':'AV1','e-unrated':'Unrated','e-extended':'Extended','e-directors-cut':"Director’s Cut",'e-theatrical':'Theatrical','e-proper':'PROPER','e-repack':'REPACK','e-hybrid':'HYBRID'}
     for ident, label in labels.items():
         metal(text_mask(label, narrow=ident == 'e-directors-cut')).save(ASSETS / (ident+'.png'), optimize=True)
@@ -95,7 +99,7 @@ def source_manifest():
     entries={}
     for ident,(url,credit) in sources.items():
         path=ASSETS/'sources'/(ident+'.svg')
-        entries[ident]={'path':path.relative_to(ROOT).as_posix(),'sourceURL':url,'credit':credit,'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'transformation':'Original alpha geometry, aspect ratio preserved; v2-derived silver/blue palette and restrained relief; transparent PNG'}
+        entries[ident]={'path':path.relative_to(ROOT).as_posix(),'sourceURL':url,'credit':credit,'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'transformation':'Original alpha geometry, aspect ratio preserved; v2-derived silver/blue palette and restrained relief; transparent PNG','faceHeightPx':60 if ident in OPTICAL_LOGOS else 56}
     (ASSETS/'sources/manifest.json').write_text(json.dumps(entries,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
 
@@ -135,12 +139,12 @@ def catalog():
     im.crop((0,0,W,y+74)).convert('RGB').save(PREVIEWS/'Figuz_Smart_Badges_v3.png', optimize=True)
 
 
-def badge_strip(ids, scale=3):
+def badge_strip(ids, scale=3, overrides=None):
     # Mirror 20 dp container, 16 dp image, 34–92 dp image width, 3 dp padding,
     # 4 dp gap. Use the full source bitmap, exactly as ContentScale.Fit does.
     tiles=[]
     for ident in ids:
-        raw = image_for(ident)
+        raw = overrides[ident] if overrides and ident in overrides else image_for(ident)
         image_w = max(34*scale,min(92*scale,round(raw.width/raw.height*16*scale)))
         pic=fit(raw,image_w,16*scale)
         tile=Image.new('RGBA',(image_w+6*scale,20*scale))
@@ -151,6 +155,16 @@ def badge_strip(ids, scale=3):
     for t in tiles:
         out.alpha_composite(t,(x,0)); x+=t.width+4*scale
     return out
+
+
+def strip_geometry(ids, scale):
+    x=0; items=[]
+    for ident in ids:
+        raw=image_for(ident)
+        w=max(34*scale,min(92*scale,round(raw.width/raw.height*16*scale)))+6*scale
+        items.append({'id':ident,'startDp':x/scale,'endDp':(x+w)/scale})
+        x+=w+4*scale
+    return items
 
 
 def clipped_text(draw, text, xy, f, max_width, color):
@@ -165,26 +179,49 @@ def simulations():
     results=json.loads((ROOT/'badges/reports/v3-filename-results.json').read_text(encoding='utf-8'))['results']
     film_hits={r['case']:r['matched'] for r in results if r['case'] in ['film-A','film-B','film-C']}
     titles=['Animals (2026)','Kingsman: The Secret Service (2014)','Mission: Impossible II (2000)']
-    # TV: a composite of three separate movie lists, never a claimed screenshot.
-    tv=Image.new('RGBA',(1920,1080),'#101217'); d=ImageDraw.Draw(tv)
-    d.text((84,48),'NUVIO  /  Streamliste',font=font(34,True),fill='#f7f8fa')
-    d.text((84,100),'Grafisk simulering · tre separate filmeksempler · ingen fysisk enhetstest',font=font(23),fill='#aab2c1')
-    widths={}
+    # TV source: 40% title pane + 60% stream pane. At 960 logical dp,
+    # 576 - 48 outer - 32 panel - 32 card - 48 addon slot = 416 badge dp.
+    # Each full frame is a model, not a screenshot of the application.
+    widths={}; tv_frames=[]
     for i,(letter,filename,_) in enumerate(FILMS):
-        y=174+i*274
-        d.text((88,y),f'{letter}   {titles[i]}',font=font(29,True),fill='#e2e7ef')
-        d.rounded_rectangle((84,y+52,1836,y+242),radius=16,fill='#1b2029',outline='#354052' if i!=1 else '#749ccf',width=2)
-        d.text((116,y+74),'AIOStreams',font=font(27,True),fill='#f4f5f7')
-        clipped_text(d,filename,(116,y+119),font(20),1660,'#9aa5b7')
-        strip=badge_strip(film_hits['film-'+letter],scale=2)
-        tv.alpha_composite(strip,(110,y+170))
-        widths[letter]={'badgeRowDp':strip.width/2,'tvAvailableDp':850,'mobileAvailableDp':326}
-    d.text((88,1020),'Størrelser og metadata er ikke oppdiktet. Ingen av eksemplene har dokumentert Atmos.',font=font(21),fill='#aab2c1')
-    tv.convert('RGB').save(PREVIEWS/'Nuvio_streamlist_TV_simulation.png',optimize=True)
+        ids=film_hits['film-'+letter]
+        tv=Image.new('RGBA',(1920,1080),'#101217'); d=ImageDraw.Draw(tv)
+        d.text((72,46),'Nuvio TV · Google TV Streamer — simulering',font=font(28,True),fill='#e9edf5')
+        d.text((72,92),'Ingen fysisk enhetstest · modell ved 960 × 540 dp / 2× raster',font=font(21),fill='#aab2c1')
+        # Left title pane, 40% of total screen width.
+        words=titles[i].split(); lines=[]; line=''
+        for word in words:
+            if d.textlength((line+' '+word).strip(),font=font(45,True))>600:
+                lines.append(line); line=word
+            else: line=(line+' '+word).strip()
+        lines.append(line)
+        for n,line in enumerate(lines): d.text((96,410+n*64),line,font=font(45,True),fill='#f0f3f8')
+        d.text((96,620),'Film '+letter+' · oppgitt filnavn',font=font(24),fill='#9ca9bc')
+        # RightStreamSection: 60%, 48 dp right margin, 16 dp panel/card padding.
+        d.rounded_rectangle((768,174,1824,962),radius=28,fill='#171c24')
+        d.text((800,212),'Strømmer',font=font(32,True),fill='#e7ecf5')
+        d.text((800,268),'AIOStreams',font=font(25),fill='#a6bad5')
+        for row,offset in [(0,0),(1,max(0,badge_strip(ids,2).width-832))]:
+            y=334+row*252
+            d.text((800,y-30),'Start av raden' if row==0 else 'Samme rad etter rulling med fokus',font=font(20),fill='#9faec3')
+            d.rounded_rectangle((800,y,1792,y+190),radius=14,fill='#202732',outline='#759bcf' if row==0 else '#354052',width=2)
+            d.text((832,y+20),'Eksempel fra AIOStreams',font=font(25,True),fill='#f2f5fa')
+            clipped_text(d,filename,(832,y+64),font(19),832,'#aab3c2')
+            strip=badge_strip(ids,2)
+            tv.alpha_composite(strip.crop((offset,0,min(strip.width,offset+832),strip.height)),(832,y+120))
+            d.text((1702,y+120),'AIO',font=font(20),fill='#8b9bb0')
+        d.text((800,916),'416 dp merkerad · fokus gir marquee; ellers klippes raden',font=font(19),fill='#aab2c1')
+        tv.convert('RGB').save(PREVIEWS/f'Nuvio_TV_{letter}.png',optimize=True)
+        tv_frames.append(tv.resize((1280,720),Image.Resampling.LANCZOS))
+        tv_items=strip_geometry(ids,2); mobile_items=strip_geometry(ids,3)
+        widths[letter]={'badgeRowDp':badge_strip(ids,2).width/2,'tvAvailableDp':416,'mobileAvailableDp':326,'tvInitialFullyVisible':[x['id'] for x in tv_items if x['endDp']<=416],'mobileInitialFullyVisible':[x['id'] for x in mobile_items if x['endDp']<=326],'tvGeometry':tv_items,'mobileGeometry':mobile_items}
+    composite=Image.new('RGBA',(1280,2160),'#101217')
+    for i,frame in enumerate(tv_frames): composite.alpha_composite(frame,(0,i*720))
+    composite.convert('RGB').save(PREVIEWS/'Nuvio_streamlist_TV_simulation.png',optimize=True)
 
     mobile=Image.new('RGBA',(1170,2260),'#101217'); d=ImageDraw.Draw(mobile)
     d.text((72,58),'Nuvio',font=font(48,True),fill='#f3f5fa')
-    d.text((72,132),'STREAMLISTE · SIMULERING',font=font(28,True),fill='#a8bbd8')
+    d.text((72,132),'iPhone · Nuvio Mobile · SIMULERING',font=font(28,True),fill='#a8bbd8')
     d.text((72,182),'Tre separate filmeksempler',font=font(28),fill='#adb5c4')
     d.text((72,224),'Ingen fysisk enhetstest',font=font(26),fill='#adb5c4')
     for i,(letter,filename,_) in enumerate(FILMS):
@@ -204,9 +241,55 @@ def simulations():
         else:
             d.text((96,y+353),'Alle treff vises i denne bredden.',font=font(25),fill='#9aa5b7')
     d.text((72,2100),'16 dp bildehøyde · 34–92 dp bildebredde',font=font(25),fill='#9aa5b7')
-    d.text((72,2146),'Lyd står først; utgaver ligger lenger mot høyre.',font=font(25),fill='#9aa5b7')
+    d.text((72,2146),'Lyd, Dolby Vision og HDR prioriteres først.',font=font(25),fill='#9aa5b7')
     mobile.convert('RGB').save(PREVIEWS/'Nuvio_streamlist_mobile_simulation.png',optimize=True)
     (ROOT/'badges/reports/v3-layout-measurements.json').write_text(json.dumps(widths,indent=2)+'\n',encoding='utf-8')
+    # Critical information in all three real filenames fits both initial viewports.
+    for letter,ids in film_hits.items():
+        key=letter.removeprefix('film-')
+        critical=[ident for ident in ids if BY_ID[ident]['groupId'] in ['gdolby','gdts','gvision','ghdr']]
+        for field in ['tvInitialFullyVisible','mobileInitialFullyVisible']:
+            assert set(critical)<=set(widths[key][field]),(key,field,critical)
+    stress=next(r for r in results if r['case']=='layout-stress')
+    stress_preview(stress['matched'])
+
+
+def stress_preview(ids):
+    im=Image.new('RGBA',(1440,1160),'#13171f'); d=ImageDraw.Draw(im)
+    d.text((60,42),'Mange samtidige merker — simulert utsnitt',font=font(34,True),fill='white')
+    d.text((60,100),'Syntetisk 12-badge-filnavn · 16 dp bildehøyde · ingen fysisk enhetstest',font=font(21),fill='#abb7ca')
+    y=186
+    for label,available in [('iPhone / Nuvio Mobile',326),('Google TV Streamer / Nuvio TV',416)]:
+        d.text((60,y),label,font=font(27,True),fill='#e3eaf6'); y+=60
+        bar=badge_strip(ids,3)
+        for position,offset in [('Start',0),('Etter sveip / fokus-rulling',max(0,bar.width-available*3))]:
+            d.text((60,y),position,font=font(21),fill='#a9bbd7')
+            im.alpha_composite(bar.crop((offset,0,min(bar.width,offset+available*3),bar.height)),(60,y+40))
+            y+=126
+        d.text((60,y),'Lyd + Dolby Vision + HDR før oppløsning, kilde og utgaver.',font=font(20),fill='#abb7ca')
+        y+=90
+    im.crop((0,0,1440,y+40)).convert('RGB').save(PREVIEWS/'Nuvio_priority_stress_simulation.png',optimize=True)
+
+
+def logo_comparison():
+    baseline='41a1870f67a6cda74b098789760ced582d0e5639'
+    im=Image.new('RGBA',(1440,950),'#1d1a14'); d=ImageDraw.Draw(im)
+    d.text((60,40),'Målrettet logofinjustering',font=font(34,True),fill='white')
+    d.text((60,96),'Samme originale former, proporsjoner og gradient · 16 dp ved 4× raster',font=font(20),fill='#b6bfcc')
+    d.text((470,158),'Før',font=font(26,True),fill='white'); d.text((930,158),'Etter',font=font(26,True),fill='white')
+    audit=[]
+    for i,ident in enumerate(['s-netflix','s-prime','s-disney','s-skyshowtime','s-paramount']):
+        data=subprocess.check_output(['git','show',f'{baseline}:badges/assets/v3_frameless/{ident}.png'],cwd=ROOT)
+        before=Image.open(BytesIO(data)).convert('RGBA'); after=image_for(ident)
+        y=230+i*128
+        d.text((60,y+12),BY_ID[ident]['name'],font=font(23),fill='#e2e5eb')
+        im.alpha_composite(badge_strip([ident],4,{ident:before}),(460,y))
+        im.alpha_composite(badge_strip([ident],4),(920,y))
+        a=before.getchannel('A').getbbox(); b=after.getchannel('A').getbbox()
+        audit.append({'id':ident,'beforeSize':list(before.size),'afterSize':list(after.size),'beforeInkHeightPx':a[3]-a[1],'afterInkHeightPx':b[3]-b[1],'scaleOfFace':60/56 if ident in OPTICAL_LOGOS else 1,'originalVectorUnchanged':True})
+    d.text((60,900),'Fire logoer: 56 → 60 px logoform på samme 64 px lerret. Netflix-referansen er uendret.',font=font(21),fill='#b6bfcc')
+    im.convert('RGB').save(PREVIEWS/'Streaming_logo_before_after.png',optimize=True)
+    (ROOT/'badges/reports/v3-logo-sizing.json').write_text(json.dumps({'baselineCommit':baseline,'method':'Uniform scaling of original SVG alpha; 4 px face-height increase, unchanged gradient and 2 px relief; no SVG path edits','logos':audit},indent=2)+'\n',encoding='utf-8')
 
 
 def readability():
@@ -229,5 +312,5 @@ if __name__=='__main__':
     PREVIEWS.mkdir(parents=True,exist_ok=True)
     source_manifest(); render_assets()
     if not args.assets_only:
-        catalog(); simulations(); readability()
-    print('Rendered v3 assets' + ('' if args.assets_only else ' and four PNG previews'))
+        catalog(); simulations(); readability(); logo_comparison()
+    print('Rendered v3 assets' + ('' if args.assets_only else ' and updated PNG previews'))

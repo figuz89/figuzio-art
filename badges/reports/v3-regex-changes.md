@@ -180,6 +180,70 @@ v3:
 (?i)^(?=[\s\S]*(?<![a-z0-9])dts(?=(?:[ ._-]?[12567][ ._]?[01](?:[ ._]?[24])?)(?![a-z0-9])|[^a-z0-9]|$))(?![\s\S]*(?<![a-z0-9])(?:dts[ ._:-]?x)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])dts[ ._-]?(?:hd[ ._-]?)?(?:ma|master[ ._-]?audio)(?=(?:[ ._-]?[12567][ ._]?[01](?:[ ._]?[24])?)(?![a-z0-9])|[^a-z0-9]|$))(?![\s\S]*(?<![a-z0-9])dts[ ._-]?hd(?=(?:[ ._-]?[12567][ ._]?[01](?:[ ._]?[24])?)(?![a-z0-9])|[^a-z0-9]|$))[\s\S]*$
 ```
 
+## v-hdr10plus (ghdr)
+
+Explicit exclusion of higher HDR tiers prevents HDR10+/HDR10/HDR/SDR duplicates in a candidate; original priority and separate Dolby Vision group retained.
+
+v2:
+
+```regex
+(?i)\bhdr[ ._-]?10(?:\+|plus|p)(?![a-z0-9])
+```
+
+v3:
+
+```regex
+(?i)(?<![a-z0-9])(?:hdr[ ._-]?10(?:\+|plus|p))(?![a-z0-9])
+```
+
+## v-hdr10 (ghdr)
+
+Explicit exclusion of higher HDR tiers prevents HDR10+/HDR10/HDR/SDR duplicates in a candidate; original priority and separate Dolby Vision group retained.
+
+v2:
+
+```regex
+(?i)\bhdr[ ._-]?10(?![a-z0-9+])
+```
+
+v3:
+
+```regex
+(?i)^(?=[\s\S]*(?<![a-z0-9])(?:hdr[ ._-]?10)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:hdr[ ._-]?10(?:\+|plus|p))(?![a-z0-9]))[\s\S]*$
+```
+
+## v-hdr (ghdr)
+
+Explicit exclusion of higher HDR tiers prevents HDR10+/HDR10/HDR/SDR duplicates in a candidate; original priority and separate Dolby Vision group retained.
+
+v2:
+
+```regex
+(?i)\bhdr\b
+```
+
+v3:
+
+```regex
+(?i)^(?=[\s\S]*(?<![a-z0-9])(?:hdr)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:hdr[ ._-]?10(?:\+|plus|p))(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:hdr[ ._-]?10)(?![a-z0-9]))[\s\S]*$
+```
+
+## v-sdr (ghdr)
+
+Explicit exclusion of higher HDR tiers prevents HDR10+/HDR10/HDR/SDR duplicates in a candidate; original priority and separate Dolby Vision group retained.
+
+v2:
+
+```regex
+(?i)\bsdr\b
+```
+
+v3:
+
+```regex
+(?i)^(?=[\s\S]*(?<![a-z0-9])(?:sdr)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:hdr[ ._-]?10(?:\+|plus|p))(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:hdr[ ._-]?10)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:hdr)(?![a-z0-9]))[\s\S]*$
+```
+
 ## ch-71 (gc)
 
 Original channel recognizers retained inside explicit higher-channel exclusions; v2 order 7.1 > 6.1 > 5.1 > 2.0 > 1.0 retained.
@@ -258,70 +322,6 @@ v3:
 
 ```regex
 (?i)^(?=[\s\S]*(?:^|[^0-9])1[. _]0(?![0-9]))(?![\s\S]*(?:^|[^0-9])7[. _]1(?![0-9]))(?![\s\S]*(?:^|[^0-9])6[. _]1(?![0-9]))(?![\s\S]*(?:^|[^0-9])5[. _]1(?![0-9]))(?![\s\S]*(?:^|[^0-9])2[. _]0(?![0-9]))[\s\S]*$
-```
-
-## q-remux (gq)
-
-Alphanumeric token boundaries accept underscores. Remux and BluRay intentionally coexist; lower WEB sources are excluded when a higher source is present in the same candidate.
-
-v2:
-
-```regex
-(?i)\bremux\b
-```
-
-v3:
-
-```regex
-(?i)(?<![a-z0-9])(?:remux)(?![a-z0-9])
-```
-
-## q-bluray (gq)
-
-Alphanumeric token boundaries accept underscores. Remux and BluRay intentionally coexist; lower WEB sources are excluded when a higher source is present in the same candidate.
-
-v2:
-
-```regex
-(?i)\b(?:blu[ ._-]?ray|bdmv)\b
-```
-
-v3:
-
-```regex
-(?i)(?<![a-z0-9])(?:blu[ ._-]?ray|bdmv)(?![a-z0-9])
-```
-
-## q-webdl (gq)
-
-Alphanumeric token boundaries accept underscores. Remux and BluRay intentionally coexist; lower WEB sources are excluded when a higher source is present in the same candidate.
-
-v2:
-
-```regex
-(?i)\bweb[ ._-]?dl\b
-```
-
-v3:
-
-```regex
-(?i)^(?=[\s\S]*(?<![a-z0-9])(?:web[ ._-]?dl)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:remux)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:blu[ ._-]?ray|bdmv)(?![a-z0-9]))[\s\S]*$
-```
-
-## q-webrip (gq)
-
-Alphanumeric token boundaries accept underscores. Remux and BluRay intentionally coexist; lower WEB sources are excluded when a higher source is present in the same candidate.
-
-v2:
-
-```regex
-(?i)\bweb[ ._-]?rip\b
-```
-
-v3:
-
-```regex
-(?i)^(?=[\s\S]*(?<![a-z0-9])(?:web[ ._-]?rip)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:remux)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:blu[ ._-]?ray|bdmv)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:web[ ._-]?dl)(?![a-z0-9]))[\s\S]*$
 ```
 
 ## r-2160 (gr)
@@ -404,68 +404,68 @@ v3:
 (?i)^(?=[\s\S]*(?<![a-z0-9])(?:480[pi]?)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:2160[pi]?|4k|uhd)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:1440[pi]?)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:1080[pi]?)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:720[pi]?)(?![a-z0-9]))[\s\S]*$
 ```
 
-## v-hdr10plus (ghdr)
+## q-remux (gq)
 
-Explicit exclusion of higher HDR tiers prevents HDR10+/HDR10/HDR/SDR duplicates in a candidate; original priority and separate Dolby Vision group retained.
+Alphanumeric token boundaries accept underscores. Remux and BluRay intentionally coexist; lower WEB sources are excluded when a higher source is present in the same candidate.
 
 v2:
 
 ```regex
-(?i)\bhdr[ ._-]?10(?:\+|plus|p)(?![a-z0-9])
+(?i)\bremux\b
 ```
 
 v3:
 
 ```regex
-(?i)(?<![a-z0-9])(?:hdr[ ._-]?10(?:\+|plus|p))(?![a-z0-9])
+(?i)(?<![a-z0-9])(?:remux)(?![a-z0-9])
 ```
 
-## v-hdr10 (ghdr)
+## q-bluray (gq)
 
-Explicit exclusion of higher HDR tiers prevents HDR10+/HDR10/HDR/SDR duplicates in a candidate; original priority and separate Dolby Vision group retained.
+Alphanumeric token boundaries accept underscores. Remux and BluRay intentionally coexist; lower WEB sources are excluded when a higher source is present in the same candidate.
 
 v2:
 
 ```regex
-(?i)\bhdr[ ._-]?10(?![a-z0-9+])
+(?i)\b(?:blu[ ._-]?ray|bdmv)\b
 ```
 
 v3:
 
 ```regex
-(?i)^(?=[\s\S]*(?<![a-z0-9])(?:hdr[ ._-]?10)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:hdr[ ._-]?10(?:\+|plus|p))(?![a-z0-9]))[\s\S]*$
+(?i)(?<![a-z0-9])(?:blu[ ._-]?ray|bdmv)(?![a-z0-9])
 ```
 
-## v-hdr (ghdr)
+## q-webdl (gq)
 
-Explicit exclusion of higher HDR tiers prevents HDR10+/HDR10/HDR/SDR duplicates in a candidate; original priority and separate Dolby Vision group retained.
+Alphanumeric token boundaries accept underscores. Remux and BluRay intentionally coexist; lower WEB sources are excluded when a higher source is present in the same candidate.
 
 v2:
 
 ```regex
-(?i)\bhdr\b
+(?i)\bweb[ ._-]?dl\b
 ```
 
 v3:
 
 ```regex
-(?i)^(?=[\s\S]*(?<![a-z0-9])(?:hdr)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:hdr[ ._-]?10(?:\+|plus|p))(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:hdr[ ._-]?10)(?![a-z0-9]))[\s\S]*$
+(?i)^(?=[\s\S]*(?<![a-z0-9])(?:web[ ._-]?dl)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:remux)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:blu[ ._-]?ray|bdmv)(?![a-z0-9]))[\s\S]*$
 ```
 
-## v-sdr (ghdr)
+## q-webrip (gq)
 
-Explicit exclusion of higher HDR tiers prevents HDR10+/HDR10/HDR/SDR duplicates in a candidate; original priority and separate Dolby Vision group retained.
+Alphanumeric token boundaries accept underscores. Remux and BluRay intentionally coexist; lower WEB sources are excluded when a higher source is present in the same candidate.
 
 v2:
 
 ```regex
-(?i)\bsdr\b
+(?i)\bweb[ ._-]?rip\b
 ```
 
 v3:
 
 ```regex
-(?i)^(?=[\s\S]*(?<![a-z0-9])(?:sdr)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:hdr[ ._-]?10(?:\+|plus|p))(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:hdr[ ._-]?10)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:hdr)(?![a-z0-9]))[\s\S]*$
+(?i)^(?=[\s\S]*(?<![a-z0-9])(?:web[ ._-]?rip)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:remux)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:blu[ ._-]?ray|bdmv)(?![a-z0-9]))(?![\s\S]*(?<![a-z0-9])(?:web[ ._-]?dl)(?![a-z0-9]))[\s\S]*$
 ```
 
 ## v-imax (gimax)
@@ -523,7 +523,7 @@ v-dolbyvision, v-imax-enh, v-seadex
 ### SkyShowtime — s-skyshowtime (gstreaming)
 
 ```regex
-(?i)(?:(?<![a-z0-9])(?:(?:SKYSHOWTIME)[ ._-]+(?:(?:2160|1440|1080|720|480)p[ ._-]+)?web[ ._-]?(?:dl|rip)|web[ ._-]?(?:dl|rip)[ ._-]+(?:(?:2160|1440|1080|720|480)p[ ._-]+)?(?:SKYSHOWTIME))(?![a-z0-9])|(?:📡[ :=]*|(?<![a-z0-9])(?:network|source[ ._-]?network)[ :=]+|\[FIGUZ_NETWORK=)(?:SkyShowtime)(?![a-z0-9+]))
+(?i)(?:(?<![a-z0-9])(?:(?:SKYSHOWTIME|SKST|SKYSHO)[ ._-]+(?:(?:2160|1440|1080|720|480)p[ ._-]+)?web[ ._-]?(?:dl|rip)|web[ ._-]?(?:dl|rip)[ ._-]+(?:(?:2160|1440|1080|720|480)p[ ._-]+)?(?:SKYSHOWTIME|SKST|SKYSHO))(?![a-z0-9])|(?:📡[ :=]*|(?<![a-z0-9])(?:network|source[ ._-]?network)[ :=]+|\[FIGUZ_NETWORK=)(?:SkyShowtime)(?![a-z0-9+]))
 ```
 
 ### Paramount+ — s-paramount (gstreaming)

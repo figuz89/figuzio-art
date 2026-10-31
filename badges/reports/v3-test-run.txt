@@ -5,6 +5,6 @@ test_new_png_transparency_size_and_sources (test_v3.PackTests.test_new_png_trans
 test_order_and_membership (test_v3.PackTests.test_order_and_membership) ... ok
 
 ----------------------------------------------------------------------
-Ran 5 tests in 0.754s
+Ran 5 tests in 0.684s
 
 OK

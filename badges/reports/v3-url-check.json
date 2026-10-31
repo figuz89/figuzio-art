@@ -1,5 +1,5 @@
 {
-  "checkedAtUTC": "2026-10-31T23:00:54.354508+00:00",
+  "checkedAtUTC": "2026-10-31T23:42:01.363088+00:00",
   "method": "Unauthenticated HTTPS GET, full PNG decode, alpha validation, local hash comparison where available",
   "count": 52,
   "passed": 52,
@@ -189,6 +189,89 @@
       "ok": true
     },
     {
+      "id": "v-dolbyvision",
+      "url": "https://raw.githubusercontent.com/k45sle/NUVIO_BADGES/refs/heads/main/resources/VISIONn3.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 662585,
+      "sha256": "336d7059cd9bfbcefa3abad899e3dc27d2b2f10d8974b9e193c76660dfd1f2bd",
+      "format": "PNG",
+      "width": 1373,
+      "height": 292,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "ok": true
+    },
+    {
+      "id": "v-hdr10plus",
+      "url": "https://raw.githubusercontent.com/k45sle/NUVIO_BADGES/refs/heads/main/resources/HDR10Pn.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 726690,
+      "sha256": "6801678d4cda8cb7a3ff0d1fcc00a276d26c0edae2698d7cd7de364431a55a66",
+      "format": "PNG",
+      "width": 1422,
+      "height": 332,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "ok": true
+    },
+    {
+      "id": "v-hdr10",
+      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/main/badges/assets/v2_frameless/v-hdr10.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 11275,
+      "sha256": "3dcc15f14d32c782c2f76452ec996c1fc7d7f8699a082a7bc72c69990404a38e",
+      "format": "PNG",
+      "width": 158,
+      "height": 45,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "matchesLocal": true,
+      "ok": true
+    },
+    {
+      "id": "v-hdr",
+      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/main/badges/assets/v2_frameless/v-hdr.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 6988,
+      "sha256": "14d6942223e2948a06519b6178ca7fa34ce2e445f0c3d4b437b873963a3b84c7",
+      "format": "PNG",
+      "width": 106,
+      "height": 43,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "matchesLocal": true,
+      "ok": true
+    },
+    {
+      "id": "v-sdr",
+      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/main/badges/assets/v2_frameless/v-sdr.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 8238,
+      "sha256": "13ffd6f3bfd151e0eacd50fa598ec7017970ace6029b41330063369f6f410edf",
+      "format": "PNG",
+      "width": 105,
+      "height": 45,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "matchesLocal": true,
+      "ok": true
+    },
+    {
       "id": "ch-71",
       "url": "https://raw.githubusercontent.com/k45sle/NUVIO_BADGES/refs/heads/main/resources/71n.png",
       "status": 200,
@@ -265,73 +348,6 @@
       "format": "PNG",
       "width": 80,
       "height": 50,
-      "alphaRange": [
-        0,
-        255
-      ],
-      "matchesLocal": true,
-      "ok": true
-    },
-    {
-      "id": "q-remux",
-      "url": "https://raw.githubusercontent.com/k45sle/NUVIO_BADGES/refs/heads/main/resources/REMUXn3.png",
-      "status": 200,
-      "contentType": "image/png",
-      "bytes": 482237,
-      "sha256": "7ec31d7796dff9531f5b677e98394d336bf293997c2fb98719827da523ed6fda",
-      "format": "PNG",
-      "width": 999,
-      "height": 288,
-      "alphaRange": [
-        0,
-        255
-      ],
-      "ok": true
-    },
-    {
-      "id": "q-bluray",
-      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/main/badges/assets/v2_frameless/q-bluray.png",
-      "status": 200,
-      "contentType": "image/png",
-      "bytes": 15294,
-      "sha256": "d278346c32c362ee11e66b3c7bc4023f37adeacd0eb738485ee5bb57a413fa03",
-      "format": "PNG",
-      "width": 217,
-      "height": 53,
-      "alphaRange": [
-        0,
-        255
-      ],
-      "matchesLocal": true,
-      "ok": true
-    },
-    {
-      "id": "q-webdl",
-      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/main/badges/assets/v2_frameless/q-webdl.png",
-      "status": 200,
-      "contentType": "image/png",
-      "bytes": 16960,
-      "sha256": "94c6368d75e9364a00e14e0511b04dc55e028101252f83b4ebd73641a59c4fb2",
-      "format": "PNG",
-      "width": 226,
-      "height": 46,
-      "alphaRange": [
-        0,
-        255
-      ],
-      "matchesLocal": true,
-      "ok": true
-    },
-    {
-      "id": "q-webrip",
-      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/main/badges/assets/v2_frameless/q-webrip.png",
-      "status": 200,
-      "contentType": "image/png",
-      "bytes": 19269,
-      "sha256": "babd4dd655e2be0f18317191cc7b3c04984c4e92db7cc5569f706f084ece762c",
-      "format": "PNG",
-      "width": 239,
-      "height": 54,
       "alphaRange": [
         0,
         255
@@ -424,15 +440,15 @@
       "ok": true
     },
     {
-      "id": "v-dolbyvision",
-      "url": "https://raw.githubusercontent.com/k45sle/NUVIO_BADGES/refs/heads/main/resources/VISIONn3.png",
+      "id": "q-remux",
+      "url": "https://raw.githubusercontent.com/k45sle/NUVIO_BADGES/refs/heads/main/resources/REMUXn3.png",
       "status": 200,
       "contentType": "image/png",
-      "bytes": 662585,
-      "sha256": "336d7059cd9bfbcefa3abad899e3dc27d2b2f10d8974b9e193c76660dfd1f2bd",
+      "bytes": 482237,
+      "sha256": "7ec31d7796dff9531f5b677e98394d336bf293997c2fb98719827da523ed6fda",
       "format": "PNG",
-      "width": 1373,
-      "height": 292,
+      "width": 999,
+      "height": 288,
       "alphaRange": [
         0,
         255
@@ -440,31 +456,15 @@
       "ok": true
     },
     {
-      "id": "v-hdr10plus",
-      "url": "https://raw.githubusercontent.com/k45sle/NUVIO_BADGES/refs/heads/main/resources/HDR10Pn.png",
+      "id": "q-bluray",
+      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/main/badges/assets/v2_frameless/q-bluray.png",
       "status": 200,
       "contentType": "image/png",
-      "bytes": 726690,
-      "sha256": "6801678d4cda8cb7a3ff0d1fcc00a276d26c0edae2698d7cd7de364431a55a66",
+      "bytes": 15294,
+      "sha256": "d278346c32c362ee11e66b3c7bc4023f37adeacd0eb738485ee5bb57a413fa03",
       "format": "PNG",
-      "width": 1422,
-      "height": 332,
-      "alphaRange": [
-        0,
-        255
-      ],
-      "ok": true
-    },
-    {
-      "id": "v-hdr10",
-      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/main/badges/assets/v2_frameless/v-hdr10.png",
-      "status": 200,
-      "contentType": "image/png",
-      "bytes": 11275,
-      "sha256": "3dcc15f14d32c782c2f76452ec996c1fc7d7f8699a082a7bc72c69990404a38e",
-      "format": "PNG",
-      "width": 158,
-      "height": 45,
+      "width": 217,
+      "height": 53,
       "alphaRange": [
         0,
         255
@@ -473,15 +473,15 @@
       "ok": true
     },
     {
-      "id": "v-hdr",
-      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/main/badges/assets/v2_frameless/v-hdr.png",
+      "id": "q-webdl",
+      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/main/badges/assets/v2_frameless/q-webdl.png",
       "status": 200,
       "contentType": "image/png",
-      "bytes": 6988,
-      "sha256": "14d6942223e2948a06519b6178ca7fa34ce2e445f0c3d4b437b873963a3b84c7",
+      "bytes": 16960,
+      "sha256": "94c6368d75e9364a00e14e0511b04dc55e028101252f83b4ebd73641a59c4fb2",
       "format": "PNG",
-      "width": 106,
-      "height": 43,
+      "width": 226,
+      "height": 46,
       "alphaRange": [
         0,
         255
@@ -490,15 +490,15 @@
       "ok": true
     },
     {
-      "id": "v-sdr",
-      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/main/badges/assets/v2_frameless/v-sdr.png",
+      "id": "q-webrip",
+      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/main/badges/assets/v2_frameless/q-webrip.png",
       "status": 200,
       "contentType": "image/png",
-      "bytes": 8238,
-      "sha256": "13ffd6f3bfd151e0eacd50fa598ec7017970ace6029b41330063369f6f410edf",
+      "bytes": 19269,
+      "sha256": "babd4dd655e2be0f18317191cc7b3c04984c4e92db7cc5569f706f084ece762c",
       "format": "PNG",
-      "width": 105,
-      "height": 45,
+      "width": 239,
+      "height": 54,
       "alphaRange": [
         0,
         255
@@ -593,13 +593,13 @@
     },
     {
       "id": "s-prime",
-      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/1da3b7829b1059bf4fd59ef5dea07d72c701d6a1/badges/assets/v3_frameless/s-prime.png",
+      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/94e6dd769333c0a8883d243d2d521aa0fe670509/badges/assets/v3_frameless/s-prime.png",
       "status": 200,
       "contentType": "image/png",
-      "bytes": 13929,
-      "sha256": "8fc35cc6272a79d9ee204002f482f8eac58d9110e6d85ae1890283330183eaea",
+      "bytes": 14852,
+      "sha256": "de5e9e60fd3f09f3bbb4b60b67e6e6b2a22a845f5a96b58e7491a916ff645b9b",
       "format": "PNG",
-      "width": 190,
+      "width": 203,
       "height": 64,
       "alphaRange": [
         0,
@@ -610,13 +610,13 @@
     },
     {
       "id": "s-disney",
-      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/1da3b7829b1059bf4fd59ef5dea07d72c701d6a1/badges/assets/v3_frameless/s-disney.png",
+      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/94e6dd769333c0a8883d243d2d521aa0fe670509/badges/assets/v3_frameless/s-disney.png",
       "status": 200,
       "contentType": "image/png",
-      "bytes": 9331,
-      "sha256": "4a4b0afc7f3a6bb439f78bfd7b14bda65be206641d16ea2388944635b5fcd219",
+      "bytes": 10349,
+      "sha256": "212dbdb8af8e7c1b1bfe12b27398eb9f7f87523cd882889406927cf2c7402e0a",
       "format": "PNG",
-      "width": 111,
+      "width": 119,
       "height": 64,
       "alphaRange": [
         0,
@@ -644,13 +644,13 @@
     },
     {
       "id": "s-skyshowtime",
-      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/1da3b7829b1059bf4fd59ef5dea07d72c701d6a1/badges/assets/v3_frameless/s-skyshowtime.png",
+      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/94e6dd769333c0a8883d243d2d521aa0fe670509/badges/assets/v3_frameless/s-skyshowtime.png",
       "status": 200,
       "contentType": "image/png",
-      "bytes": 18135,
-      "sha256": "bca44a645089845a4153bd8be68fbdd228c5ee5895c2893cd61714e8add3cb2c",
+      "bytes": 19593,
+      "sha256": "194a65f33dbd6efd11c9e6952547da5903126aa6c64bb094d67792ba2914ce7e",
       "format": "PNG",
-      "width": 250,
+      "width": 267,
       "height": 64,
       "alphaRange": [
         0,
@@ -661,13 +661,13 @@
     },
     {
       "id": "s-paramount",
-      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/1da3b7829b1059bf4fd59ef5dea07d72c701d6a1/badges/assets/v3_frameless/s-paramount.png",
+      "url": "https://raw.githubusercontent.com/figuz89/figuzio-art/94e6dd769333c0a8883d243d2d521aa0fe670509/badges/assets/v3_frameless/s-paramount.png",
       "status": 200,
       "contentType": "image/png",
-      "bytes": 19326,
-      "sha256": "f68e2efe119390596959530f503ea40da2ef01634547407348ce9d4d5923a838",
+      "bytes": 21207,
+      "sha256": "58b61bb6fdfccb60a62d6054628040e7330b4220ae184596ceb857e818a37e3d",
       "format": "PNG",
-      "width": 251,
+      "width": 269,
       "height": 64,
       "alphaRange": [
         0,

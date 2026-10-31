@@ -5,6 +5,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 ASSET_REF = '1da3b7829b1059bf4fd59ef5dea07d72c701d6a1'
+OPTICAL_ASSET_REF = '94e6dd769333c0a8883d243d2d521aa0fe670509'
+OPTICAL_LOGOS = {'s-prime','s-disney','s-skyshowtime','s-paramount'}
 ASSET_BASE = f'https://raw.githubusercontent.com/figuz89/figuzio-art/{ASSET_REF}/badges/assets/v3_frameless'
 
 
@@ -85,6 +87,8 @@ def build():
     def add(ident, name, group, pattern):
         badge = copy.deepcopy(original['filters'][0])
         badge.update(id=ident, name=name, groupId=group, pattern=pattern, imageURL=f'{ASSET_BASE}/{ident}.png')
+        if ident in OPTICAL_LOGOS:
+            badge['imageURL'] = f'https://raw.githubusercontent.com/figuz89/figuzio-art/{OPTICAL_ASSET_REF}/badges/assets/v3_frameless/{ident}.png'
         by_id[ident] = badge
         return badge
 
@@ -94,7 +98,7 @@ def build():
         ('s-prime', 'Amazon Prime Video', 'AMZN', r'Amazon[ ._-]?Prime[ ._-]?Video|Prime[ ._-]?Video|Amazon'),
         ('s-disney', 'Disney+', 'DSNP', r'Disney\+|Disney[ ._-]?Plus'),
         ('s-hbomax', 'HBO Max', 'HMAX|HBOMAX', r'HBO[ ._-]?Max'),
-        ('s-skyshowtime', 'SkyShowtime', 'SKYSHOWTIME', r'SkyShowtime'),
+        ('s-skyshowtime', 'SkyShowtime', 'SKYSHOWTIME|SKST|SKYSHO', r'SkyShowtime'),
         ('s-paramount', 'Paramount+', 'PMTP', r'Paramount\+|Paramount[ ._-]?Plus'),
         ('s-peacock', 'Peacock', 'PCOK', r'Peacock'),
         ('s-hulu', 'Hulu', 'HULU', r'Hulu'),
@@ -128,10 +132,10 @@ def build():
     ]:
         add(ident, name, 'gseadex', '(?i)' + metadata_anchor + r'[\s\S]*?' + token(body))
 
-    # Audio and channels stay ahead of descriptive additions in clipped TV rows.
+    # Audio, Dolby Vision and HDR stay ahead of source/edition information.
     # Original within-category priority is unchanged, including MIXED as a warning.
-    order = [b['id'] for b in original['filters'] if b['groupId'] in ('gdolby', 'gdts', 'gc')]
-    order += [b['id'] for b in original['filters'] if b['groupId'] not in ('gdolby', 'gdts', 'gc')]
+    display_groups = ['gdolby','gdts','gvision','ghdr','gc','gr','gq','gimax','gseadex']
+    order = [b['id'] for group in display_groups for b in original['filters'] if b['groupId'] == group]
     order += [x[0] for x in services] + [x[0] for x in codec_specs]
     order += ['e-unrated', 'e-extended', 'e-directors-cut', 'e-theatrical', 'e-proper', 'e-repack', 'e-hybrid']
     pack['filters'] = [by_id[k] for k in order]

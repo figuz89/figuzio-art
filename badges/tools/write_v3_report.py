@@ -30,12 +30,13 @@ for badge in new['filters']:
 report={
     'baseCommit':'9e3334897ad2df04630220b619072212a3dac35a',
     'assetCommit':'1da3b7829b1059bf4fd59ef5dea07d72c701d6a1',
+    'opticalAssetCommit':'94e6dd769333c0a8883d243d2d521aa0fe670509',
     'v2FileSha256':hashlib.sha256((ROOT/'badges/Figuz_Smart_Badges_v2.json').read_bytes()).hexdigest(),
     'preservedLegacyCount':33,'newBadgeCount':19,'totalBadgeCount':52,
     'legacyChanges':changes,
     'legacyUnchangedPatterns':[b['id'] for b in new['filters'] if b['id'] in old_by_id and b['pattern']==old_by_id[b['id']]['pattern']],
     'newPatterns':additions,
-    'presentationChange':'Legacy within-group order, all 9 legacy groups, IDs, names, image URLs and style fields unchanged. Filters reordered across groups to Dolby, DTS, channels, then legacy visual/source groups, then streaming, codec and edition additions. No stream sorting or playback settings changed.',
+    'presentationChange':'Legacy within-group order, all 9 legacy groups, IDs, names, image URLs and style fields unchanged. Filters ordered across groups as Dolby, DTS, Dolby Vision, HDR, channels, resolution, quality, IMAX, SeaDex, then streaming, codec and edition additions. No stream sorting or playback settings changed.',
     'limitations':['One winner per exclusive category is enforced within one candidate. Nuvio tests fields separately, so contradictory candidates can produce multiple badges. JSON alone cannot enforce per-stream exclusivity across fields.','Audio badges describe filename/metadata evidence, not verified tracks, a default audio track or hardware playback compatibility.'],
 }
 (REPORTS/'v3-regex-changes.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

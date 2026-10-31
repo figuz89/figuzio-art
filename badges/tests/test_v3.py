@@ -32,7 +32,7 @@ FILMS = [
 for name, filename, expected in FILMS:
     case('film-' + name, filename, expected)
 
-for label, aliases in [('s-netflix', ['NF', 'NFLX']), ('s-appletv', ['ATVP']), ('s-prime', ['AMZN']), ('s-disney', ['DSNP']), ('s-hbomax', ['HMAX', 'HBOMAX']), ('s-skyshowtime', ['SKYSHOWTIME']), ('s-paramount', ['PMTP']), ('s-peacock', ['PCOK']), ('s-hulu', ['HULU'])]:
+for label, aliases in [('s-netflix', ['NF', 'NFLX']), ('s-appletv', ['ATVP']), ('s-prime', ['AMZN']), ('s-disney', ['DSNP']), ('s-hbomax', ['HMAX', 'HBOMAX']), ('s-skyshowtime', ['SKYSHOWTIME','SKST','SKYSHO']), ('s-paramount', ['PMTP']), ('s-peacock', ['PCOK']), ('s-hulu', ['HULU'])]:
     for alias in aliases:
         for sep in ['.', '-', ' ', '_']:
             for source in ['WEB-DL', 'WEBRip']:
@@ -85,6 +85,17 @@ for ident, text in [('e-unrated','Unrated'), ('e-extended','Extended'), ('e-dire
 case('multiple-editions', 'Film.2026.Unrated.Extended.Directors.Cut.Theatrical.PROPER.REPACK.HYBRID.1080p', required=[b['id'] for b in V3['filters'] if b['id'].startswith('e-')])
 case('edition-title-negative', 'Hybrid.2019.1080p.WEB-DL', absent=['e-hybrid'])
 case('extended-title-negative', 'Extended.Family.2026.1080p.WEB-DL', absent=['e-extended'])
+case('release-unrated-and-hybrid', FILMS[1][1], required=['e-unrated','e-hybrid'])
+case('release-seadex-and-extended', 'Film.2025.Extended.1080p.BluRay.HEVC.SeaDex', ['e-extended','r-1080','q-bluray','c-hevc','v-seadex'])
+case('release-seadex-extended-hybrid', 'Film.2025.Extended.HYBRID.2160p.BluRay.REMUX.DV.HDR10.TrueHD7.1.SeaDex.HEVC', required=['v-seadex','e-extended','e-hybrid','q-remux','q-bluray','a-truehd'], absent=['a-truehd-atmos'])
+# Synthetic but realistic release names; no claim that these files were fetched.
+case('usenet-amzn-ddp-atmos', 'Black.Bag.2025.2160p.AMZN.WEB-DL.DDP5.1.Atmos.H.265-FLUX', ['s-prime','q-webdl','r-2160','a-ddp-atmos','ch-51','c-hevc'])
+case('usenet-atvp-dv-hdr', 'Severance.S02E03.2160p.ATVP.WEB-DL.DV.HDR10Plus.DDP5.1.Atmos.H265-TEST', ['s-appletv','q-webdl','r-2160','v-dolbyvision','v-hdr10plus','a-ddp-atmos','ch-51','c-hevc'])
+case('usenet-directors-truehd', 'Alien.1979.Directors.Cut.2160p.UHD.BluRay.REMUX.HEVC.TrueHD.5.1-TEST', ['e-directors-cut','r-2160','q-bluray','q-remux','c-hevc','a-truehd','ch-51'])
+case('usenet-dsnp-av1', 'Film.2025.DSNP.WEB-DL.2160p.DDP5.1.Atmos.AV1-TEST', ['s-disney','q-webdl','r-2160','a-ddp-atmos','ch-51','c-av1'])
+case('usenet-unknown-service', 'Film.2025.2160p.UNKNOWN.WEB-DL.TrueHD5.1.x265-TEST', ['q-webdl','r-2160','a-truehd','ch-51','c-hevc'])
+case('usenet-repack-audio', 'Film.2024.1080p.BluRay.DTS-HD.MA.5.1.x264.REPACK2-TEST', ['q-bluray','r-1080','a-dtsma','ch-51','c-avc','e-repack'])
+case('layout-stress', 'Film.2025.Extended.IMAX.Enhanced.2160p.UHD.BluRay.REMUX.DV.HDR10Plus.TrueHD7.1.Atmos.HEVC.HYBRID.PROPER-TEST', ['e-extended','v-imax-enh','r-2160','q-bluray','q-remux','v-dolbyvision','v-hdr10plus','a-truehd-atmos','ch-71','c-hevc','e-hybrid','e-proper'])
 case('priority-resolution', '2160p.1080p.720p.480p', ['r-2160'])
 case('priority-hdr', 'HDR10+.HDR10.HDR.SDR', ['v-hdr10plus'])
 case('priority-imax', 'IMAX.Enhanced', ['v-imax-enh'])
@@ -145,6 +156,7 @@ class PackTests(unittest.TestCase):
         self.assertEqual(len(V3['filters']), 52)
         self.assertEqual(len(V3['groups']), 11)
         self.assertEqual(len(BY_ID), 52)
+        self.assertEqual(len({b['imageURL'] for b in V3['filters']}),52)
         groups = {g['id'] for g in V3['groups']}
         self.assertEqual(V3['groups'][:9], V2['groups'])
         for b in V3['filters']:
@@ -170,6 +182,8 @@ class PackTests(unittest.TestCase):
         self.assertTrue(all(i < first_info for i,b in enumerate(V3['filters']) if b['groupId'] in ['gdolby','gdts','gc']))
         self.assertEqual({b['groupId'] for b in V3['filters'] if b['id'].startswith('e-')}, {'gseadex'})
         self.assertFalse(any('lang' in b['id'] for b in V3['filters']))
+        first_source = min(i for i,b in enumerate(V3['filters']) if b['groupId']=='gq')
+        self.assertTrue(all(i < first_source for i,b in enumerate(V3['filters']) if b['groupId'] in ['gdolby','gdts','gvision','ghdr']))
 
     def test_new_png_transparency_size_and_sources(self):
         from PIL import Image
