@@ -1,0 +1,65 @@
+{
+  "s-netflix": {
+    "path": "badges/assets/v3_frameless/sources/s-netflix.svg",
+    "sourceURL": "https://raw.githubusercontent.com/pheralb/svgl/c0ec7ab121354ac1096b17b3aebbb293c8ce5600/static/library/netflix-wordmark.svg",
+    "credit": "Netflix / SVGL; MIT collection, brand rights retained",
+    "sha256": "5685587e25c461e1c3147aa8d7a8cd72c50a0fcc039d74a31675de311195a497",
+    "transformation": "Original alpha geometry, aspect ratio preserved; v2-derived silver/blue palette and restrained relief; transparent PNG"
+  },
+  "s-appletv": {
+    "path": "badges/assets/v3_frameless/sources/s-appletv.svg",
+    "sourceURL": "https://upload.wikimedia.org/wikipedia/commons/2/28/Apple_TV_Plus_Logo.svg",
+    "credit": "Apple Inc.; Wikimedia Commons PD-textlogo",
+    "sha256": "1a2e952209a4c849244ffca064209873d74b94fd2b504c6a26a13d2699830a5c",
+    "transformation": "Original alpha geometry, aspect ratio preserved; v2-derived silver/blue palette and restrained relief; transparent PNG"
+  },
+  "s-prime": {
+    "path": "badges/assets/v3_frameless/sources/s-prime.svg",
+    "sourceURL": "https://raw.githubusercontent.com/pheralb/svgl/c0ec7ab121354ac1096b17b3aebbb293c8ce5600/static/library/prime-video.svg",
+    "credit": "Amazon / SVGL; MIT collection, brand rights retained",
+    "sha256": "9bf0fa7321521e1e4729daa65674758da68d8d37051ea2821ffa07fcf15dab47",
+    "transformation": "Original alpha geometry, aspect ratio preserved; v2-derived silver/blue palette and restrained relief; transparent PNG"
+  },
+  "s-disney": {
+    "path": "badges/assets/v3_frameless/sources/s-disney.svg",
+    "sourceURL": "https://raw.githubusercontent.com/pheralb/svgl/c0ec7ab121354ac1096b17b3aebbb293c8ce5600/static/library/disneyplus.svg",
+    "credit": "Disney / SVGL; MIT collection, brand rights retained",
+    "sha256": "f6515c89a26b9ffe868c33a8789f47c4dbd34a61e0a7f97a9911301e0f36c953",
+    "transformation": "Original alpha geometry, aspect ratio preserved; v2-derived silver/blue palette and restrained relief; transparent PNG"
+  },
+  "s-hbomax": {
+    "path": "badges/assets/v3_frameless/sources/s-hbomax.svg",
+    "sourceURL": "https://upload.wikimedia.org/wikipedia/commons/7/7e/HBO_Max_May_2025_%28Horizontal%29.svg",
+    "credit": "Warner Bros. Discovery; Wikimedia Commons PD-textlogo",
+    "sha256": "bb7bd106b8eab3e2d4a99f1fb543409763ca64a0dad57cdd7a60cb77e3b3cd2f",
+    "transformation": "Original alpha geometry, aspect ratio preserved; v2-derived silver/blue palette and restrained relief; transparent PNG"
+  },
+  "s-skyshowtime": {
+    "path": "badges/assets/v3_frameless/sources/s-skyshowtime.svg",
+    "sourceURL": "https://upload.wikimedia.org/wikipedia/commons/8/80/SkyShowtime_Logo.svg",
+    "credit": "Comcast / Paramount / SkyShowtime; Wikimedia Commons PD-textlogo",
+    "sha256": "da31ab32038e050cb759335057243054034556117552fa88d4e14457503daa92",
+    "transformation": "Original alpha geometry, aspect ratio preserved; v2-derived silver/blue palette and restrained relief; transparent PNG"
+  },
+  "s-paramount": {
+    "path": "badges/assets/v3_frameless/sources/s-paramount.svg",
+    "sourceURL": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Paramount%2B_logo.svg",
+    "credit": "Paramount; Wikimedia Commons PD-textlogo",
+    "sha256": "cb081e7f3bcfcad3dcaf445eccd3c73a52c8b227c654e700ccc691099d43980a",
+    "transformation": "Original alpha geometry, aspect ratio preserved; v2-derived silver/blue palette and restrained relief; transparent PNG"
+  },
+  "s-peacock": {
+    "path": "badges/assets/v3_frameless/sources/s-peacock.svg",
+    "sourceURL": "https://upload.wikimedia.org/wikipedia/commons/2/20/NBCUniversal_Peacock_Logo_%282026%29.svg",
+    "credit": "NBCUniversal; Wikimedia Commons logo source",
+    "sha256": "bf53d69c5deda4de4db1997d0616cfc43ede490f5634003bfcc5094477595f2c",
+    "transformation": "Original alpha geometry, aspect ratio preserved; v2-derived silver/blue palette and restrained relief; transparent PNG"
+  },
+  "s-hulu": {
+    "path": "badges/assets/v3_frameless/sources/s-hulu.svg",
+    "sourceURL": "https://raw.githubusercontent.com/pheralb/svgl/c0ec7ab121354ac1096b17b3aebbb293c8ce5600/static/library/hulu.svg",
+    "credit": "Hulu / SVGL; MIT collection, brand rights retained",
+    "sha256": "d14d779e9ac79c2eefc2ba0b0fdc8aad1087c533a3d4039a4940a7adc343eff8",
+    "transformation": "Original alpha geometry, aspect ratio preserved; v2-derived silver/blue palette and restrained relief; transparent PNG"
+  }
+}
