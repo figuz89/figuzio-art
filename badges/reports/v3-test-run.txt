@@ -1,0 +1,10 @@
+test_filename_cases_with_java_pattern (test_v3.FilenameTests.test_filename_cases_with_java_pattern) ... ok
+test_additive_schema_and_groups (test_v3.PackTests.test_additive_schema_and_groups) ... ok
+test_all_original_badges_and_artwork_are_preserved (test_v3.PackTests.test_all_original_badges_and_artwork_are_preserved) ... ok
+test_new_png_transparency_size_and_sources (test_v3.PackTests.test_new_png_transparency_size_and_sources) ... ok
+test_order_and_membership (test_v3.PackTests.test_order_and_membership) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.754s
+
+OK

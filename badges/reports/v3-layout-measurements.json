@@ -1,0 +1,17 @@
+{
+  "A": {
+    "badgeRowDp": 327.0,
+    "tvAvailableDp": 850,
+    "mobileAvailableDp": 326
+  },
+  "B": {
+    "badgeRowDp": 632.0,
+    "tvAvailableDp": 850,
+    "mobileAvailableDp": 326
+  },
+  "C": {
+    "badgeRowDp": 471.0,
+    "tvAvailableDp": 850,
+    "mobileAvailableDp": 326
+  }
+}
