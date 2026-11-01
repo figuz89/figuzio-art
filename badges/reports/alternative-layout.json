@@ -4,18 +4,18 @@
     "tvViewportDp": 416,
     "items": [
       {
-        "id": "v-dolbyvision",
+        "id": "r-2160",
         "startDp": 0.0,
-        "endDp": 93.0
+        "endDp": 40.0
+      },
+      {
+        "id": "v-dolbyvision",
+        "startDp": 44.0,
+        "endDp": 137.0
       },
       {
         "id": "v-hdr",
-        "startDp": 97.0,
-        "endDp": 150.33333333333334
-      },
-      {
-        "id": "r-2160",
-        "startDp": 154.33333333333334,
+        "startDp": 141.0,
         "endDp": 194.33333333333334
       },
       {
@@ -35,22 +35,22 @@
     "tvViewportDp": 416,
     "items": [
       {
-        "id": "a-dtsma",
+        "id": "r-2160",
         "startDp": 0.0,
-        "endDp": 93.33333333333333
+        "endDp": 40.0
       },
       {
         "id": "v-dolbyvision",
-        "startDp": 97.33333333333333,
-        "endDp": 190.33333333333334
+        "startDp": 44.0,
+        "endDp": 137.0
       },
       {
-        "id": "ch-71",
-        "startDp": 194.33333333333334,
+        "id": "a-dtsma",
+        "startDp": 141.0,
         "endDp": 234.33333333333334
       },
       {
-        "id": "r-2160",
+        "id": "ch-71",
         "startDp": 238.33333333333334,
         "endDp": 278.3333333333333
       },
@@ -65,18 +65,18 @@
         "endDp": 445.3333333333333
       },
       {
-        "id": "c-hevc",
-        "startDp": 449.3333333333333,
-        "endDp": 514.0
-      },
-      {
         "id": "e-unrated",
-        "startDp": 518.0,
-        "endDp": 607.3333333333334
+        "startDp": 449.3333333333333,
+        "endDp": 538.6666666666666
       },
       {
         "id": "e-hybrid",
-        "startDp": 611.3333333333334,
+        "startDp": 542.6666666666666,
+        "endDp": 632.6666666666666
+      },
+      {
+        "id": "c-hevc",
+        "startDp": 636.6666666666666,
         "endDp": 701.3333333333334
       }
     ]
@@ -86,27 +86,27 @@
     "tvViewportDp": 416,
     "items": [
       {
-        "id": "a-truehd",
+        "id": "r-2160",
         "startDp": 0.0,
-        "endDp": 98.0
+        "endDp": 40.0
       },
       {
         "id": "v-dolbyvision",
-        "startDp": 102.0,
-        "endDp": 195.0
+        "startDp": 44.0,
+        "endDp": 137.0
       },
       {
         "id": "v-hdr10",
-        "startDp": 199.0,
-        "endDp": 275.0
+        "startDp": 141.0,
+        "endDp": 217.0
       },
       {
-        "id": "ch-51",
-        "startDp": 279.0,
+        "id": "a-truehd",
+        "startDp": 221.0,
         "endDp": 319.0
       },
       {
-        "id": "r-2160",
+        "id": "ch-51",
         "startDp": 323.0,
         "endDp": 363.0
       },

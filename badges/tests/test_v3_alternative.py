@@ -9,6 +9,7 @@ import unittest
 import numpy as np
 from PIL import Image
 import test_v3 as base
+from alternative_order_cases import ORDER_CASES
 
 ROOT=Path(__file__).resolve().parents[2]
 ALT=json.loads((ROOT/'badges/Figuz_Smart_Badges_v3_Alternative.json').read_text(encoding='utf-8'))
@@ -17,11 +18,14 @@ MANIFEST=json.loads((ROOT/'badges/assets/v3_alternative/manifest.json').read_tex
 
 
 class AlternativeTests(unittest.TestCase):
-    def test_only_image_urls_change(self):
+    def test_only_image_urls_and_display_order_change(self):
         self.assertEqual(ALT['groups'],SOURCE['groups'])
         self.assertEqual(len(ALT['filters']),52)
         self.assertEqual(len({x['imageURL'] for x in ALT['filters']}),52)
-        for new,original in zip(ALT['filters'],SOURCE['filters']):
+        originals={b['id']:b for b in SOURCE['filters']}
+        self.assertEqual(set(originals),{b['id'] for b in ALT['filters']})
+        for new in ALT['filters']:
+            original=originals[new['id']]
             normalized=copy.deepcopy(new)
             normalized['imageURL']=original['imageURL']
             self.assertEqual(normalized,original)
@@ -32,25 +36,43 @@ class AlternativeTests(unittest.TestCase):
         proc=subprocess.run(['git','diff','--exit-code','b9666fa48b774a49b21b9ca6553c093b67e98224','--','badges/Figuz_Smart_Badges_v2.json','badges/Figuz_Smart_Badges_v3.json','badges/assets/v2_frameless','badges/assets/v3_frameless','badges/reports/v3-filename-results.json'],cwd=ROOT,capture_output=True)
         self.assertEqual(proc.returncode,0,proc.stderr.decode(errors='replace'))
 
-    def test_all_368_cases_and_no_new_duplicates(self):
+    def test_matching_and_fixed_order_regressions(self):
         expected=base.run_java()
-        saved=base.V3
+        saved=base.V3; saved_cases=base.CASES
         try:
             base.V3=ALT
+            base.CASES=saved_cases+ORDER_CASES
             actual=base.run_java()
         finally:
             base.V3=saved
-        self.assertEqual(actual,expected)
-        for i,case in enumerate(base.CASES):
+            base.CASES=saved_cases
+        for i,hits in expected.items():
+            self.assertEqual(set(actual[i]),set(hits),saved_cases[i]['name'])
+        all_cases=saved_cases+ORDER_CASES
+        ranks={b['id']:i for i,b in enumerate(ALT['filters'])}
+        for i,case in enumerate(all_cases):
             with self.subTest(case=case['name']):
                 hits=actual[i]
                 self.assertEqual(len(hits),len(set(hits)))
+                self.assertEqual(hits,sorted(hits,key=ranks.__getitem__))
+                resolutions=[k for k in hits if k.startswith('r-')]
+                self.assertEqual(hits[:len(resolutions)],resolutions)
                 if case['expected'] is not None:
                     self.assertEqual(set(hits),set(case['expected']))
+                    if case in ORDER_CASES:
+                        self.assertEqual(hits,case['expected'])
                 self.assertTrue(set(case['required'])<=set(hits))
                 self.assertFalse(set(case['absent'])&set(hits))
-        report={'caseCount':len(base.CASES),'sameResultsAsBaseV3':True,'engine':'java.util.regex.Pattern.find; separate and joined candidates; URL dedupe','results':[{'case':c['name'],'matched':actual[i]} for i,c in enumerate(base.CASES)]}
+        report={'caseCount':len(all_cases),'baseCaseCount':len(saved_cases),'orderRegressionCases':len(ORDER_CASES),'sameMatchesAsBaseV3':True,'resolutionFirst':True,'engine':'java.util.regex.Pattern.find; separate and joined candidates; ordered URL dedupe','results':[{'case':c['name'],'candidates':c['candidates'],'matched':actual[i]} for i,c in enumerate(all_cases)]}
         (ROOT/'badges/reports/alternative-filename-results.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
+
+    def test_display_category_order_and_unchanged_priorities(self):
+        expected_groups=['gr','gvision','ghdr','gdolby','gdts','gc','gq','gimax','gseadex','gstreaming','gcodec']
+        encountered=list(dict.fromkeys(b['groupId'] for b in ALT['filters']))
+        self.assertEqual(encountered,expected_groups)
+        for group in expected_groups:
+            self.assertEqual([b['id'] for b in ALT['filters'] if b['groupId']==group],
+                             [b['id'] for b in SOURCE['filters'] if b['groupId']==group])
 
     def test_all_images_and_quality_tiers(self):
         self.assertEqual(MANIFEST['tierCounts'],{'silver':35,'gold':9,'bronze':8})

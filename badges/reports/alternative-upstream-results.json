@@ -2,22 +2,22 @@
   "pack": "Figuz_Smart_Badges_v3_Alternative.json",
   "physicalDeviceTests": false,
   "iosBinaryTests": false,
-  "method": "Pinned and hash-verified upstream matcher source extracted and compiled unchanged with test-only domain models, as documented in FINAL_QA.md. Only alternative image URLs supplied.",
+  "method": "Pinned and hash-verified upstream matcher source extracted and compiled unchanged with test-only domain models, as documented in FINAL_QA.md. Alternative URLs and resolution-first filters array supplied. Original recognition unchanged; explicit screenshot, field permutation and film order regressions included.",
   "platforms": {
     "tv": {
       "sourceURL": "https://github.com/NuvioMedia/NuvioTV/blob/fa194b008e331780d2391491879e4a0a343641ef/app/src/main/java/com/nuvio/tv/core/streams/StreamBadgeRules.kt",
       "sourceGitBlob": "68f76d00286014924089a7d90eac3cf9d83e6988",
       "extractedSpanSha256": "3844bba6fa869e7f05ebdb9580d97a08a11010f94dbfef7026ffc97b764e3c03",
-      "caseCount": 368,
-      "executions": 736,
+      "caseCount": 391,
+      "executions": 782,
       "results": [
         {
           "case": "film-A",
           "mode": "stream",
           "matched": [
+            "r-2160",
             "v-dolbyvision",
             "v-hdr",
-            "r-2160",
             "q-webdl",
             "s-netflix"
           ]
@@ -26,9 +26,9 @@
           "case": "film-A",
           "mode": "pooled",
           "matched": [
+            "r-2160",
             "v-dolbyvision",
             "v-hdr",
-            "r-2160",
             "q-webdl",
             "s-netflix"
           ]
@@ -37,41 +37,41 @@
           "case": "film-B",
           "mode": "stream",
           "matched": [
-            "a-dtsma",
-            "v-dolbyvision",
-            "ch-71",
             "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-71",
             "q-remux",
             "q-bluray",
-            "c-hevc",
             "e-unrated",
-            "e-hybrid"
+            "e-hybrid",
+            "c-hevc"
           ]
         },
         {
           "case": "film-B",
           "mode": "pooled",
           "matched": [
-            "a-dtsma",
-            "v-dolbyvision",
-            "ch-71",
             "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-71",
             "q-remux",
             "q-bluray",
-            "c-hevc",
             "e-unrated",
-            "e-hybrid"
+            "e-hybrid",
+            "c-hevc"
           ]
         },
         {
           "case": "film-C",
           "mode": "stream",
           "matched": [
-            "a-truehd",
+            "r-2160",
             "v-dolbyvision",
             "v-hdr10",
+            "a-truehd",
             "ch-51",
-            "r-2160",
             "q-remux",
             "q-bluray"
           ]
@@ -80,11 +80,11 @@
           "case": "film-C",
           "mode": "pooled",
           "matched": [
-            "a-truehd",
+            "r-2160",
             "v-dolbyvision",
             "v-hdr10",
+            "a-truehd",
             "ch-51",
-            "r-2160",
             "q-remux",
             "q-bluray"
           ]
@@ -5731,30 +5731,30 @@
           "case": "release-unrated-and-hybrid",
           "mode": "stream",
           "matched": [
-            "a-dtsma",
-            "v-dolbyvision",
-            "ch-71",
             "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-71",
             "q-remux",
             "q-bluray",
-            "c-hevc",
             "e-unrated",
-            "e-hybrid"
+            "e-hybrid",
+            "c-hevc"
           ]
         },
         {
           "case": "release-unrated-and-hybrid",
           "mode": "pooled",
           "matched": [
-            "a-dtsma",
-            "v-dolbyvision",
-            "ch-71",
             "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-71",
             "q-remux",
             "q-bluray",
-            "c-hevc",
             "e-unrated",
-            "e-hybrid"
+            "e-hybrid",
+            "c-hevc"
           ]
         },
         {
@@ -5764,8 +5764,8 @@
             "r-1080",
             "q-bluray",
             "v-seadex",
-            "c-hevc",
-            "e-extended"
+            "e-extended",
+            "c-hevc"
           ]
         },
         {
@@ -5775,51 +5775,51 @@
             "r-1080",
             "q-bluray",
             "v-seadex",
-            "c-hevc",
-            "e-extended"
+            "e-extended",
+            "c-hevc"
           ]
         },
         {
           "case": "release-seadex-extended-hybrid",
           "mode": "stream",
           "matched": [
-            "a-truehd",
+            "r-2160",
             "v-dolbyvision",
             "v-hdr10",
+            "a-truehd",
             "ch-71",
-            "r-2160",
             "q-remux",
             "q-bluray",
             "v-seadex",
-            "c-hevc",
             "e-extended",
-            "e-hybrid"
+            "e-hybrid",
+            "c-hevc"
           ]
         },
         {
           "case": "release-seadex-extended-hybrid",
           "mode": "pooled",
           "matched": [
-            "a-truehd",
+            "r-2160",
             "v-dolbyvision",
             "v-hdr10",
+            "a-truehd",
             "ch-71",
-            "r-2160",
             "q-remux",
             "q-bluray",
             "v-seadex",
-            "c-hevc",
             "e-extended",
-            "e-hybrid"
+            "e-hybrid",
+            "c-hevc"
           ]
         },
         {
           "case": "usenet-amzn-ddp-atmos",
           "mode": "stream",
           "matched": [
+            "r-2160",
             "a-ddp-atmos",
             "ch-51",
-            "r-2160",
             "q-webdl",
             "s-prime",
             "c-hevc"
@@ -5829,9 +5829,9 @@
           "case": "usenet-amzn-ddp-atmos",
           "mode": "pooled",
           "matched": [
+            "r-2160",
             "a-ddp-atmos",
             "ch-51",
-            "r-2160",
             "q-webdl",
             "s-prime",
             "c-hevc"
@@ -5841,11 +5841,11 @@
           "case": "usenet-atvp-dv-hdr",
           "mode": "stream",
           "matched": [
-            "a-ddp-atmos",
+            "r-2160",
             "v-dolbyvision",
             "v-hdr10plus",
+            "a-ddp-atmos",
             "ch-51",
-            "r-2160",
             "q-webdl",
             "s-appletv",
             "c-hevc"
@@ -5855,11 +5855,11 @@
           "case": "usenet-atvp-dv-hdr",
           "mode": "pooled",
           "matched": [
-            "a-ddp-atmos",
+            "r-2160",
             "v-dolbyvision",
             "v-hdr10plus",
+            "a-ddp-atmos",
             "ch-51",
-            "r-2160",
             "q-webdl",
             "s-appletv",
             "c-hevc"
@@ -5869,35 +5869,35 @@
           "case": "usenet-directors-truehd",
           "mode": "stream",
           "matched": [
+            "r-2160",
             "a-truehd",
             "ch-51",
-            "r-2160",
             "q-remux",
             "q-bluray",
-            "c-hevc",
-            "e-directors-cut"
+            "e-directors-cut",
+            "c-hevc"
           ]
         },
         {
           "case": "usenet-directors-truehd",
           "mode": "pooled",
           "matched": [
+            "r-2160",
             "a-truehd",
             "ch-51",
-            "r-2160",
             "q-remux",
             "q-bluray",
-            "c-hevc",
-            "e-directors-cut"
+            "e-directors-cut",
+            "c-hevc"
           ]
         },
         {
           "case": "usenet-dsnp-av1",
           "mode": "stream",
           "matched": [
+            "r-2160",
             "a-ddp-atmos",
             "ch-51",
-            "r-2160",
             "q-webdl",
             "s-disney",
             "c-av1"
@@ -5907,9 +5907,9 @@
           "case": "usenet-dsnp-av1",
           "mode": "pooled",
           "matched": [
+            "r-2160",
             "a-ddp-atmos",
             "ch-51",
-            "r-2160",
             "q-webdl",
             "s-disney",
             "c-av1"
@@ -5919,9 +5919,9 @@
           "case": "usenet-unknown-service",
           "mode": "stream",
           "matched": [
+            "r-2160",
             "a-truehd",
             "ch-51",
-            "r-2160",
             "q-webdl",
             "c-hevc"
           ]
@@ -5930,9 +5930,9 @@
           "case": "usenet-unknown-service",
           "mode": "pooled",
           "matched": [
+            "r-2160",
             "a-truehd",
             "ch-51",
-            "r-2160",
             "q-webdl",
             "c-hevc"
           ]
@@ -5941,60 +5941,60 @@
           "case": "usenet-repack-audio",
           "mode": "stream",
           "matched": [
+            "r-1080",
             "a-dtsma",
             "ch-51",
-            "r-1080",
             "q-bluray",
-            "c-avc",
-            "e-repack"
+            "e-repack",
+            "c-avc"
           ]
         },
         {
           "case": "usenet-repack-audio",
           "mode": "pooled",
           "matched": [
+            "r-1080",
             "a-dtsma",
             "ch-51",
-            "r-1080",
             "q-bluray",
-            "c-avc",
-            "e-repack"
+            "e-repack",
+            "c-avc"
           ]
         },
         {
           "case": "layout-stress",
           "mode": "stream",
           "matched": [
-            "a-truehd-atmos",
+            "r-2160",
             "v-dolbyvision",
             "v-hdr10plus",
+            "a-truehd-atmos",
             "ch-71",
-            "r-2160",
             "q-remux",
             "q-bluray",
             "v-imax-enh",
-            "c-hevc",
             "e-extended",
             "e-proper",
-            "e-hybrid"
+            "e-hybrid",
+            "c-hevc"
           ]
         },
         {
           "case": "layout-stress",
           "mode": "pooled",
           "matched": [
-            "a-truehd-atmos",
+            "r-2160",
             "v-dolbyvision",
             "v-hdr10plus",
+            "a-truehd-atmos",
             "ch-71",
-            "r-2160",
             "q-remux",
             "q-bluray",
             "v-imax-enh",
-            "c-hevc",
             "e-extended",
             "e-proper",
-            "e-hybrid"
+            "e-hybrid",
+            "c-hevc"
           ]
         },
         {
@@ -6199,30 +6199,30 @@
           "case": "repeated-fields",
           "mode": "stream",
           "matched": [
-            "a-dtsma",
-            "v-dolbyvision",
-            "ch-71",
             "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-71",
             "q-remux",
             "q-bluray",
-            "c-hevc",
             "e-unrated",
-            "e-hybrid"
+            "e-hybrid",
+            "c-hevc"
           ]
         },
         {
           "case": "repeated-fields",
           "mode": "pooled",
           "matched": [
-            "a-dtsma",
-            "v-dolbyvision",
-            "ch-71",
             "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-71",
             "q-remux",
             "q-bluray",
-            "c-hevc",
             "e-unrated",
-            "e-hybrid"
+            "e-hybrid",
+            "c-hevc"
           ]
         },
         {
@@ -6279,6 +6279,582 @@
             "a-atmos-unknown",
             "a-truehd",
             "ch-51"
+          ]
+        },
+        {
+          "case": "screenshot-1-fields-012",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-ddplus",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-1-fields-012",
+          "mode": "pooled",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-ddplus",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-1-fields-021",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-ddplus",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-1-fields-021",
+          "mode": "pooled",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-ddplus",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-1-fields-102",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-ddplus",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-1-fields-102",
+          "mode": "pooled",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-ddplus",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-1-fields-120",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-ddplus",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-1-fields-120",
+          "mode": "pooled",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-ddplus",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-1-fields-201",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-ddplus",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-1-fields-201",
+          "mode": "pooled",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-ddplus",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-1-fields-210",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-ddplus",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-1-fields-210",
+          "mode": "pooled",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-ddplus",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-2-fields-012",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-2-fields-012",
+          "mode": "pooled",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-2-fields-021",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-2-fields-021",
+          "mode": "pooled",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-2-fields-102",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-2-fields-102",
+          "mode": "pooled",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-2-fields-120",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-2-fields-120",
+          "mode": "pooled",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-2-fields-201",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-2-fields-201",
+          "mode": "pooled",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-2-fields-210",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-2-fields-210",
+          "mode": "pooled",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-3-fields-012",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "e-repack",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-3-fields-012",
+          "mode": "pooled",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "e-repack",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-3-fields-021",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "e-repack",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-3-fields-021",
+          "mode": "pooled",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "e-repack",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-3-fields-102",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "e-repack",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-3-fields-102",
+          "mode": "pooled",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "e-repack",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-3-fields-120",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "e-repack",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-3-fields-120",
+          "mode": "pooled",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "e-repack",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-3-fields-201",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "e-repack",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-3-fields-201",
+          "mode": "pooled",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "e-repack",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-3-fields-210",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "e-repack",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-3-fields-210",
+          "mode": "pooled",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "e-repack",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "order-film-A",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "q-webdl",
+            "s-netflix"
+          ]
+        },
+        {
+          "case": "order-film-A",
+          "mode": "pooled",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "q-webdl",
+            "s-netflix"
+          ]
+        },
+        {
+          "case": "order-film-B",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-71",
+            "q-remux",
+            "q-bluray",
+            "e-unrated",
+            "e-hybrid",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "order-film-B",
+          "mode": "pooled",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-71",
+            "q-remux",
+            "q-bluray",
+            "e-unrated",
+            "e-hybrid",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "order-film-C",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr10",
+            "a-truehd",
+            "ch-51",
+            "q-remux",
+            "q-bluray"
+          ]
+        },
+        {
+          "case": "order-film-C",
+          "mode": "pooled",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr10",
+            "a-truehd",
+            "ch-51",
+            "q-remux",
+            "q-bluray"
+          ]
+        },
+        {
+          "case": "order-no-resolution",
+          "mode": "stream",
+          "matched": [
+            "a-ddplus",
+            "ch-51",
+            "q-webdl",
+            "c-avc"
+          ]
+        },
+        {
+          "case": "order-no-resolution",
+          "mode": "pooled",
+          "matched": [
+            "a-ddplus",
+            "ch-51",
+            "q-webdl",
+            "c-avc"
+          ]
+        },
+        {
+          "case": "order-1080-first",
+          "mode": "stream",
+          "matched": [
+            "r-1080",
+            "a-ddplus",
+            "ch-51",
+            "q-webdl",
+            "c-avc"
+          ]
+        },
+        {
+          "case": "order-1080-first",
+          "mode": "pooled",
+          "matched": [
+            "r-1080",
+            "a-ddplus",
+            "ch-51",
+            "q-webdl",
+            "c-avc"
           ]
         }
       ]
@@ -6287,16 +6863,16 @@
       "sourceURL": "https://github.com/NuvioMedia/NuvioMobile/blob/38295004e4d4002f5520fe4120230253b64af63d/composeApp/src/commonMain/kotlin/com/nuvio/app/features/streams/StreamBadgeRules.kt",
       "sourceGitBlob": "b74eb8e6260fd19bb77f22e0fb542d539ff1b53c",
       "extractedSpanSha256": "6d6865413683cf074112e10762d76817bf9110ba59f4905f783d1134bc059eef",
-      "caseCount": 368,
-      "executions": 368,
+      "caseCount": 391,
+      "executions": 391,
       "results": [
         {
           "case": "film-A",
           "mode": "stream",
           "matched": [
+            "r-2160",
             "v-dolbyvision",
             "v-hdr",
-            "r-2160",
             "q-webdl",
             "s-netflix"
           ]
@@ -6305,26 +6881,26 @@
           "case": "film-B",
           "mode": "stream",
           "matched": [
-            "a-dtsma",
-            "v-dolbyvision",
-            "ch-71",
             "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-71",
             "q-remux",
             "q-bluray",
-            "c-hevc",
             "e-unrated",
-            "e-hybrid"
+            "e-hybrid",
+            "c-hevc"
           ]
         },
         {
           "case": "film-C",
           "mode": "stream",
           "matched": [
-            "a-truehd",
+            "r-2160",
             "v-dolbyvision",
             "v-hdr10",
+            "a-truehd",
             "ch-51",
-            "r-2160",
             "q-remux",
             "q-bluray"
           ]
@@ -9152,15 +9728,15 @@
           "case": "release-unrated-and-hybrid",
           "mode": "stream",
           "matched": [
-            "a-dtsma",
-            "v-dolbyvision",
-            "ch-71",
             "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-71",
             "q-remux",
             "q-bluray",
-            "c-hevc",
             "e-unrated",
-            "e-hybrid"
+            "e-hybrid",
+            "c-hevc"
           ]
         },
         {
@@ -9170,34 +9746,34 @@
             "r-1080",
             "q-bluray",
             "v-seadex",
-            "c-hevc",
-            "e-extended"
+            "e-extended",
+            "c-hevc"
           ]
         },
         {
           "case": "release-seadex-extended-hybrid",
           "mode": "stream",
           "matched": [
-            "a-truehd",
+            "r-2160",
             "v-dolbyvision",
             "v-hdr10",
+            "a-truehd",
             "ch-71",
-            "r-2160",
             "q-remux",
             "q-bluray",
             "v-seadex",
-            "c-hevc",
             "e-extended",
-            "e-hybrid"
+            "e-hybrid",
+            "c-hevc"
           ]
         },
         {
           "case": "usenet-amzn-ddp-atmos",
           "mode": "stream",
           "matched": [
+            "r-2160",
             "a-ddp-atmos",
             "ch-51",
-            "r-2160",
             "q-webdl",
             "s-prime",
             "c-hevc"
@@ -9207,11 +9783,11 @@
           "case": "usenet-atvp-dv-hdr",
           "mode": "stream",
           "matched": [
-            "a-ddp-atmos",
+            "r-2160",
             "v-dolbyvision",
             "v-hdr10plus",
+            "a-ddp-atmos",
             "ch-51",
-            "r-2160",
             "q-webdl",
             "s-appletv",
             "c-hevc"
@@ -9221,22 +9797,22 @@
           "case": "usenet-directors-truehd",
           "mode": "stream",
           "matched": [
+            "r-2160",
             "a-truehd",
             "ch-51",
-            "r-2160",
             "q-remux",
             "q-bluray",
-            "c-hevc",
-            "e-directors-cut"
+            "e-directors-cut",
+            "c-hevc"
           ]
         },
         {
           "case": "usenet-dsnp-av1",
           "mode": "stream",
           "matched": [
+            "r-2160",
             "a-ddp-atmos",
             "ch-51",
-            "r-2160",
             "q-webdl",
             "s-disney",
             "c-av1"
@@ -9246,9 +9822,9 @@
           "case": "usenet-unknown-service",
           "mode": "stream",
           "matched": [
+            "r-2160",
             "a-truehd",
             "ch-51",
-            "r-2160",
             "q-webdl",
             "c-hevc"
           ]
@@ -9257,30 +9833,30 @@
           "case": "usenet-repack-audio",
           "mode": "stream",
           "matched": [
+            "r-1080",
             "a-dtsma",
             "ch-51",
-            "r-1080",
             "q-bluray",
-            "c-avc",
-            "e-repack"
+            "e-repack",
+            "c-avc"
           ]
         },
         {
           "case": "layout-stress",
           "mode": "stream",
           "matched": [
-            "a-truehd-atmos",
+            "r-2160",
             "v-dolbyvision",
             "v-hdr10plus",
+            "a-truehd-atmos",
             "ch-71",
-            "r-2160",
             "q-remux",
             "q-bluray",
             "v-imax-enh",
-            "c-hevc",
             "e-extended",
             "e-proper",
-            "e-hybrid"
+            "e-hybrid",
+            "c-hevc"
           ]
         },
         {
@@ -9386,15 +9962,15 @@
           "case": "repeated-fields",
           "mode": "stream",
           "matched": [
-            "a-dtsma",
-            "v-dolbyvision",
-            "ch-71",
             "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-71",
             "q-remux",
             "q-bluray",
-            "c-hevc",
             "e-unrated",
-            "e-hybrid"
+            "e-hybrid",
+            "c-hevc"
           ]
         },
         {
@@ -9423,6 +9999,294 @@
             "a-atmos-unknown",
             "a-truehd",
             "ch-51"
+          ]
+        },
+        {
+          "case": "screenshot-1-fields-012",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-ddplus",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-1-fields-021",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-ddplus",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-1-fields-102",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-ddplus",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-1-fields-120",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-ddplus",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-1-fields-201",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-ddplus",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-1-fields-210",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-ddplus",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-2-fields-012",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-2-fields-021",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-2-fields-102",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-2-fields-120",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-2-fields-201",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-2-fields-210",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-3-fields-012",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "e-repack",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-3-fields-021",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "e-repack",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-3-fields-102",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "e-repack",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-3-fields-120",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "e-repack",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-3-fields-201",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "e-repack",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "screenshot-3-fields-210",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "a-dtsma",
+            "ch-51",
+            "q-webdl",
+            "e-repack",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "order-film-A",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr",
+            "q-webdl",
+            "s-netflix"
+          ]
+        },
+        {
+          "case": "order-film-B",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "a-dtsma",
+            "ch-71",
+            "q-remux",
+            "q-bluray",
+            "e-unrated",
+            "e-hybrid",
+            "c-hevc"
+          ]
+        },
+        {
+          "case": "order-film-C",
+          "mode": "stream",
+          "matched": [
+            "r-2160",
+            "v-dolbyvision",
+            "v-hdr10",
+            "a-truehd",
+            "ch-51",
+            "q-remux",
+            "q-bluray"
+          ]
+        },
+        {
+          "case": "order-no-resolution",
+          "mode": "stream",
+          "matched": [
+            "a-ddplus",
+            "ch-51",
+            "q-webdl",
+            "c-avc"
+          ]
+        },
+        {
+          "case": "order-1080-first",
+          "mode": "stream",
+          "matched": [
+            "r-1080",
+            "a-ddplus",
+            "ch-51",
+            "q-webdl",
+            "c-avc"
           ]
         }
       ]

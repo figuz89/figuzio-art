@@ -1,46 +1,61 @@
 {
-  "caseCount": 368,
-  "sameResultsAsBaseV3": true,
-  "engine": "java.util.regex.Pattern.find; separate and joined candidates; URL dedupe",
+  "caseCount": 391,
+  "baseCaseCount": 368,
+  "orderRegressionCases": 23,
+  "sameMatchesAsBaseV3": true,
+  "resolutionFirst": true,
+  "engine": "java.util.regex.Pattern.find; separate and joined candidates; ordered URL dedupe",
   "results": [
     {
       "case": "film-A",
+      "candidates": [
+        "Animals.2026.2160p.NF.WEB-DL.DV.HDR.MULTi"
+      ],
       "matched": [
+        "r-2160",
         "v-dolbyvision",
         "v-hdr",
-        "r-2160",
         "q-webdl",
         "s-netflix"
       ]
     },
     {
       "case": "film-B",
+      "candidates": [
+        "Kingsman.The.Secret.Service.2014.Unrated.UHD.BluRay.2160p.DTS-HD.MA.7.1.DV.HEVC.HYBRID.REMUX-FraMeSToR"
+      ],
       "matched": [
-        "a-dtsma",
-        "v-dolbyvision",
-        "ch-71",
         "r-2160",
+        "v-dolbyvision",
+        "a-dtsma",
+        "ch-71",
         "q-remux",
         "q-bluray",
-        "c-hevc",
         "e-unrated",
-        "e-hybrid"
+        "e-hybrid",
+        "c-hevc"
       ]
     },
     {
       "case": "film-C",
+      "candidates": [
+        "Mission.Impossible.II.2000.USA.BluRay.Remux.UHD.DoVi.HDR10.2160p.TrueHD5.1-CHD"
+      ],
       "matched": [
-        "a-truehd",
+        "r-2160",
         "v-dolbyvision",
         "v-hdr10",
+        "a-truehd",
         "ch-51",
-        "r-2160",
         "q-remux",
         "q-bluray"
       ]
     },
     {
       "case": "service-NF-46-WEB-DL",
+      "candidates": [
+        "Film.2026.1080p.nf.WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -49,6 +64,9 @@
     },
     {
       "case": "service-reverse-NF-46-WEB-DL",
+      "candidates": [
+        "Film.2026.WEB-DL.NF.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -57,6 +75,9 @@
     },
     {
       "case": "service-NF-46-WEBRip",
+      "candidates": [
+        "Film.2026.1080p.nf.WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -65,6 +86,9 @@
     },
     {
       "case": "service-reverse-NF-46-WEBRip",
+      "candidates": [
+        "Film.2026.WEBRip.NF.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -73,6 +97,9 @@
     },
     {
       "case": "service-NF-45-WEB-DL",
+      "candidates": [
+        "Film-2026-1080p-nf-WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -81,6 +108,9 @@
     },
     {
       "case": "service-reverse-NF-45-WEB-DL",
+      "candidates": [
+        "Film-2026-WEB-DL-NF-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -89,6 +119,9 @@
     },
     {
       "case": "service-NF-45-WEBRip",
+      "candidates": [
+        "Film-2026-1080p-nf-WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -97,6 +130,9 @@
     },
     {
       "case": "service-reverse-NF-45-WEBRip",
+      "candidates": [
+        "Film-2026-WEBRip-NF-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -105,6 +141,9 @@
     },
     {
       "case": "service-NF-32-WEB-DL",
+      "candidates": [
+        "Film 2026 1080p nf WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -113,6 +152,9 @@
     },
     {
       "case": "service-reverse-NF-32-WEB-DL",
+      "candidates": [
+        "Film 2026 WEB-DL NF 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -121,6 +163,9 @@
     },
     {
       "case": "service-NF-32-WEBRip",
+      "candidates": [
+        "Film 2026 1080p nf WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -129,6 +174,9 @@
     },
     {
       "case": "service-reverse-NF-32-WEBRip",
+      "candidates": [
+        "Film 2026 WEBRip NF 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -137,6 +185,9 @@
     },
     {
       "case": "service-NF-95-WEB-DL",
+      "candidates": [
+        "Film_2026_1080p_nf_WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -145,6 +196,9 @@
     },
     {
       "case": "service-reverse-NF-95-WEB-DL",
+      "candidates": [
+        "Film_2026_WEB-DL_NF_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -153,6 +207,9 @@
     },
     {
       "case": "service-NF-95-WEBRip",
+      "candidates": [
+        "Film_2026_1080p_nf_WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -161,6 +218,9 @@
     },
     {
       "case": "service-reverse-NF-95-WEBRip",
+      "candidates": [
+        "Film_2026_WEBRip_NF_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -169,6 +229,9 @@
     },
     {
       "case": "service-NFLX-46-WEB-DL",
+      "candidates": [
+        "Film.2026.1080p.nflx.WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -177,6 +240,9 @@
     },
     {
       "case": "service-reverse-NFLX-46-WEB-DL",
+      "candidates": [
+        "Film.2026.WEB-DL.NFLX.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -185,6 +251,9 @@
     },
     {
       "case": "service-NFLX-46-WEBRip",
+      "candidates": [
+        "Film.2026.1080p.nflx.WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -193,6 +262,9 @@
     },
     {
       "case": "service-reverse-NFLX-46-WEBRip",
+      "candidates": [
+        "Film.2026.WEBRip.NFLX.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -201,6 +273,9 @@
     },
     {
       "case": "service-NFLX-45-WEB-DL",
+      "candidates": [
+        "Film-2026-1080p-nflx-WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -209,6 +284,9 @@
     },
     {
       "case": "service-reverse-NFLX-45-WEB-DL",
+      "candidates": [
+        "Film-2026-WEB-DL-NFLX-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -217,6 +295,9 @@
     },
     {
       "case": "service-NFLX-45-WEBRip",
+      "candidates": [
+        "Film-2026-1080p-nflx-WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -225,6 +306,9 @@
     },
     {
       "case": "service-reverse-NFLX-45-WEBRip",
+      "candidates": [
+        "Film-2026-WEBRip-NFLX-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -233,6 +317,9 @@
     },
     {
       "case": "service-NFLX-32-WEB-DL",
+      "candidates": [
+        "Film 2026 1080p nflx WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -241,6 +328,9 @@
     },
     {
       "case": "service-reverse-NFLX-32-WEB-DL",
+      "candidates": [
+        "Film 2026 WEB-DL NFLX 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -249,6 +339,9 @@
     },
     {
       "case": "service-NFLX-32-WEBRip",
+      "candidates": [
+        "Film 2026 1080p nflx WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -257,6 +350,9 @@
     },
     {
       "case": "service-reverse-NFLX-32-WEBRip",
+      "candidates": [
+        "Film 2026 WEBRip NFLX 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -265,6 +361,9 @@
     },
     {
       "case": "service-NFLX-95-WEB-DL",
+      "candidates": [
+        "Film_2026_1080p_nflx_WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -273,6 +372,9 @@
     },
     {
       "case": "service-reverse-NFLX-95-WEB-DL",
+      "candidates": [
+        "Film_2026_WEB-DL_NFLX_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -281,6 +383,9 @@
     },
     {
       "case": "service-NFLX-95-WEBRip",
+      "candidates": [
+        "Film_2026_1080p_nflx_WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -289,6 +394,9 @@
     },
     {
       "case": "service-reverse-NFLX-95-WEBRip",
+      "candidates": [
+        "Film_2026_WEBRip_NFLX_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -297,6 +405,9 @@
     },
     {
       "case": "service-ATVP-46-WEB-DL",
+      "candidates": [
+        "Film.2026.1080p.atvp.WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -305,6 +416,9 @@
     },
     {
       "case": "service-reverse-ATVP-46-WEB-DL",
+      "candidates": [
+        "Film.2026.WEB-DL.ATVP.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -313,6 +427,9 @@
     },
     {
       "case": "service-ATVP-46-WEBRip",
+      "candidates": [
+        "Film.2026.1080p.atvp.WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -321,6 +438,9 @@
     },
     {
       "case": "service-reverse-ATVP-46-WEBRip",
+      "candidates": [
+        "Film.2026.WEBRip.ATVP.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -329,6 +449,9 @@
     },
     {
       "case": "service-ATVP-45-WEB-DL",
+      "candidates": [
+        "Film-2026-1080p-atvp-WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -337,6 +460,9 @@
     },
     {
       "case": "service-reverse-ATVP-45-WEB-DL",
+      "candidates": [
+        "Film-2026-WEB-DL-ATVP-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -345,6 +471,9 @@
     },
     {
       "case": "service-ATVP-45-WEBRip",
+      "candidates": [
+        "Film-2026-1080p-atvp-WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -353,6 +482,9 @@
     },
     {
       "case": "service-reverse-ATVP-45-WEBRip",
+      "candidates": [
+        "Film-2026-WEBRip-ATVP-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -361,6 +493,9 @@
     },
     {
       "case": "service-ATVP-32-WEB-DL",
+      "candidates": [
+        "Film 2026 1080p atvp WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -369,6 +504,9 @@
     },
     {
       "case": "service-reverse-ATVP-32-WEB-DL",
+      "candidates": [
+        "Film 2026 WEB-DL ATVP 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -377,6 +515,9 @@
     },
     {
       "case": "service-ATVP-32-WEBRip",
+      "candidates": [
+        "Film 2026 1080p atvp WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -385,6 +526,9 @@
     },
     {
       "case": "service-reverse-ATVP-32-WEBRip",
+      "candidates": [
+        "Film 2026 WEBRip ATVP 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -393,6 +537,9 @@
     },
     {
       "case": "service-ATVP-95-WEB-DL",
+      "candidates": [
+        "Film_2026_1080p_atvp_WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -401,6 +548,9 @@
     },
     {
       "case": "service-reverse-ATVP-95-WEB-DL",
+      "candidates": [
+        "Film_2026_WEB-DL_ATVP_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -409,6 +559,9 @@
     },
     {
       "case": "service-ATVP-95-WEBRip",
+      "candidates": [
+        "Film_2026_1080p_atvp_WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -417,6 +570,9 @@
     },
     {
       "case": "service-reverse-ATVP-95-WEBRip",
+      "candidates": [
+        "Film_2026_WEBRip_ATVP_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -425,6 +581,9 @@
     },
     {
       "case": "service-AMZN-46-WEB-DL",
+      "candidates": [
+        "Film.2026.1080p.amzn.WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -433,6 +592,9 @@
     },
     {
       "case": "service-reverse-AMZN-46-WEB-DL",
+      "candidates": [
+        "Film.2026.WEB-DL.AMZN.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -441,6 +603,9 @@
     },
     {
       "case": "service-AMZN-46-WEBRip",
+      "candidates": [
+        "Film.2026.1080p.amzn.WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -449,6 +614,9 @@
     },
     {
       "case": "service-reverse-AMZN-46-WEBRip",
+      "candidates": [
+        "Film.2026.WEBRip.AMZN.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -457,6 +625,9 @@
     },
     {
       "case": "service-AMZN-45-WEB-DL",
+      "candidates": [
+        "Film-2026-1080p-amzn-WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -465,6 +636,9 @@
     },
     {
       "case": "service-reverse-AMZN-45-WEB-DL",
+      "candidates": [
+        "Film-2026-WEB-DL-AMZN-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -473,6 +647,9 @@
     },
     {
       "case": "service-AMZN-45-WEBRip",
+      "candidates": [
+        "Film-2026-1080p-amzn-WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -481,6 +658,9 @@
     },
     {
       "case": "service-reverse-AMZN-45-WEBRip",
+      "candidates": [
+        "Film-2026-WEBRip-AMZN-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -489,6 +669,9 @@
     },
     {
       "case": "service-AMZN-32-WEB-DL",
+      "candidates": [
+        "Film 2026 1080p amzn WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -497,6 +680,9 @@
     },
     {
       "case": "service-reverse-AMZN-32-WEB-DL",
+      "candidates": [
+        "Film 2026 WEB-DL AMZN 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -505,6 +691,9 @@
     },
     {
       "case": "service-AMZN-32-WEBRip",
+      "candidates": [
+        "Film 2026 1080p amzn WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -513,6 +702,9 @@
     },
     {
       "case": "service-reverse-AMZN-32-WEBRip",
+      "candidates": [
+        "Film 2026 WEBRip AMZN 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -521,6 +713,9 @@
     },
     {
       "case": "service-AMZN-95-WEB-DL",
+      "candidates": [
+        "Film_2026_1080p_amzn_WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -529,6 +724,9 @@
     },
     {
       "case": "service-reverse-AMZN-95-WEB-DL",
+      "candidates": [
+        "Film_2026_WEB-DL_AMZN_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -537,6 +735,9 @@
     },
     {
       "case": "service-AMZN-95-WEBRip",
+      "candidates": [
+        "Film_2026_1080p_amzn_WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -545,6 +746,9 @@
     },
     {
       "case": "service-reverse-AMZN-95-WEBRip",
+      "candidates": [
+        "Film_2026_WEBRip_AMZN_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -553,6 +757,9 @@
     },
     {
       "case": "service-DSNP-46-WEB-DL",
+      "candidates": [
+        "Film.2026.1080p.dsnp.WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -561,6 +768,9 @@
     },
     {
       "case": "service-reverse-DSNP-46-WEB-DL",
+      "candidates": [
+        "Film.2026.WEB-DL.DSNP.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -569,6 +779,9 @@
     },
     {
       "case": "service-DSNP-46-WEBRip",
+      "candidates": [
+        "Film.2026.1080p.dsnp.WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -577,6 +790,9 @@
     },
     {
       "case": "service-reverse-DSNP-46-WEBRip",
+      "candidates": [
+        "Film.2026.WEBRip.DSNP.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -585,6 +801,9 @@
     },
     {
       "case": "service-DSNP-45-WEB-DL",
+      "candidates": [
+        "Film-2026-1080p-dsnp-WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -593,6 +812,9 @@
     },
     {
       "case": "service-reverse-DSNP-45-WEB-DL",
+      "candidates": [
+        "Film-2026-WEB-DL-DSNP-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -601,6 +823,9 @@
     },
     {
       "case": "service-DSNP-45-WEBRip",
+      "candidates": [
+        "Film-2026-1080p-dsnp-WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -609,6 +834,9 @@
     },
     {
       "case": "service-reverse-DSNP-45-WEBRip",
+      "candidates": [
+        "Film-2026-WEBRip-DSNP-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -617,6 +845,9 @@
     },
     {
       "case": "service-DSNP-32-WEB-DL",
+      "candidates": [
+        "Film 2026 1080p dsnp WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -625,6 +856,9 @@
     },
     {
       "case": "service-reverse-DSNP-32-WEB-DL",
+      "candidates": [
+        "Film 2026 WEB-DL DSNP 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -633,6 +867,9 @@
     },
     {
       "case": "service-DSNP-32-WEBRip",
+      "candidates": [
+        "Film 2026 1080p dsnp WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -641,6 +878,9 @@
     },
     {
       "case": "service-reverse-DSNP-32-WEBRip",
+      "candidates": [
+        "Film 2026 WEBRip DSNP 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -649,6 +889,9 @@
     },
     {
       "case": "service-DSNP-95-WEB-DL",
+      "candidates": [
+        "Film_2026_1080p_dsnp_WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -657,6 +900,9 @@
     },
     {
       "case": "service-reverse-DSNP-95-WEB-DL",
+      "candidates": [
+        "Film_2026_WEB-DL_DSNP_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -665,6 +911,9 @@
     },
     {
       "case": "service-DSNP-95-WEBRip",
+      "candidates": [
+        "Film_2026_1080p_dsnp_WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -673,6 +922,9 @@
     },
     {
       "case": "service-reverse-DSNP-95-WEBRip",
+      "candidates": [
+        "Film_2026_WEBRip_DSNP_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -681,6 +933,9 @@
     },
     {
       "case": "service-HMAX-46-WEB-DL",
+      "candidates": [
+        "Film.2026.1080p.hmax.WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -689,6 +944,9 @@
     },
     {
       "case": "service-reverse-HMAX-46-WEB-DL",
+      "candidates": [
+        "Film.2026.WEB-DL.HMAX.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -697,6 +955,9 @@
     },
     {
       "case": "service-HMAX-46-WEBRip",
+      "candidates": [
+        "Film.2026.1080p.hmax.WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -705,6 +966,9 @@
     },
     {
       "case": "service-reverse-HMAX-46-WEBRip",
+      "candidates": [
+        "Film.2026.WEBRip.HMAX.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -713,6 +977,9 @@
     },
     {
       "case": "service-HMAX-45-WEB-DL",
+      "candidates": [
+        "Film-2026-1080p-hmax-WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -721,6 +988,9 @@
     },
     {
       "case": "service-reverse-HMAX-45-WEB-DL",
+      "candidates": [
+        "Film-2026-WEB-DL-HMAX-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -729,6 +999,9 @@
     },
     {
       "case": "service-HMAX-45-WEBRip",
+      "candidates": [
+        "Film-2026-1080p-hmax-WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -737,6 +1010,9 @@
     },
     {
       "case": "service-reverse-HMAX-45-WEBRip",
+      "candidates": [
+        "Film-2026-WEBRip-HMAX-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -745,6 +1021,9 @@
     },
     {
       "case": "service-HMAX-32-WEB-DL",
+      "candidates": [
+        "Film 2026 1080p hmax WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -753,6 +1032,9 @@
     },
     {
       "case": "service-reverse-HMAX-32-WEB-DL",
+      "candidates": [
+        "Film 2026 WEB-DL HMAX 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -761,6 +1043,9 @@
     },
     {
       "case": "service-HMAX-32-WEBRip",
+      "candidates": [
+        "Film 2026 1080p hmax WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -769,6 +1054,9 @@
     },
     {
       "case": "service-reverse-HMAX-32-WEBRip",
+      "candidates": [
+        "Film 2026 WEBRip HMAX 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -777,6 +1065,9 @@
     },
     {
       "case": "service-HMAX-95-WEB-DL",
+      "candidates": [
+        "Film_2026_1080p_hmax_WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -785,6 +1076,9 @@
     },
     {
       "case": "service-reverse-HMAX-95-WEB-DL",
+      "candidates": [
+        "Film_2026_WEB-DL_HMAX_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -793,6 +1087,9 @@
     },
     {
       "case": "service-HMAX-95-WEBRip",
+      "candidates": [
+        "Film_2026_1080p_hmax_WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -801,6 +1098,9 @@
     },
     {
       "case": "service-reverse-HMAX-95-WEBRip",
+      "candidates": [
+        "Film_2026_WEBRip_HMAX_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -809,6 +1109,9 @@
     },
     {
       "case": "service-HBOMAX-46-WEB-DL",
+      "candidates": [
+        "Film.2026.1080p.hbomax.WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -817,6 +1120,9 @@
     },
     {
       "case": "service-reverse-HBOMAX-46-WEB-DL",
+      "candidates": [
+        "Film.2026.WEB-DL.HBOMAX.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -825,6 +1131,9 @@
     },
     {
       "case": "service-HBOMAX-46-WEBRip",
+      "candidates": [
+        "Film.2026.1080p.hbomax.WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -833,6 +1142,9 @@
     },
     {
       "case": "service-reverse-HBOMAX-46-WEBRip",
+      "candidates": [
+        "Film.2026.WEBRip.HBOMAX.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -841,6 +1153,9 @@
     },
     {
       "case": "service-HBOMAX-45-WEB-DL",
+      "candidates": [
+        "Film-2026-1080p-hbomax-WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -849,6 +1164,9 @@
     },
     {
       "case": "service-reverse-HBOMAX-45-WEB-DL",
+      "candidates": [
+        "Film-2026-WEB-DL-HBOMAX-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -857,6 +1175,9 @@
     },
     {
       "case": "service-HBOMAX-45-WEBRip",
+      "candidates": [
+        "Film-2026-1080p-hbomax-WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -865,6 +1186,9 @@
     },
     {
       "case": "service-reverse-HBOMAX-45-WEBRip",
+      "candidates": [
+        "Film-2026-WEBRip-HBOMAX-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -873,6 +1197,9 @@
     },
     {
       "case": "service-HBOMAX-32-WEB-DL",
+      "candidates": [
+        "Film 2026 1080p hbomax WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -881,6 +1208,9 @@
     },
     {
       "case": "service-reverse-HBOMAX-32-WEB-DL",
+      "candidates": [
+        "Film 2026 WEB-DL HBOMAX 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -889,6 +1219,9 @@
     },
     {
       "case": "service-HBOMAX-32-WEBRip",
+      "candidates": [
+        "Film 2026 1080p hbomax WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -897,6 +1230,9 @@
     },
     {
       "case": "service-reverse-HBOMAX-32-WEBRip",
+      "candidates": [
+        "Film 2026 WEBRip HBOMAX 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -905,6 +1241,9 @@
     },
     {
       "case": "service-HBOMAX-95-WEB-DL",
+      "candidates": [
+        "Film_2026_1080p_hbomax_WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -913,6 +1252,9 @@
     },
     {
       "case": "service-reverse-HBOMAX-95-WEB-DL",
+      "candidates": [
+        "Film_2026_WEB-DL_HBOMAX_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -921,6 +1263,9 @@
     },
     {
       "case": "service-HBOMAX-95-WEBRip",
+      "candidates": [
+        "Film_2026_1080p_hbomax_WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -929,6 +1274,9 @@
     },
     {
       "case": "service-reverse-HBOMAX-95-WEBRip",
+      "candidates": [
+        "Film_2026_WEBRip_HBOMAX_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -937,6 +1285,9 @@
     },
     {
       "case": "service-SKYSHOWTIME-46-WEB-DL",
+      "candidates": [
+        "Film.2026.1080p.skyshowtime.WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -945,6 +1296,9 @@
     },
     {
       "case": "service-reverse-SKYSHOWTIME-46-WEB-DL",
+      "candidates": [
+        "Film.2026.WEB-DL.SKYSHOWTIME.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -953,6 +1307,9 @@
     },
     {
       "case": "service-SKYSHOWTIME-46-WEBRip",
+      "candidates": [
+        "Film.2026.1080p.skyshowtime.WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -961,6 +1318,9 @@
     },
     {
       "case": "service-reverse-SKYSHOWTIME-46-WEBRip",
+      "candidates": [
+        "Film.2026.WEBRip.SKYSHOWTIME.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -969,6 +1329,9 @@
     },
     {
       "case": "service-SKYSHOWTIME-45-WEB-DL",
+      "candidates": [
+        "Film-2026-1080p-skyshowtime-WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -977,6 +1340,9 @@
     },
     {
       "case": "service-reverse-SKYSHOWTIME-45-WEB-DL",
+      "candidates": [
+        "Film-2026-WEB-DL-SKYSHOWTIME-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -985,6 +1351,9 @@
     },
     {
       "case": "service-SKYSHOWTIME-45-WEBRip",
+      "candidates": [
+        "Film-2026-1080p-skyshowtime-WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -993,6 +1362,9 @@
     },
     {
       "case": "service-reverse-SKYSHOWTIME-45-WEBRip",
+      "candidates": [
+        "Film-2026-WEBRip-SKYSHOWTIME-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1001,6 +1373,9 @@
     },
     {
       "case": "service-SKYSHOWTIME-32-WEB-DL",
+      "candidates": [
+        "Film 2026 1080p skyshowtime WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1009,6 +1384,9 @@
     },
     {
       "case": "service-reverse-SKYSHOWTIME-32-WEB-DL",
+      "candidates": [
+        "Film 2026 WEB-DL SKYSHOWTIME 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1017,6 +1395,9 @@
     },
     {
       "case": "service-SKYSHOWTIME-32-WEBRip",
+      "candidates": [
+        "Film 2026 1080p skyshowtime WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1025,6 +1406,9 @@
     },
     {
       "case": "service-reverse-SKYSHOWTIME-32-WEBRip",
+      "candidates": [
+        "Film 2026 WEBRip SKYSHOWTIME 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1033,6 +1417,9 @@
     },
     {
       "case": "service-SKYSHOWTIME-95-WEB-DL",
+      "candidates": [
+        "Film_2026_1080p_skyshowtime_WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1041,6 +1428,9 @@
     },
     {
       "case": "service-reverse-SKYSHOWTIME-95-WEB-DL",
+      "candidates": [
+        "Film_2026_WEB-DL_SKYSHOWTIME_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1049,6 +1439,9 @@
     },
     {
       "case": "service-SKYSHOWTIME-95-WEBRip",
+      "candidates": [
+        "Film_2026_1080p_skyshowtime_WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1057,6 +1450,9 @@
     },
     {
       "case": "service-reverse-SKYSHOWTIME-95-WEBRip",
+      "candidates": [
+        "Film_2026_WEBRip_SKYSHOWTIME_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1065,6 +1461,9 @@
     },
     {
       "case": "service-SKST-46-WEB-DL",
+      "candidates": [
+        "Film.2026.1080p.skst.WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1073,6 +1472,9 @@
     },
     {
       "case": "service-reverse-SKST-46-WEB-DL",
+      "candidates": [
+        "Film.2026.WEB-DL.SKST.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1081,6 +1483,9 @@
     },
     {
       "case": "service-SKST-46-WEBRip",
+      "candidates": [
+        "Film.2026.1080p.skst.WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1089,6 +1494,9 @@
     },
     {
       "case": "service-reverse-SKST-46-WEBRip",
+      "candidates": [
+        "Film.2026.WEBRip.SKST.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1097,6 +1505,9 @@
     },
     {
       "case": "service-SKST-45-WEB-DL",
+      "candidates": [
+        "Film-2026-1080p-skst-WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1105,6 +1516,9 @@
     },
     {
       "case": "service-reverse-SKST-45-WEB-DL",
+      "candidates": [
+        "Film-2026-WEB-DL-SKST-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1113,6 +1527,9 @@
     },
     {
       "case": "service-SKST-45-WEBRip",
+      "candidates": [
+        "Film-2026-1080p-skst-WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1121,6 +1538,9 @@
     },
     {
       "case": "service-reverse-SKST-45-WEBRip",
+      "candidates": [
+        "Film-2026-WEBRip-SKST-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1129,6 +1549,9 @@
     },
     {
       "case": "service-SKST-32-WEB-DL",
+      "candidates": [
+        "Film 2026 1080p skst WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1137,6 +1560,9 @@
     },
     {
       "case": "service-reverse-SKST-32-WEB-DL",
+      "candidates": [
+        "Film 2026 WEB-DL SKST 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1145,6 +1571,9 @@
     },
     {
       "case": "service-SKST-32-WEBRip",
+      "candidates": [
+        "Film 2026 1080p skst WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1153,6 +1582,9 @@
     },
     {
       "case": "service-reverse-SKST-32-WEBRip",
+      "candidates": [
+        "Film 2026 WEBRip SKST 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1161,6 +1593,9 @@
     },
     {
       "case": "service-SKST-95-WEB-DL",
+      "candidates": [
+        "Film_2026_1080p_skst_WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1169,6 +1604,9 @@
     },
     {
       "case": "service-reverse-SKST-95-WEB-DL",
+      "candidates": [
+        "Film_2026_WEB-DL_SKST_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1177,6 +1615,9 @@
     },
     {
       "case": "service-SKST-95-WEBRip",
+      "candidates": [
+        "Film_2026_1080p_skst_WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1185,6 +1626,9 @@
     },
     {
       "case": "service-reverse-SKST-95-WEBRip",
+      "candidates": [
+        "Film_2026_WEBRip_SKST_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1193,6 +1637,9 @@
     },
     {
       "case": "service-SKYSHO-46-WEB-DL",
+      "candidates": [
+        "Film.2026.1080p.skysho.WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1201,6 +1648,9 @@
     },
     {
       "case": "service-reverse-SKYSHO-46-WEB-DL",
+      "candidates": [
+        "Film.2026.WEB-DL.SKYSHO.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1209,6 +1659,9 @@
     },
     {
       "case": "service-SKYSHO-46-WEBRip",
+      "candidates": [
+        "Film.2026.1080p.skysho.WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1217,6 +1670,9 @@
     },
     {
       "case": "service-reverse-SKYSHO-46-WEBRip",
+      "candidates": [
+        "Film.2026.WEBRip.SKYSHO.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1225,6 +1681,9 @@
     },
     {
       "case": "service-SKYSHO-45-WEB-DL",
+      "candidates": [
+        "Film-2026-1080p-skysho-WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1233,6 +1692,9 @@
     },
     {
       "case": "service-reverse-SKYSHO-45-WEB-DL",
+      "candidates": [
+        "Film-2026-WEB-DL-SKYSHO-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1241,6 +1703,9 @@
     },
     {
       "case": "service-SKYSHO-45-WEBRip",
+      "candidates": [
+        "Film-2026-1080p-skysho-WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1249,6 +1714,9 @@
     },
     {
       "case": "service-reverse-SKYSHO-45-WEBRip",
+      "candidates": [
+        "Film-2026-WEBRip-SKYSHO-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1257,6 +1725,9 @@
     },
     {
       "case": "service-SKYSHO-32-WEB-DL",
+      "candidates": [
+        "Film 2026 1080p skysho WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1265,6 +1736,9 @@
     },
     {
       "case": "service-reverse-SKYSHO-32-WEB-DL",
+      "candidates": [
+        "Film 2026 WEB-DL SKYSHO 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1273,6 +1747,9 @@
     },
     {
       "case": "service-SKYSHO-32-WEBRip",
+      "candidates": [
+        "Film 2026 1080p skysho WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1281,6 +1758,9 @@
     },
     {
       "case": "service-reverse-SKYSHO-32-WEBRip",
+      "candidates": [
+        "Film 2026 WEBRip SKYSHO 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1289,6 +1769,9 @@
     },
     {
       "case": "service-SKYSHO-95-WEB-DL",
+      "candidates": [
+        "Film_2026_1080p_skysho_WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1297,6 +1780,9 @@
     },
     {
       "case": "service-reverse-SKYSHO-95-WEB-DL",
+      "candidates": [
+        "Film_2026_WEB-DL_SKYSHO_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1305,6 +1791,9 @@
     },
     {
       "case": "service-SKYSHO-95-WEBRip",
+      "candidates": [
+        "Film_2026_1080p_skysho_WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1313,6 +1802,9 @@
     },
     {
       "case": "service-reverse-SKYSHO-95-WEBRip",
+      "candidates": [
+        "Film_2026_WEBRip_SKYSHO_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1321,6 +1813,9 @@
     },
     {
       "case": "service-PMTP-46-WEB-DL",
+      "candidates": [
+        "Film.2026.1080p.pmtp.WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1329,6 +1824,9 @@
     },
     {
       "case": "service-reverse-PMTP-46-WEB-DL",
+      "candidates": [
+        "Film.2026.WEB-DL.PMTP.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1337,6 +1835,9 @@
     },
     {
       "case": "service-PMTP-46-WEBRip",
+      "candidates": [
+        "Film.2026.1080p.pmtp.WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1345,6 +1846,9 @@
     },
     {
       "case": "service-reverse-PMTP-46-WEBRip",
+      "candidates": [
+        "Film.2026.WEBRip.PMTP.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1353,6 +1857,9 @@
     },
     {
       "case": "service-PMTP-45-WEB-DL",
+      "candidates": [
+        "Film-2026-1080p-pmtp-WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1361,6 +1868,9 @@
     },
     {
       "case": "service-reverse-PMTP-45-WEB-DL",
+      "candidates": [
+        "Film-2026-WEB-DL-PMTP-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1369,6 +1879,9 @@
     },
     {
       "case": "service-PMTP-45-WEBRip",
+      "candidates": [
+        "Film-2026-1080p-pmtp-WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1377,6 +1890,9 @@
     },
     {
       "case": "service-reverse-PMTP-45-WEBRip",
+      "candidates": [
+        "Film-2026-WEBRip-PMTP-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1385,6 +1901,9 @@
     },
     {
       "case": "service-PMTP-32-WEB-DL",
+      "candidates": [
+        "Film 2026 1080p pmtp WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1393,6 +1912,9 @@
     },
     {
       "case": "service-reverse-PMTP-32-WEB-DL",
+      "candidates": [
+        "Film 2026 WEB-DL PMTP 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1401,6 +1923,9 @@
     },
     {
       "case": "service-PMTP-32-WEBRip",
+      "candidates": [
+        "Film 2026 1080p pmtp WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1409,6 +1934,9 @@
     },
     {
       "case": "service-reverse-PMTP-32-WEBRip",
+      "candidates": [
+        "Film 2026 WEBRip PMTP 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1417,6 +1945,9 @@
     },
     {
       "case": "service-PMTP-95-WEB-DL",
+      "candidates": [
+        "Film_2026_1080p_pmtp_WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1425,6 +1956,9 @@
     },
     {
       "case": "service-reverse-PMTP-95-WEB-DL",
+      "candidates": [
+        "Film_2026_WEB-DL_PMTP_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1433,6 +1967,9 @@
     },
     {
       "case": "service-PMTP-95-WEBRip",
+      "candidates": [
+        "Film_2026_1080p_pmtp_WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1441,6 +1978,9 @@
     },
     {
       "case": "service-reverse-PMTP-95-WEBRip",
+      "candidates": [
+        "Film_2026_WEBRip_PMTP_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1449,6 +1989,9 @@
     },
     {
       "case": "service-PCOK-46-WEB-DL",
+      "candidates": [
+        "Film.2026.1080p.pcok.WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1457,6 +2000,9 @@
     },
     {
       "case": "service-reverse-PCOK-46-WEB-DL",
+      "candidates": [
+        "Film.2026.WEB-DL.PCOK.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1465,6 +2011,9 @@
     },
     {
       "case": "service-PCOK-46-WEBRip",
+      "candidates": [
+        "Film.2026.1080p.pcok.WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1473,6 +2022,9 @@
     },
     {
       "case": "service-reverse-PCOK-46-WEBRip",
+      "candidates": [
+        "Film.2026.WEBRip.PCOK.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1481,6 +2033,9 @@
     },
     {
       "case": "service-PCOK-45-WEB-DL",
+      "candidates": [
+        "Film-2026-1080p-pcok-WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1489,6 +2044,9 @@
     },
     {
       "case": "service-reverse-PCOK-45-WEB-DL",
+      "candidates": [
+        "Film-2026-WEB-DL-PCOK-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1497,6 +2055,9 @@
     },
     {
       "case": "service-PCOK-45-WEBRip",
+      "candidates": [
+        "Film-2026-1080p-pcok-WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1505,6 +2066,9 @@
     },
     {
       "case": "service-reverse-PCOK-45-WEBRip",
+      "candidates": [
+        "Film-2026-WEBRip-PCOK-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1513,6 +2077,9 @@
     },
     {
       "case": "service-PCOK-32-WEB-DL",
+      "candidates": [
+        "Film 2026 1080p pcok WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1521,6 +2088,9 @@
     },
     {
       "case": "service-reverse-PCOK-32-WEB-DL",
+      "candidates": [
+        "Film 2026 WEB-DL PCOK 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1529,6 +2099,9 @@
     },
     {
       "case": "service-PCOK-32-WEBRip",
+      "candidates": [
+        "Film 2026 1080p pcok WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1537,6 +2110,9 @@
     },
     {
       "case": "service-reverse-PCOK-32-WEBRip",
+      "candidates": [
+        "Film 2026 WEBRip PCOK 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1545,6 +2121,9 @@
     },
     {
       "case": "service-PCOK-95-WEB-DL",
+      "candidates": [
+        "Film_2026_1080p_pcok_WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1553,6 +2132,9 @@
     },
     {
       "case": "service-reverse-PCOK-95-WEB-DL",
+      "candidates": [
+        "Film_2026_WEB-DL_PCOK_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1561,6 +2143,9 @@
     },
     {
       "case": "service-PCOK-95-WEBRip",
+      "candidates": [
+        "Film_2026_1080p_pcok_WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1569,6 +2154,9 @@
     },
     {
       "case": "service-reverse-PCOK-95-WEBRip",
+      "candidates": [
+        "Film_2026_WEBRip_PCOK_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1577,6 +2165,9 @@
     },
     {
       "case": "service-HULU-46-WEB-DL",
+      "candidates": [
+        "Film.2026.1080p.hulu.WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1585,6 +2176,9 @@
     },
     {
       "case": "service-reverse-HULU-46-WEB-DL",
+      "candidates": [
+        "Film.2026.WEB-DL.HULU.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1593,6 +2187,9 @@
     },
     {
       "case": "service-HULU-46-WEBRip",
+      "candidates": [
+        "Film.2026.1080p.hulu.WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1601,6 +2198,9 @@
     },
     {
       "case": "service-reverse-HULU-46-WEBRip",
+      "candidates": [
+        "Film.2026.WEBRip.HULU.1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1609,6 +2209,9 @@
     },
     {
       "case": "service-HULU-45-WEB-DL",
+      "candidates": [
+        "Film-2026-1080p-hulu-WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1617,6 +2220,9 @@
     },
     {
       "case": "service-reverse-HULU-45-WEB-DL",
+      "candidates": [
+        "Film-2026-WEB-DL-HULU-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1625,6 +2231,9 @@
     },
     {
       "case": "service-HULU-45-WEBRip",
+      "candidates": [
+        "Film-2026-1080p-hulu-WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1633,6 +2242,9 @@
     },
     {
       "case": "service-reverse-HULU-45-WEBRip",
+      "candidates": [
+        "Film-2026-WEBRip-HULU-1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1641,6 +2253,9 @@
     },
     {
       "case": "service-HULU-32-WEB-DL",
+      "candidates": [
+        "Film 2026 1080p hulu WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1649,6 +2264,9 @@
     },
     {
       "case": "service-reverse-HULU-32-WEB-DL",
+      "candidates": [
+        "Film 2026 WEB-DL HULU 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1657,6 +2275,9 @@
     },
     {
       "case": "service-HULU-32-WEBRip",
+      "candidates": [
+        "Film 2026 1080p hulu WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1665,6 +2286,9 @@
     },
     {
       "case": "service-reverse-HULU-32-WEBRip",
+      "candidates": [
+        "Film 2026 WEBRip HULU 1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1673,6 +2297,9 @@
     },
     {
       "case": "service-HULU-95-WEB-DL",
+      "candidates": [
+        "Film_2026_1080p_hulu_WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1681,6 +2308,9 @@
     },
     {
       "case": "service-reverse-HULU-95-WEB-DL",
+      "candidates": [
+        "Film_2026_WEB-DL_HULU_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webdl",
@@ -1689,6 +2319,9 @@
     },
     {
       "case": "service-HULU-95-WEBRip",
+      "candidates": [
+        "Film_2026_1080p_hulu_WEBRip"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1697,6 +2330,9 @@
     },
     {
       "case": "service-reverse-HULU-95-WEBRip",
+      "candidates": [
+        "Film_2026_WEBRip_HULU_1080p"
+      ],
       "matched": [
         "r-1080",
         "q-webrip",
@@ -1705,168 +2341,252 @@
     },
     {
       "case": "network-s-netflix-📡 ",
+      "candidates": [
+        "📡 Netflix]"
+      ],
       "matched": [
         "s-netflix"
       ]
     },
     {
       "case": "network-s-netflix-Network: ",
+      "candidates": [
+        "Network: Netflix]"
+      ],
       "matched": [
         "s-netflix"
       ]
     },
     {
       "case": "network-s-netflix-[FIGUZ_NETWORK=",
+      "candidates": [
+        "[FIGUZ_NETWORK=Netflix]"
+      ],
       "matched": [
         "s-netflix"
       ]
     },
     {
       "case": "network-s-appletv-📡 ",
+      "candidates": [
+        "📡 Apple TV+]"
+      ],
       "matched": [
         "s-appletv"
       ]
     },
     {
       "case": "network-s-appletv-Network: ",
+      "candidates": [
+        "Network: Apple TV+]"
+      ],
       "matched": [
         "s-appletv"
       ]
     },
     {
       "case": "network-s-appletv-[FIGUZ_NETWORK=",
+      "candidates": [
+        "[FIGUZ_NETWORK=Apple TV+]"
+      ],
       "matched": [
         "s-appletv"
       ]
     },
     {
       "case": "network-s-prime-📡 ",
+      "candidates": [
+        "📡 Amazon Prime Video]"
+      ],
       "matched": [
         "s-prime"
       ]
     },
     {
       "case": "network-s-prime-Network: ",
+      "candidates": [
+        "Network: Amazon Prime Video]"
+      ],
       "matched": [
         "s-prime"
       ]
     },
     {
       "case": "network-s-prime-[FIGUZ_NETWORK=",
+      "candidates": [
+        "[FIGUZ_NETWORK=Amazon Prime Video]"
+      ],
       "matched": [
         "s-prime"
       ]
     },
     {
       "case": "network-s-disney-📡 ",
+      "candidates": [
+        "📡 Disney+]"
+      ],
       "matched": [
         "s-disney"
       ]
     },
     {
       "case": "network-s-disney-Network: ",
+      "candidates": [
+        "Network: Disney+]"
+      ],
       "matched": [
         "s-disney"
       ]
     },
     {
       "case": "network-s-disney-[FIGUZ_NETWORK=",
+      "candidates": [
+        "[FIGUZ_NETWORK=Disney+]"
+      ],
       "matched": [
         "s-disney"
       ]
     },
     {
       "case": "network-s-hbomax-📡 ",
+      "candidates": [
+        "📡 HBO Max]"
+      ],
       "matched": [
         "s-hbomax"
       ]
     },
     {
       "case": "network-s-hbomax-Network: ",
+      "candidates": [
+        "Network: HBO Max]"
+      ],
       "matched": [
         "s-hbomax"
       ]
     },
     {
       "case": "network-s-hbomax-[FIGUZ_NETWORK=",
+      "candidates": [
+        "[FIGUZ_NETWORK=HBO Max]"
+      ],
       "matched": [
         "s-hbomax"
       ]
     },
     {
       "case": "network-s-skyshowtime-📡 ",
+      "candidates": [
+        "📡 SkyShowtime]"
+      ],
       "matched": [
         "s-skyshowtime"
       ]
     },
     {
       "case": "network-s-skyshowtime-Network: ",
+      "candidates": [
+        "Network: SkyShowtime]"
+      ],
       "matched": [
         "s-skyshowtime"
       ]
     },
     {
       "case": "network-s-skyshowtime-[FIGUZ_NETWORK=",
+      "candidates": [
+        "[FIGUZ_NETWORK=SkyShowtime]"
+      ],
       "matched": [
         "s-skyshowtime"
       ]
     },
     {
       "case": "network-s-paramount-📡 ",
+      "candidates": [
+        "📡 Paramount+]"
+      ],
       "matched": [
         "s-paramount"
       ]
     },
     {
       "case": "network-s-paramount-Network: ",
+      "candidates": [
+        "Network: Paramount+]"
+      ],
       "matched": [
         "s-paramount"
       ]
     },
     {
       "case": "network-s-paramount-[FIGUZ_NETWORK=",
+      "candidates": [
+        "[FIGUZ_NETWORK=Paramount+]"
+      ],
       "matched": [
         "s-paramount"
       ]
     },
     {
       "case": "network-s-peacock-📡 ",
+      "candidates": [
+        "📡 Peacock]"
+      ],
       "matched": [
         "s-peacock"
       ]
     },
     {
       "case": "network-s-peacock-Network: ",
+      "candidates": [
+        "Network: Peacock]"
+      ],
       "matched": [
         "s-peacock"
       ]
     },
     {
       "case": "network-s-peacock-[FIGUZ_NETWORK=",
+      "candidates": [
+        "[FIGUZ_NETWORK=Peacock]"
+      ],
       "matched": [
         "s-peacock"
       ]
     },
     {
       "case": "network-s-hulu-📡 ",
+      "candidates": [
+        "📡 Hulu]"
+      ],
       "matched": [
         "s-hulu"
       ]
     },
     {
       "case": "network-s-hulu-Network: ",
+      "candidates": [
+        "Network: Hulu]"
+      ],
       "matched": [
         "s-hulu"
       ]
     },
     {
       "case": "network-s-hulu-[FIGUZ_NETWORK=",
+      "candidates": [
+        "[FIGUZ_NETWORK=Hulu]"
+      ],
       "matched": [
         "s-hulu"
       ]
     },
     {
       "case": "no-service-0",
+      "candidates": [
+        "The.Apple.2026.1080p.WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl"
@@ -1874,6 +2594,9 @@
     },
     {
       "case": "no-service-1",
+      "candidates": [
+        "Mad.Max.2015.2160p.WEB-DL"
+      ],
       "matched": [
         "r-2160",
         "q-webdl"
@@ -1881,28 +2604,46 @@
     },
     {
       "case": "no-service-2",
+      "candidates": [
+        "MAX"
+      ],
       "matched": []
     },
     {
       "case": "no-service-3",
+      "candidates": [
+        "ATV"
+      ],
       "matched": []
     },
     {
       "case": "no-service-4",
+      "candidates": [
+        "NF"
+      ],
       "matched": []
     },
     {
       "case": "no-service-5",
+      "candidates": [
+        "NFLX"
+      ],
       "matched": []
     },
     {
       "case": "no-service-6",
+      "candidates": [
+        "Netflix.and.Chill.2026.WEB-DL"
+      ],
       "matched": [
         "q-webdl"
       ]
     },
     {
       "case": "no-service-7",
+      "candidates": [
+        "Hulu.2026.1080p.WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl"
@@ -1910,6 +2651,9 @@
     },
     {
       "case": "no-service-8",
+      "candidates": [
+        "Peacock.2010.1080p.WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl"
@@ -1917,30 +2661,45 @@
     },
     {
       "case": "no-service-9",
+      "candidates": [
+        "Sky.2026.WEB-DL"
+      ],
       "matched": [
         "q-webdl"
       ]
     },
     {
       "case": "no-service-10",
+      "candidates": [
+        "HBO.2026.WEB-DL"
+      ],
       "matched": [
         "q-webdl"
       ]
     },
     {
       "case": "no-service-11",
+      "candidates": [
+        "NFish.WEB-DL"
+      ],
       "matched": [
         "q-webdl"
       ]
     },
     {
       "case": "no-service-12",
+      "candidates": [
+        "WEB-DL.ATVPLUS"
+      ],
       "matched": [
         "q-webdl"
       ]
     },
     {
       "case": "no-service-13",
+      "candidates": [
+        "Film.2026.1080p.WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl"
@@ -1948,100 +2707,151 @@
     },
     {
       "case": "no-service-14",
+      "candidates": [
+        "An.Apple.TV.Story.2026.WEB-DL"
+      ],
       "matched": [
         "q-webdl"
       ]
     },
     {
       "case": "codec-H265",
+      "candidates": [
+        "h265"
+      ],
       "matched": [
         "c-hevc"
       ]
     },
     {
       "case": "codec-H.265",
+      "candidates": [
+        "h.265"
+      ],
       "matched": [
         "c-hevc"
       ]
     },
     {
       "case": "codec-H-265",
+      "candidates": [
+        "h-265"
+      ],
       "matched": [
         "c-hevc"
       ]
     },
     {
       "case": "codec-H_265",
+      "candidates": [
+        "h_265"
+      ],
       "matched": [
         "c-hevc"
       ]
     },
     {
       "case": "codec-x265",
+      "candidates": [
+        "x265"
+      ],
       "matched": [
         "c-hevc"
       ]
     },
     {
       "case": "codec-HEVC",
+      "candidates": [
+        "hevc"
+      ],
       "matched": [
         "c-hevc"
       ]
     },
     {
       "case": "codec-H264",
+      "candidates": [
+        "h264"
+      ],
       "matched": [
         "c-avc"
       ]
     },
     {
       "case": "codec-H.264",
+      "candidates": [
+        "h.264"
+      ],
       "matched": [
         "c-avc"
       ]
     },
     {
       "case": "codec-x264",
+      "candidates": [
+        "x264"
+      ],
       "matched": [
         "c-avc"
       ]
     },
     {
       "case": "codec-AVC",
+      "candidates": [
+        "avc"
+      ],
       "matched": [
         "c-avc"
       ]
     },
     {
       "case": "codec-AV1",
+      "candidates": [
+        "av1"
+      ],
       "matched": [
         "c-av1"
       ]
     },
     {
       "case": "codec-dedupe",
+      "candidates": [
+        "HEVC.H.265.x265.HEVC"
+      ],
       "matched": [
         "c-hevc"
       ]
     },
     {
       "case": "codec-priority-av1",
+      "candidates": [
+        "AV1.HEVC.AVC"
+      ],
       "matched": [
         "c-av1"
       ]
     },
     {
       "case": "codec-priority-hevc",
+      "candidates": [
+        "HEVC.AVC.H.264"
+      ],
       "matched": [
         "c-hevc"
       ]
     },
     {
       "case": "codec-no-partials",
+      "candidates": [
+        "AV10.X2650.H2640.HEVCish"
+      ],
       "matched": []
     },
     {
       "case": "audio-TrueHD5.1",
+      "candidates": [
+        "TrueHD5.1"
+      ],
       "matched": [
         "a-truehd",
         "ch-51"
@@ -2049,6 +2859,9 @@
     },
     {
       "case": "audio-TrueHD.5.1",
+      "candidates": [
+        "TrueHD.5.1"
+      ],
       "matched": [
         "a-truehd",
         "ch-51"
@@ -2056,6 +2869,9 @@
     },
     {
       "case": "audio-TrueHD7.1",
+      "candidates": [
+        "TrueHD7.1"
+      ],
       "matched": [
         "a-truehd",
         "ch-71"
@@ -2063,6 +2879,9 @@
     },
     {
       "case": "audio-TrueHD.7.1",
+      "candidates": [
+        "TrueHD.7.1"
+      ],
       "matched": [
         "a-truehd",
         "ch-71"
@@ -2070,24 +2889,36 @@
     },
     {
       "case": "audio-TRUE-HD",
+      "candidates": [
+        "TRUE-HD"
+      ],
       "matched": [
         "a-truehd"
       ]
     },
     {
       "case": "audio-true_hd",
+      "candidates": [
+        "true_hd"
+      ],
       "matched": [
         "a-truehd"
       ]
     },
     {
       "case": "audio-TrueHD.Atmos",
+      "candidates": [
+        "TrueHD.Atmos"
+      ],
       "matched": [
         "a-truehd-atmos"
       ]
     },
     {
       "case": "audio-TrueHD5.1.Atmos",
+      "candidates": [
+        "TrueHD5.1.Atmos"
+      ],
       "matched": [
         "a-truehd-atmos",
         "ch-51"
@@ -2095,6 +2926,9 @@
     },
     {
       "case": "audio-TrueHD.7.1.Atmos",
+      "candidates": [
+        "TrueHD.7.1.Atmos"
+      ],
       "matched": [
         "a-truehd-atmos",
         "ch-71"
@@ -2102,12 +2936,18 @@
     },
     {
       "case": "audio-Atmos.TrueHD",
+      "candidates": [
+        "Atmos.TrueHD"
+      ],
       "matched": [
         "a-truehd-atmos"
       ]
     },
     {
       "case": "audio-DDP5.1",
+      "candidates": [
+        "DDP5.1"
+      ],
       "matched": [
         "a-ddplus",
         "ch-51"
@@ -2115,6 +2955,9 @@
     },
     {
       "case": "audio-DDP.5.1",
+      "candidates": [
+        "DDP.5.1"
+      ],
       "matched": [
         "a-ddplus",
         "ch-51"
@@ -2122,36 +2965,54 @@
     },
     {
       "case": "audio-DD+",
+      "candidates": [
+        "DD+"
+      ],
       "matched": [
         "a-ddplus"
       ]
     },
     {
       "case": "audio-EAC3",
+      "candidates": [
+        "EAC3"
+      ],
       "matched": [
         "a-ddplus"
       ]
     },
     {
       "case": "audio-E-AC-3",
+      "candidates": [
+        "E-AC-3"
+      ],
       "matched": [
         "a-ddplus"
       ]
     },
     {
       "case": "audio-EC3",
+      "candidates": [
+        "EC3"
+      ],
       "matched": [
         "a-ddplus"
       ]
     },
     {
       "case": "audio-Dolby Digital Plus",
+      "candidates": [
+        "Dolby Digital Plus"
+      ],
       "matched": [
         "a-ddplus"
       ]
     },
     {
       "case": "audio-DDP5.1.Atmos",
+      "candidates": [
+        "DDP5.1.Atmos"
+      ],
       "matched": [
         "a-ddp-atmos",
         "ch-51"
@@ -2159,12 +3020,18 @@
     },
     {
       "case": "audio-EAC3.Atmos",
+      "candidates": [
+        "EAC3.Atmos"
+      ],
       "matched": [
         "a-ddp-atmos"
       ]
     },
     {
       "case": "audio-DD+.5.1.Atmos",
+      "candidates": [
+        "DD+.5.1.Atmos"
+      ],
       "matched": [
         "a-ddp-atmos",
         "ch-51"
@@ -2172,30 +3039,45 @@
     },
     {
       "case": "audio-Atmos.EAC3",
+      "candidates": [
+        "Atmos.EAC3"
+      ],
       "matched": [
         "a-ddp-atmos"
       ]
     },
     {
       "case": "audio-Dolby Digital Plus Atmos",
+      "candidates": [
+        "Dolby Digital Plus Atmos"
+      ],
       "matched": [
         "a-ddp-atmos"
       ]
     },
     {
       "case": "audio-Atmos",
+      "candidates": [
+        "Atmos"
+      ],
       "matched": [
         "a-atmos-unknown"
       ]
     },
     {
       "case": "audio-TrueHD.AAC.Atmos",
+      "candidates": [
+        "TrueHD.AAC.Atmos"
+      ],
       "matched": [
         "a-atmos-unknown"
       ]
     },
     {
       "case": "audio-TrueHD7.1.DDP5.1.Atmos",
+      "candidates": [
+        "TrueHD7.1.DDP5.1.Atmos"
+      ],
       "matched": [
         "a-atmos-multi",
         "ch-71"
@@ -2203,6 +3085,9 @@
     },
     {
       "case": "audio-TrueHD.Atmos.DDP5.1",
+      "candidates": [
+        "TrueHD.Atmos.DDP5.1"
+      ],
       "matched": [
         "a-atmos-multi",
         "ch-51"
@@ -2210,6 +3095,9 @@
     },
     {
       "case": "audio-DD5.1",
+      "candidates": [
+        "DD5.1"
+      ],
       "matched": [
         "a-dd",
         "ch-51"
@@ -2217,6 +3105,9 @@
     },
     {
       "case": "audio-DD.5.1",
+      "candidates": [
+        "DD.5.1"
+      ],
       "matched": [
         "a-dd",
         "ch-51"
@@ -2224,12 +3115,18 @@
     },
     {
       "case": "audio-AC3",
+      "candidates": [
+        "AC3"
+      ],
       "matched": [
         "a-dd"
       ]
     },
     {
       "case": "audio-AC-3.5.1",
+      "candidates": [
+        "AC-3.5.1"
+      ],
       "matched": [
         "a-dd",
         "ch-51"
@@ -2237,36 +3134,54 @@
     },
     {
       "case": "audio-Dolby Digital",
+      "candidates": [
+        "Dolby Digital"
+      ],
       "matched": [
         "a-dd"
       ]
     },
     {
       "case": "audio-DTS:X",
+      "candidates": [
+        "DTS:X"
+      ],
       "matched": [
         "a-dtsx"
       ]
     },
     {
       "case": "audio-DTS.X",
+      "candidates": [
+        "DTS.X"
+      ],
       "matched": [
         "a-dtsx"
       ]
     },
     {
       "case": "audio-DTS-X",
+      "candidates": [
+        "DTS-X"
+      ],
       "matched": [
         "a-dtsx"
       ]
     },
     {
       "case": "audio-DTSX",
+      "candidates": [
+        "DTSX"
+      ],
       "matched": [
         "a-dtsx"
       ]
     },
     {
       "case": "audio-DTS:X.DTS-HD.MA.7.1",
+      "candidates": [
+        "DTS:X.DTS-HD.MA.7.1"
+      ],
       "matched": [
         "a-dtsx",
         "ch-71"
@@ -2274,6 +3189,9 @@
     },
     {
       "case": "audio-DTS-HD.MA.7.1",
+      "candidates": [
+        "DTS-HD.MA.7.1"
+      ],
       "matched": [
         "a-dtsma",
         "ch-71"
@@ -2281,6 +3199,9 @@
     },
     {
       "case": "audio-DTS-HD.MA.5.1",
+      "candidates": [
+        "DTS-HD.MA.5.1"
+      ],
       "matched": [
         "a-dtsma",
         "ch-51"
@@ -2288,12 +3209,18 @@
     },
     {
       "case": "audio-DTS-HD MA",
+      "candidates": [
+        "DTS-HD MA"
+      ],
       "matched": [
         "a-dtsma"
       ]
     },
     {
       "case": "audio-DTSHDMA5.1",
+      "candidates": [
+        "DTSHDMA5.1"
+      ],
       "matched": [
         "a-dtsma",
         "ch-51"
@@ -2301,18 +3228,27 @@
     },
     {
       "case": "audio-DTS Master Audio",
+      "candidates": [
+        "DTS Master Audio"
+      ],
       "matched": [
         "a-dtsma"
       ]
     },
     {
       "case": "audio-DTS-HD",
+      "candidates": [
+        "DTS-HD"
+      ],
       "matched": [
         "a-dtshd"
       ]
     },
     {
       "case": "audio-DTS.HD.5.1",
+      "candidates": [
+        "DTS.HD.5.1"
+      ],
       "matched": [
         "a-dtshd",
         "ch-51"
@@ -2320,12 +3256,18 @@
     },
     {
       "case": "audio-DTS",
+      "candidates": [
+        "DTS"
+      ],
       "matched": [
         "a-dts"
       ]
     },
     {
       "case": "audio-DTS5.1",
+      "candidates": [
+        "DTS5.1"
+      ],
       "matched": [
         "a-dts",
         "ch-51"
@@ -2333,6 +3275,9 @@
     },
     {
       "case": "audio-negative-0",
+      "candidates": [
+        "TrueHD5.1"
+      ],
       "matched": [
         "a-truehd",
         "ch-51"
@@ -2340,12 +3285,18 @@
     },
     {
       "case": "audio-negative-1",
+      "candidates": [
+        "TrueHD"
+      ],
       "matched": [
         "a-truehd"
       ]
     },
     {
       "case": "audio-negative-2",
+      "candidates": [
+        "MULTI.TrueHD7.1"
+      ],
       "matched": [
         "a-truehd",
         "ch-71"
@@ -2353,6 +3304,9 @@
     },
     {
       "case": "audio-negative-3",
+      "candidates": [
+        "TRUEHD.5.1.DTS-HD.MA.7.1"
+      ],
       "matched": [
         "a-truehd",
         "a-dtsma",
@@ -2361,30 +3315,48 @@
     },
     {
       "case": "audio-negative-4",
+      "candidates": [
+        "Atmosphere.2026.1080p"
+      ],
       "matched": [
         "r-1080"
       ]
     },
     {
       "case": "audio-negative-5",
+      "candidates": [
+        "NotTrueHD.Atmosphere"
+      ],
       "matched": []
     },
     {
       "case": "audio-negative-6",
+      "candidates": [
+        "DDPI5.1"
+      ],
       "matched": [
         "ch-51"
       ]
     },
     {
       "case": "audio-negative-7",
+      "candidates": [
+        "EAC30"
+      ],
       "matched": []
     },
     {
       "case": "audio-negative-8",
+      "candidates": [
+        "TRUEHD500"
+      ],
       "matched": []
     },
     {
       "case": "no-ma-in-dtshd",
+      "candidates": [
+        "DTS-HD.7.1"
+      ],
       "matched": [
         "a-dtshd",
         "ch-71"
@@ -2392,6 +3364,9 @@
     },
     {
       "case": "no-ma-in-matrix",
+      "candidates": [
+        "DTS-HD.MATRIX.7.1"
+      ],
       "matched": [
         "a-dtshd",
         "ch-71"
@@ -2399,6 +3374,9 @@
     },
     {
       "case": "audio-dedupe",
+      "candidates": [
+        "DDP5.1.EAC3.DD+.Dolby.Digital.Plus.Atmos"
+      ],
       "matched": [
         "a-ddp-atmos",
         "ch-51"
@@ -2406,24 +3384,36 @@
     },
     {
       "case": "no-language-multi",
+      "candidates": [
+        "Film.2026.MULTI.WEB-DL"
+      ],
       "matched": [
         "q-webdl"
       ]
     },
     {
       "case": "no-language-dl",
+      "candidates": [
+        "Film.2026.GERMAN.DL.1080p"
+      ],
       "matched": [
         "r-1080"
       ]
     },
     {
       "case": "subtitles-only",
+      "candidates": [
+        "Film.2026.SUBS.NORWEGIAN.1080p"
+      ],
       "matched": [
         "r-1080"
       ]
     },
     {
       "case": "edition-Unrated",
+      "candidates": [
+        "Film.2026.Unrated.1080p.BluRay"
+      ],
       "matched": [
         "r-1080",
         "q-bluray",
@@ -2432,6 +3422,9 @@
     },
     {
       "case": "edition-Extended",
+      "candidates": [
+        "Film.2026.Extended.1080p.BluRay"
+      ],
       "matched": [
         "r-1080",
         "q-bluray",
@@ -2440,6 +3433,9 @@
     },
     {
       "case": "edition-Director's.Cut",
+      "candidates": [
+        "Film.2026.Director's.Cut.1080p.BluRay"
+      ],
       "matched": [
         "r-1080",
         "q-bluray",
@@ -2448,6 +3444,9 @@
     },
     {
       "case": "edition-Directors-Cut",
+      "candidates": [
+        "Film.2026.Directors-Cut.1080p.BluRay"
+      ],
       "matched": [
         "r-1080",
         "q-bluray",
@@ -2456,6 +3455,9 @@
     },
     {
       "case": "edition-Director’s Cut",
+      "candidates": [
+        "Film.2026.Director’s Cut.1080p.BluRay"
+      ],
       "matched": [
         "r-1080",
         "q-bluray",
@@ -2464,6 +3466,9 @@
     },
     {
       "case": "edition-Theatrical",
+      "candidates": [
+        "Film.2026.Theatrical.1080p.BluRay"
+      ],
       "matched": [
         "r-1080",
         "q-bluray",
@@ -2472,6 +3477,9 @@
     },
     {
       "case": "edition-PROPER",
+      "candidates": [
+        "Film.2026.PROPER.1080p.BluRay"
+      ],
       "matched": [
         "r-1080",
         "q-bluray",
@@ -2480,6 +3488,9 @@
     },
     {
       "case": "edition-REPACK2",
+      "candidates": [
+        "Film.2026.REPACK2.1080p.BluRay"
+      ],
       "matched": [
         "r-1080",
         "q-bluray",
@@ -2488,6 +3499,9 @@
     },
     {
       "case": "edition-HYBRID",
+      "candidates": [
+        "Film.2026.HYBRID.1080p.BluRay"
+      ],
       "matched": [
         "r-1080",
         "q-bluray",
@@ -2496,6 +3510,9 @@
     },
     {
       "case": "multiple-editions",
+      "candidates": [
+        "Film.2026.Unrated.Extended.Directors.Cut.Theatrical.PROPER.REPACK.HYBRID.1080p"
+      ],
       "matched": [
         "r-1080",
         "e-unrated",
@@ -2509,6 +3526,9 @@
     },
     {
       "case": "edition-title-negative",
+      "candidates": [
+        "Hybrid.2019.1080p.WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl"
@@ -2516,6 +3536,9 @@
     },
     {
       "case": "extended-title-negative",
+      "candidates": [
+        "Extended.Family.2026.1080p.WEB-DL"
+      ],
       "matched": [
         "r-1080",
         "q-webdl"
@@ -2523,50 +3546,62 @@
     },
     {
       "case": "release-unrated-and-hybrid",
+      "candidates": [
+        "Kingsman.The.Secret.Service.2014.Unrated.UHD.BluRay.2160p.DTS-HD.MA.7.1.DV.HEVC.HYBRID.REMUX-FraMeSToR"
+      ],
       "matched": [
-        "a-dtsma",
-        "v-dolbyvision",
-        "ch-71",
         "r-2160",
+        "v-dolbyvision",
+        "a-dtsma",
+        "ch-71",
         "q-remux",
         "q-bluray",
-        "c-hevc",
         "e-unrated",
-        "e-hybrid"
+        "e-hybrid",
+        "c-hevc"
       ]
     },
     {
       "case": "release-seadex-and-extended",
+      "candidates": [
+        "Film.2025.Extended.1080p.BluRay.HEVC.SeaDex"
+      ],
       "matched": [
         "r-1080",
         "q-bluray",
         "v-seadex",
-        "c-hevc",
-        "e-extended"
+        "e-extended",
+        "c-hevc"
       ]
     },
     {
       "case": "release-seadex-extended-hybrid",
+      "candidates": [
+        "Film.2025.Extended.HYBRID.2160p.BluRay.REMUX.DV.HDR10.TrueHD7.1.SeaDex.HEVC"
+      ],
       "matched": [
-        "a-truehd",
+        "r-2160",
         "v-dolbyvision",
         "v-hdr10",
+        "a-truehd",
         "ch-71",
-        "r-2160",
         "q-remux",
         "q-bluray",
         "v-seadex",
-        "c-hevc",
         "e-extended",
-        "e-hybrid"
+        "e-hybrid",
+        "c-hevc"
       ]
     },
     {
       "case": "usenet-amzn-ddp-atmos",
+      "candidates": [
+        "Black.Bag.2025.2160p.AMZN.WEB-DL.DDP5.1.Atmos.H.265-FLUX"
+      ],
       "matched": [
+        "r-2160",
         "a-ddp-atmos",
         "ch-51",
-        "r-2160",
         "q-webdl",
         "s-prime",
         "c-hevc"
@@ -2574,12 +3609,15 @@
     },
     {
       "case": "usenet-atvp-dv-hdr",
+      "candidates": [
+        "Severance.S02E03.2160p.ATVP.WEB-DL.DV.HDR10Plus.DDP5.1.Atmos.H265-TEST"
+      ],
       "matched": [
-        "a-ddp-atmos",
+        "r-2160",
         "v-dolbyvision",
         "v-hdr10plus",
+        "a-ddp-atmos",
         "ch-51",
-        "r-2160",
         "q-webdl",
         "s-appletv",
         "c-hevc"
@@ -2587,22 +3625,28 @@
     },
     {
       "case": "usenet-directors-truehd",
+      "candidates": [
+        "Alien.1979.Directors.Cut.2160p.UHD.BluRay.REMUX.HEVC.TrueHD.5.1-TEST"
+      ],
       "matched": [
+        "r-2160",
         "a-truehd",
         "ch-51",
-        "r-2160",
         "q-remux",
         "q-bluray",
-        "c-hevc",
-        "e-directors-cut"
+        "e-directors-cut",
+        "c-hevc"
       ]
     },
     {
       "case": "usenet-dsnp-av1",
+      "candidates": [
+        "Film.2025.DSNP.WEB-DL.2160p.DDP5.1.Atmos.AV1-TEST"
+      ],
       "matched": [
+        "r-2160",
         "a-ddp-atmos",
         "ch-51",
-        "r-2160",
         "q-webdl",
         "s-disney",
         "c-av1"
@@ -2610,68 +3654,92 @@
     },
     {
       "case": "usenet-unknown-service",
+      "candidates": [
+        "Film.2025.2160p.UNKNOWN.WEB-DL.TrueHD5.1.x265-TEST"
+      ],
       "matched": [
+        "r-2160",
         "a-truehd",
         "ch-51",
-        "r-2160",
         "q-webdl",
         "c-hevc"
       ]
     },
     {
       "case": "usenet-repack-audio",
+      "candidates": [
+        "Film.2024.1080p.BluRay.DTS-HD.MA.5.1.x264.REPACK2-TEST"
+      ],
       "matched": [
+        "r-1080",
         "a-dtsma",
         "ch-51",
-        "r-1080",
         "q-bluray",
-        "c-avc",
-        "e-repack"
+        "e-repack",
+        "c-avc"
       ]
     },
     {
       "case": "layout-stress",
+      "candidates": [
+        "Film.2025.Extended.IMAX.Enhanced.2160p.UHD.BluRay.REMUX.DV.HDR10Plus.TrueHD7.1.Atmos.HEVC.HYBRID.PROPER-TEST"
+      ],
       "matched": [
-        "a-truehd-atmos",
+        "r-2160",
         "v-dolbyvision",
         "v-hdr10plus",
+        "a-truehd-atmos",
         "ch-71",
-        "r-2160",
         "q-remux",
         "q-bluray",
         "v-imax-enh",
-        "c-hevc",
         "e-extended",
         "e-proper",
-        "e-hybrid"
+        "e-hybrid",
+        "c-hevc"
       ]
     },
     {
       "case": "priority-resolution",
+      "candidates": [
+        "2160p.1080p.720p.480p"
+      ],
       "matched": [
         "r-2160"
       ]
     },
     {
       "case": "priority-hdr",
+      "candidates": [
+        "HDR10+.HDR10.HDR.SDR"
+      ],
       "matched": [
         "v-hdr10plus"
       ]
     },
     {
       "case": "priority-imax",
+      "candidates": [
+        "IMAX.Enhanced"
+      ],
       "matched": [
         "v-imax-enh"
       ]
     },
     {
       "case": "priority-channels",
+      "candidates": [
+        "7.1.6.1.5.1.2.0.1.0"
+      ],
       "matched": [
         "ch-71"
       ]
     },
     {
       "case": "priority-source",
+      "candidates": [
+        "REMUX.BluRay.WEB-DL.WEBRip"
+      ],
       "matched": [
         "q-remux",
         "q-bluray"
@@ -2679,74 +3747,109 @@
     },
     {
       "case": "seadex-preserved",
+      "candidates": [
+        "ʙᴇsᴛ ʀᴇʟᴇᴀsᴇ"
+      ],
       "matched": [
         "v-seadex"
       ]
     },
     {
       "case": "legacy-smoke-r-1440",
+      "candidates": [
+        "1440p"
+      ],
       "matched": [
         "r-1440"
       ]
     },
     {
       "case": "legacy-smoke-r-720",
+      "candidates": [
+        "720p"
+      ],
       "matched": [
         "r-720"
       ]
     },
     {
       "case": "legacy-smoke-r-480",
+      "candidates": [
+        "480p"
+      ],
       "matched": [
         "r-480"
       ]
     },
     {
       "case": "legacy-smoke-v-sdr",
+      "candidates": [
+        "SDR"
+      ],
       "matched": [
         "v-sdr"
       ]
     },
     {
       "case": "legacy-smoke-v-imax",
+      "candidates": [
+        "IMAX"
+      ],
       "matched": [
         "v-imax"
       ]
     },
     {
       "case": "legacy-smoke-ch-61",
+      "candidates": [
+        "6.1"
+      ],
       "matched": [
         "ch-61"
       ]
     },
     {
       "case": "legacy-smoke-ch-20",
+      "candidates": [
+        "2.0"
+      ],
       "matched": [
         "ch-20"
       ]
     },
     {
       "case": "legacy-smoke-ch-10",
+      "candidates": [
+        "1.0"
+      ],
       "matched": [
         "ch-10"
       ]
     },
     {
       "case": "repeated-fields",
+      "candidates": [
+        "Kingsman.The.Secret.Service.2014.Unrated.UHD.BluRay.2160p.DTS-HD.MA.7.1.DV.HEVC.HYBRID.REMUX-FraMeSToR",
+        "Kingsman.The.Secret.Service.2014.Unrated.UHD.BluRay.2160p.DTS-HD.MA.7.1.DV.HEVC.HYBRID.REMUX-FraMeSToR"
+      ],
       "matched": [
-        "a-dtsma",
-        "v-dolbyvision",
-        "ch-71",
         "r-2160",
+        "v-dolbyvision",
+        "a-dtsma",
+        "ch-71",
         "q-remux",
         "q-bluray",
-        "c-hevc",
         "e-unrated",
-        "e-hybrid"
+        "e-hybrid",
+        "c-hevc"
       ]
     },
     {
       "case": "split-fields-atmos-pair",
+      "candidates": [
+        "TrueHD5.1",
+        "Atmos"
+      ],
       "matched": [
         "a-truehd-atmos",
         "a-atmos-unknown",
@@ -2756,6 +3859,10 @@
     },
     {
       "case": "client-limit-conflicting-codecs",
+      "candidates": [
+        "AV1",
+        "HEVC"
+      ],
       "matched": [
         "c-av1",
         "c-hevc"
@@ -2763,11 +3870,385 @@
     },
     {
       "case": "client-limit-split-audio",
+      "candidates": [
+        "TrueHD5.1",
+        "Atmos"
+      ],
       "matched": [
         "a-truehd-atmos",
         "a-atmos-unknown",
         "a-truehd",
         "ch-51"
+      ]
+    },
+    {
+      "case": "screenshot-1-fields-012",
+      "candidates": [
+        "His.Dark.Materials.S02.GERMAN.DUBBED.DL.EAC3.2160p.DV.HDR.WEB.H265-SHITASTE",
+        "Ninja Central 2160p NNTP",
+        "WEB-DL H.265"
+      ],
+      "matched": [
+        "r-2160",
+        "v-dolbyvision",
+        "v-hdr",
+        "a-ddplus",
+        "q-webdl",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "screenshot-1-fields-021",
+      "candidates": [
+        "His.Dark.Materials.S02.GERMAN.DUBBED.DL.EAC3.2160p.DV.HDR.WEB.H265-SHITASTE",
+        "WEB-DL H.265",
+        "Ninja Central 2160p NNTP"
+      ],
+      "matched": [
+        "r-2160",
+        "v-dolbyvision",
+        "v-hdr",
+        "a-ddplus",
+        "q-webdl",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "screenshot-1-fields-102",
+      "candidates": [
+        "Ninja Central 2160p NNTP",
+        "His.Dark.Materials.S02.GERMAN.DUBBED.DL.EAC3.2160p.DV.HDR.WEB.H265-SHITASTE",
+        "WEB-DL H.265"
+      ],
+      "matched": [
+        "r-2160",
+        "v-dolbyvision",
+        "v-hdr",
+        "a-ddplus",
+        "q-webdl",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "screenshot-1-fields-120",
+      "candidates": [
+        "Ninja Central 2160p NNTP",
+        "WEB-DL H.265",
+        "His.Dark.Materials.S02.GERMAN.DUBBED.DL.EAC3.2160p.DV.HDR.WEB.H265-SHITASTE"
+      ],
+      "matched": [
+        "r-2160",
+        "v-dolbyvision",
+        "v-hdr",
+        "a-ddplus",
+        "q-webdl",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "screenshot-1-fields-201",
+      "candidates": [
+        "WEB-DL H.265",
+        "His.Dark.Materials.S02.GERMAN.DUBBED.DL.EAC3.2160p.DV.HDR.WEB.H265-SHITASTE",
+        "Ninja Central 2160p NNTP"
+      ],
+      "matched": [
+        "r-2160",
+        "v-dolbyvision",
+        "v-hdr",
+        "a-ddplus",
+        "q-webdl",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "screenshot-1-fields-210",
+      "candidates": [
+        "WEB-DL H.265",
+        "Ninja Central 2160p NNTP",
+        "His.Dark.Materials.S02.GERMAN.DUBBED.DL.EAC3.2160p.DV.HDR.WEB.H265-SHITASTE"
+      ],
+      "matched": [
+        "r-2160",
+        "v-dolbyvision",
+        "v-hdr",
+        "a-ddplus",
+        "q-webdl",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "screenshot-2-fields-012",
+      "candidates": [
+        "His.Dark.Materials.S02E07.Aesahaettr.2160p.MAX.WEB-DL.DTS-HD.MA.5.1.DoVi.H.265-NTb",
+        "Ninja Central 2160p NNTP",
+        "WEB-DL H.265"
+      ],
+      "matched": [
+        "r-2160",
+        "v-dolbyvision",
+        "a-dtsma",
+        "ch-51",
+        "q-webdl",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "screenshot-2-fields-021",
+      "candidates": [
+        "His.Dark.Materials.S02E07.Aesahaettr.2160p.MAX.WEB-DL.DTS-HD.MA.5.1.DoVi.H.265-NTb",
+        "WEB-DL H.265",
+        "Ninja Central 2160p NNTP"
+      ],
+      "matched": [
+        "r-2160",
+        "v-dolbyvision",
+        "a-dtsma",
+        "ch-51",
+        "q-webdl",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "screenshot-2-fields-102",
+      "candidates": [
+        "Ninja Central 2160p NNTP",
+        "His.Dark.Materials.S02E07.Aesahaettr.2160p.MAX.WEB-DL.DTS-HD.MA.5.1.DoVi.H.265-NTb",
+        "WEB-DL H.265"
+      ],
+      "matched": [
+        "r-2160",
+        "v-dolbyvision",
+        "a-dtsma",
+        "ch-51",
+        "q-webdl",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "screenshot-2-fields-120",
+      "candidates": [
+        "Ninja Central 2160p NNTP",
+        "WEB-DL H.265",
+        "His.Dark.Materials.S02E07.Aesahaettr.2160p.MAX.WEB-DL.DTS-HD.MA.5.1.DoVi.H.265-NTb"
+      ],
+      "matched": [
+        "r-2160",
+        "v-dolbyvision",
+        "a-dtsma",
+        "ch-51",
+        "q-webdl",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "screenshot-2-fields-201",
+      "candidates": [
+        "WEB-DL H.265",
+        "His.Dark.Materials.S02E07.Aesahaettr.2160p.MAX.WEB-DL.DTS-HD.MA.5.1.DoVi.H.265-NTb",
+        "Ninja Central 2160p NNTP"
+      ],
+      "matched": [
+        "r-2160",
+        "v-dolbyvision",
+        "a-dtsma",
+        "ch-51",
+        "q-webdl",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "screenshot-2-fields-210",
+      "candidates": [
+        "WEB-DL H.265",
+        "Ninja Central 2160p NNTP",
+        "His.Dark.Materials.S02E07.Aesahaettr.2160p.MAX.WEB-DL.DTS-HD.MA.5.1.DoVi.H.265-NTb"
+      ],
+      "matched": [
+        "r-2160",
+        "v-dolbyvision",
+        "a-dtsma",
+        "ch-51",
+        "q-webdl",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "screenshot-3-fields-012",
+      "candidates": [
+        "His.Dark.Materials.S02E07.Aesahaettr.REPACK.2160p.MAX.WEB-DL.DTS-HD.MA.5.1.HDR.DoVi.H.265-NTb",
+        "Ninja Central 2160p NNTP",
+        "WEB-DL H.265"
+      ],
+      "matched": [
+        "r-2160",
+        "v-dolbyvision",
+        "v-hdr",
+        "a-dtsma",
+        "ch-51",
+        "q-webdl",
+        "e-repack",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "screenshot-3-fields-021",
+      "candidates": [
+        "His.Dark.Materials.S02E07.Aesahaettr.REPACK.2160p.MAX.WEB-DL.DTS-HD.MA.5.1.HDR.DoVi.H.265-NTb",
+        "WEB-DL H.265",
+        "Ninja Central 2160p NNTP"
+      ],
+      "matched": [
+        "r-2160",
+        "v-dolbyvision",
+        "v-hdr",
+        "a-dtsma",
+        "ch-51",
+        "q-webdl",
+        "e-repack",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "screenshot-3-fields-102",
+      "candidates": [
+        "Ninja Central 2160p NNTP",
+        "His.Dark.Materials.S02E07.Aesahaettr.REPACK.2160p.MAX.WEB-DL.DTS-HD.MA.5.1.HDR.DoVi.H.265-NTb",
+        "WEB-DL H.265"
+      ],
+      "matched": [
+        "r-2160",
+        "v-dolbyvision",
+        "v-hdr",
+        "a-dtsma",
+        "ch-51",
+        "q-webdl",
+        "e-repack",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "screenshot-3-fields-120",
+      "candidates": [
+        "Ninja Central 2160p NNTP",
+        "WEB-DL H.265",
+        "His.Dark.Materials.S02E07.Aesahaettr.REPACK.2160p.MAX.WEB-DL.DTS-HD.MA.5.1.HDR.DoVi.H.265-NTb"
+      ],
+      "matched": [
+        "r-2160",
+        "v-dolbyvision",
+        "v-hdr",
+        "a-dtsma",
+        "ch-51",
+        "q-webdl",
+        "e-repack",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "screenshot-3-fields-201",
+      "candidates": [
+        "WEB-DL H.265",
+        "His.Dark.Materials.S02E07.Aesahaettr.REPACK.2160p.MAX.WEB-DL.DTS-HD.MA.5.1.HDR.DoVi.H.265-NTb",
+        "Ninja Central 2160p NNTP"
+      ],
+      "matched": [
+        "r-2160",
+        "v-dolbyvision",
+        "v-hdr",
+        "a-dtsma",
+        "ch-51",
+        "q-webdl",
+        "e-repack",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "screenshot-3-fields-210",
+      "candidates": [
+        "WEB-DL H.265",
+        "Ninja Central 2160p NNTP",
+        "His.Dark.Materials.S02E07.Aesahaettr.REPACK.2160p.MAX.WEB-DL.DTS-HD.MA.5.1.HDR.DoVi.H.265-NTb"
+      ],
+      "matched": [
+        "r-2160",
+        "v-dolbyvision",
+        "v-hdr",
+        "a-dtsma",
+        "ch-51",
+        "q-webdl",
+        "e-repack",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "order-film-A",
+      "candidates": [
+        "Animals.2026.2160p.NF.WEB-DL.DV.HDR.MULTi"
+      ],
+      "matched": [
+        "r-2160",
+        "v-dolbyvision",
+        "v-hdr",
+        "q-webdl",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "order-film-B",
+      "candidates": [
+        "Kingsman.The.Secret.Service.2014.Unrated.UHD.BluRay.2160p.DTS-HD.MA.7.1.DV.HEVC.HYBRID.REMUX-FraMeSToR"
+      ],
+      "matched": [
+        "r-2160",
+        "v-dolbyvision",
+        "a-dtsma",
+        "ch-71",
+        "q-remux",
+        "q-bluray",
+        "e-unrated",
+        "e-hybrid",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "order-film-C",
+      "candidates": [
+        "Mission.Impossible.II.2000.USA.BluRay.Remux.UHD.DoVi.HDR10.2160p.TrueHD5.1-CHD"
+      ],
+      "matched": [
+        "r-2160",
+        "v-dolbyvision",
+        "v-hdr10",
+        "a-truehd",
+        "ch-51",
+        "q-remux",
+        "q-bluray"
+      ]
+    },
+    {
+      "case": "order-no-resolution",
+      "candidates": [
+        "Film.2025.WEB-DL.DDP5.1.H264"
+      ],
+      "matched": [
+        "a-ddplus",
+        "ch-51",
+        "q-webdl",
+        "c-avc"
+      ]
+    },
+    {
+      "case": "order-1080-first",
+      "candidates": [
+        "Film.2025.WEB-DL.1080p.DDP5.1.H264"
+      ],
+      "matched": [
+        "r-1080",
+        "a-ddplus",
+        "ch-51",
+        "q-webdl",
+        "c-avc"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 """Build the separate, importable sculpted-metal variant from verified v3.
 
-Source identity, regexes, groups, names, priorities and style fields are retained.
-Only imageURL is changed in the alternative JSON. v2/v3 are never written.
+Source identity, regexes, groups, names, within-category priorities and style
+fields are retained. Only imageURL and display order change. v2/v3 are never written.
 """
 import argparse
 import copy
@@ -34,7 +34,15 @@ BRONZE={'q-webrip','r-720','r-480','v-sdr','a-dd','a-dts','ch-20','ch-10'}
 # Pin URLs independently of the renderer source, avoiding a self-referential
 # renderer/manifest hash when the immutable artwork commit becomes available.
 CONFIG=ROOT/'badges/tools/alternative_config.json'
-ASSET_REF=json.loads(CONFIG.read_text(encoding='utf-8'))['assetCommit'] if CONFIG.exists() else 'codex/figuz-smart-badges-v3'
+OPTIONS=json.loads(CONFIG.read_text(encoding='utf-8'))
+ASSET_REF=OPTIONS['assetCommit']
+DISPLAY_GROUP_ORDER=OPTIONS['displayGroupOrder']
+assert len(DISPLAY_GROUP_ORDER)==len(set(DISPLAY_GROUP_ORDER))
+assert set(DISPLAY_GROUP_ORDER)=={g['id'] for g in PACK['groups']}
+# Both Nuvio stream-list matchers preserve the filters array's order.
+# A stable sort retains all existing priorities inside each category.
+DISPLAY_RANK={group:index for index,group in enumerate(DISPLAY_GROUP_ORDER)}
+PACK['filters'].sort(key=lambda badge:DISPLAY_RANK[badge['groupId']])
 H=128
 SS=3
 
@@ -299,7 +307,9 @@ def examples():
     d.text((70,110),'Faktiske badgefiler · modellert 16 dp bildehøyde · ingen fysisk enhetstest',font=base_art.font(23),fill='#a8b6cc')
     geometry={}
     for i,name in enumerate(names):
-        r=next(r for r in results if r['case']==name); ids=r['matched']; y=205+i*420
+        r=next(r for r in results if r['case']==name)
+        rank={b['id']:i for i,b in enumerate(PACK['filters'])}
+        ids=sorted(r['matched'],key=rank.__getitem__); y=205+i*420
         d.text((70,y),names[name],font=base_art.font(29,True),fill='#eaf0fa')
         bar=base_art.badge_strip(ids,3)
         for n,(label,width) in enumerate([('iPhone / Mobile · start',326),('Google TV / TV · start',416)]):
@@ -308,7 +318,7 @@ def examples():
             d.text((80,top+10),label,font=base_art.font(20),fill='#9caecb')
             im.alpha_composite(bar.crop((0,0,min(bar.width,width*3),bar.height)),(80,top+42))
         geometry[name]={'mobileViewportDp':326,'tvViewportDp':416,'items':base_art.strip_geometry(ids,3)}
-    d.text((70,1515),'Lyd, Dolby Vision og HDR står først. Resten av merkeraden nås med sveip / fokus-rulling.',font=base_art.font(22),fill='#a8b6cc')
+    d.text((70,1515),'Oppløsning → Dolby Vision → HDR → lyd → kanaler → kilde. Manglende merker hoppes over.',font=base_art.font(22),fill='#a8b6cc')
     im.convert('RGB').save(PREVIEWS/'Nuvio_Alternative_streamcards.png',optimize=True)
     (ROOT/'badges/reports/alternative-layout.json').write_text(json.dumps(geometry,indent=2)+'\n',encoding='utf-8',newline='\n')
 
@@ -326,6 +336,29 @@ def small_sizes():
     im.convert('RGB').save(PREVIEWS/'Nuvio_Alternative_readability.png',optimize=True)
 
 
+def order_examples():
+    """Simulate the three screenshot rows using actual matcher results and PNGs."""
+    base_art.image_for=image_for
+    report=json.loads((ROOT/'badges/reports/alternative-filename-results.json').read_text(encoding='utf-8'))
+    old=json.loads(BASE_PATH.read_text(encoding='utf-8'))
+    old_rank={b['id']:i for i,b in enumerate(old['filters'])}
+    im=Image.new('RGBA',(1500,1600),'#11151b'); d=ImageDraw.Draw(im)
+    d.text((70,48),'FAST REKKEFØLGE — FØR / ETTER',font=base_art.font(36,True),fill='#eef3fc')
+    d.text((70,110),'Tre rader fra skjermbildet · simulert 326 dp mobilutsnitt · ingen ny fysisk test',font=base_art.font(23),fill='#a8b6cc')
+    for i in range(3):
+        row=next(r for r in report['results'] if r['case']==f'screenshot-{i+1}-fields-012')
+        ids=row['matched']; y=205+i*420
+        d.text((70,y),f'His Dark Materials · resultat {i+1}',font=base_art.font(29,True),fill='#eaf0fa')
+        for n,(label,ordered) in enumerate([('Før',sorted(ids,key=old_rank.__getitem__)),('Etter · 4K først',ids)]):
+            top=y+57+n*129
+            d.rounded_rectangle((60,top,1440,top+112),radius=13,fill='#1d2531')
+            d.text((80,top+10),label,font=base_art.font(20),fill='#9caecb')
+            bar=base_art.badge_strip(ordered,3)
+            im.alpha_composite(bar.crop((0,0,min(bar.width,326*3),bar.height)),(80,top+42))
+    d.text((70,1515),'Samme relative kategoriorden i alle rader. Bare dokumenterte treff vises.',font=base_art.font(22),fill='#a8b6cc')
+    im.convert('RGB').save(PREVIEWS/'Nuvio_Alternative_order_fix.png',optimize=True)
+
+
 if __name__=='__main__':
     parser=argparse.ArgumentParser(); parser.add_argument('--json-only',action='store_true'); parser.add_argument('--assets-only',action='store_true'); args=parser.parse_args()
     if not args.json_only:
@@ -333,4 +366,8 @@ if __name__=='__main__':
     build_json()
     if not args.json_only and not args.assets_only:
         catalog(); examples(); small_sizes()
+        if (ROOT/'badges/reports/alternative-filename-results.json').exists():
+            report=json.loads((ROOT/'badges/reports/alternative-filename-results.json').read_text(encoding='utf-8'))
+            if any(r['case']=='screenshot-1-fields-012' for r in report['results']):
+                order_examples()
     print('Alternative style: 52 independent PNGs; same v3 rules and groups')
