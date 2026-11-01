@@ -1,0 +1,2774 @@
+{
+  "caseCount": 368,
+  "sameResultsAsBaseV3": true,
+  "engine": "java.util.regex.Pattern.find; separate and joined candidates; URL dedupe",
+  "results": [
+    {
+      "case": "film-A",
+      "matched": [
+        "v-dolbyvision",
+        "v-hdr",
+        "r-2160",
+        "q-webdl",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "film-B",
+      "matched": [
+        "a-dtsma",
+        "v-dolbyvision",
+        "ch-71",
+        "r-2160",
+        "q-remux",
+        "q-bluray",
+        "c-hevc",
+        "e-unrated",
+        "e-hybrid"
+      ]
+    },
+    {
+      "case": "film-C",
+      "matched": [
+        "a-truehd",
+        "v-dolbyvision",
+        "v-hdr10",
+        "ch-51",
+        "r-2160",
+        "q-remux",
+        "q-bluray"
+      ]
+    },
+    {
+      "case": "service-NF-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-reverse-NF-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-NF-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-reverse-NF-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-NF-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-reverse-NF-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-NF-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-reverse-NF-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-NF-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-reverse-NF-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-NF-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-reverse-NF-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-NF-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-reverse-NF-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-NF-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-reverse-NF-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-NFLX-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-reverse-NFLX-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-NFLX-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-reverse-NFLX-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-NFLX-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-reverse-NFLX-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-NFLX-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-reverse-NFLX-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-NFLX-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-reverse-NFLX-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-NFLX-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-reverse-NFLX-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-NFLX-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-reverse-NFLX-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-NFLX-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-reverse-NFLX-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "service-ATVP-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-appletv"
+      ]
+    },
+    {
+      "case": "service-reverse-ATVP-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-appletv"
+      ]
+    },
+    {
+      "case": "service-ATVP-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-appletv"
+      ]
+    },
+    {
+      "case": "service-reverse-ATVP-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-appletv"
+      ]
+    },
+    {
+      "case": "service-ATVP-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-appletv"
+      ]
+    },
+    {
+      "case": "service-reverse-ATVP-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-appletv"
+      ]
+    },
+    {
+      "case": "service-ATVP-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-appletv"
+      ]
+    },
+    {
+      "case": "service-reverse-ATVP-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-appletv"
+      ]
+    },
+    {
+      "case": "service-ATVP-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-appletv"
+      ]
+    },
+    {
+      "case": "service-reverse-ATVP-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-appletv"
+      ]
+    },
+    {
+      "case": "service-ATVP-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-appletv"
+      ]
+    },
+    {
+      "case": "service-reverse-ATVP-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-appletv"
+      ]
+    },
+    {
+      "case": "service-ATVP-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-appletv"
+      ]
+    },
+    {
+      "case": "service-reverse-ATVP-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-appletv"
+      ]
+    },
+    {
+      "case": "service-ATVP-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-appletv"
+      ]
+    },
+    {
+      "case": "service-reverse-ATVP-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-appletv"
+      ]
+    },
+    {
+      "case": "service-AMZN-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-prime"
+      ]
+    },
+    {
+      "case": "service-reverse-AMZN-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-prime"
+      ]
+    },
+    {
+      "case": "service-AMZN-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-prime"
+      ]
+    },
+    {
+      "case": "service-reverse-AMZN-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-prime"
+      ]
+    },
+    {
+      "case": "service-AMZN-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-prime"
+      ]
+    },
+    {
+      "case": "service-reverse-AMZN-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-prime"
+      ]
+    },
+    {
+      "case": "service-AMZN-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-prime"
+      ]
+    },
+    {
+      "case": "service-reverse-AMZN-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-prime"
+      ]
+    },
+    {
+      "case": "service-AMZN-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-prime"
+      ]
+    },
+    {
+      "case": "service-reverse-AMZN-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-prime"
+      ]
+    },
+    {
+      "case": "service-AMZN-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-prime"
+      ]
+    },
+    {
+      "case": "service-reverse-AMZN-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-prime"
+      ]
+    },
+    {
+      "case": "service-AMZN-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-prime"
+      ]
+    },
+    {
+      "case": "service-reverse-AMZN-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-prime"
+      ]
+    },
+    {
+      "case": "service-AMZN-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-prime"
+      ]
+    },
+    {
+      "case": "service-reverse-AMZN-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-prime"
+      ]
+    },
+    {
+      "case": "service-DSNP-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-disney"
+      ]
+    },
+    {
+      "case": "service-reverse-DSNP-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-disney"
+      ]
+    },
+    {
+      "case": "service-DSNP-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-disney"
+      ]
+    },
+    {
+      "case": "service-reverse-DSNP-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-disney"
+      ]
+    },
+    {
+      "case": "service-DSNP-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-disney"
+      ]
+    },
+    {
+      "case": "service-reverse-DSNP-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-disney"
+      ]
+    },
+    {
+      "case": "service-DSNP-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-disney"
+      ]
+    },
+    {
+      "case": "service-reverse-DSNP-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-disney"
+      ]
+    },
+    {
+      "case": "service-DSNP-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-disney"
+      ]
+    },
+    {
+      "case": "service-reverse-DSNP-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-disney"
+      ]
+    },
+    {
+      "case": "service-DSNP-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-disney"
+      ]
+    },
+    {
+      "case": "service-reverse-DSNP-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-disney"
+      ]
+    },
+    {
+      "case": "service-DSNP-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-disney"
+      ]
+    },
+    {
+      "case": "service-reverse-DSNP-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-disney"
+      ]
+    },
+    {
+      "case": "service-DSNP-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-disney"
+      ]
+    },
+    {
+      "case": "service-reverse-DSNP-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-disney"
+      ]
+    },
+    {
+      "case": "service-HMAX-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-reverse-HMAX-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-HMAX-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-reverse-HMAX-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-HMAX-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-reverse-HMAX-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-HMAX-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-reverse-HMAX-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-HMAX-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-reverse-HMAX-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-HMAX-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-reverse-HMAX-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-HMAX-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-reverse-HMAX-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-HMAX-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-reverse-HMAX-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-HBOMAX-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-reverse-HBOMAX-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-HBOMAX-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-reverse-HBOMAX-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-HBOMAX-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-reverse-HBOMAX-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-HBOMAX-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-reverse-HBOMAX-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-HBOMAX-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-reverse-HBOMAX-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-HBOMAX-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-reverse-HBOMAX-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-HBOMAX-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-reverse-HBOMAX-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-HBOMAX-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-reverse-HBOMAX-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "service-SKYSHOWTIME-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHOWTIME-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHOWTIME-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHOWTIME-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHOWTIME-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHOWTIME-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHOWTIME-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHOWTIME-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHOWTIME-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHOWTIME-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHOWTIME-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHOWTIME-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHOWTIME-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHOWTIME-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHOWTIME-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHOWTIME-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKST-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKST-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKST-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKST-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKST-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKST-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKST-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKST-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKST-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKST-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKST-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKST-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKST-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKST-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKST-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKST-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHO-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHO-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHO-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHO-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHO-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHO-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHO-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHO-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHO-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHO-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHO-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHO-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHO-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHO-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-SKYSHO-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-reverse-SKYSHO-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "service-PMTP-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-paramount"
+      ]
+    },
+    {
+      "case": "service-reverse-PMTP-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-paramount"
+      ]
+    },
+    {
+      "case": "service-PMTP-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-paramount"
+      ]
+    },
+    {
+      "case": "service-reverse-PMTP-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-paramount"
+      ]
+    },
+    {
+      "case": "service-PMTP-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-paramount"
+      ]
+    },
+    {
+      "case": "service-reverse-PMTP-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-paramount"
+      ]
+    },
+    {
+      "case": "service-PMTP-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-paramount"
+      ]
+    },
+    {
+      "case": "service-reverse-PMTP-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-paramount"
+      ]
+    },
+    {
+      "case": "service-PMTP-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-paramount"
+      ]
+    },
+    {
+      "case": "service-reverse-PMTP-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-paramount"
+      ]
+    },
+    {
+      "case": "service-PMTP-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-paramount"
+      ]
+    },
+    {
+      "case": "service-reverse-PMTP-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-paramount"
+      ]
+    },
+    {
+      "case": "service-PMTP-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-paramount"
+      ]
+    },
+    {
+      "case": "service-reverse-PMTP-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-paramount"
+      ]
+    },
+    {
+      "case": "service-PMTP-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-paramount"
+      ]
+    },
+    {
+      "case": "service-reverse-PMTP-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-paramount"
+      ]
+    },
+    {
+      "case": "service-PCOK-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-peacock"
+      ]
+    },
+    {
+      "case": "service-reverse-PCOK-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-peacock"
+      ]
+    },
+    {
+      "case": "service-PCOK-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-peacock"
+      ]
+    },
+    {
+      "case": "service-reverse-PCOK-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-peacock"
+      ]
+    },
+    {
+      "case": "service-PCOK-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-peacock"
+      ]
+    },
+    {
+      "case": "service-reverse-PCOK-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-peacock"
+      ]
+    },
+    {
+      "case": "service-PCOK-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-peacock"
+      ]
+    },
+    {
+      "case": "service-reverse-PCOK-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-peacock"
+      ]
+    },
+    {
+      "case": "service-PCOK-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-peacock"
+      ]
+    },
+    {
+      "case": "service-reverse-PCOK-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-peacock"
+      ]
+    },
+    {
+      "case": "service-PCOK-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-peacock"
+      ]
+    },
+    {
+      "case": "service-reverse-PCOK-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-peacock"
+      ]
+    },
+    {
+      "case": "service-PCOK-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-peacock"
+      ]
+    },
+    {
+      "case": "service-reverse-PCOK-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-peacock"
+      ]
+    },
+    {
+      "case": "service-PCOK-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-peacock"
+      ]
+    },
+    {
+      "case": "service-reverse-PCOK-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-peacock"
+      ]
+    },
+    {
+      "case": "service-HULU-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hulu"
+      ]
+    },
+    {
+      "case": "service-reverse-HULU-46-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hulu"
+      ]
+    },
+    {
+      "case": "service-HULU-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hulu"
+      ]
+    },
+    {
+      "case": "service-reverse-HULU-46-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hulu"
+      ]
+    },
+    {
+      "case": "service-HULU-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hulu"
+      ]
+    },
+    {
+      "case": "service-reverse-HULU-45-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hulu"
+      ]
+    },
+    {
+      "case": "service-HULU-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hulu"
+      ]
+    },
+    {
+      "case": "service-reverse-HULU-45-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hulu"
+      ]
+    },
+    {
+      "case": "service-HULU-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hulu"
+      ]
+    },
+    {
+      "case": "service-reverse-HULU-32-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hulu"
+      ]
+    },
+    {
+      "case": "service-HULU-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hulu"
+      ]
+    },
+    {
+      "case": "service-reverse-HULU-32-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hulu"
+      ]
+    },
+    {
+      "case": "service-HULU-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hulu"
+      ]
+    },
+    {
+      "case": "service-reverse-HULU-95-WEB-DL",
+      "matched": [
+        "r-1080",
+        "q-webdl",
+        "s-hulu"
+      ]
+    },
+    {
+      "case": "service-HULU-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hulu"
+      ]
+    },
+    {
+      "case": "service-reverse-HULU-95-WEBRip",
+      "matched": [
+        "r-1080",
+        "q-webrip",
+        "s-hulu"
+      ]
+    },
+    {
+      "case": "network-s-netflix-📡 ",
+      "matched": [
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "network-s-netflix-Network: ",
+      "matched": [
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "network-s-netflix-[FIGUZ_NETWORK=",
+      "matched": [
+        "s-netflix"
+      ]
+    },
+    {
+      "case": "network-s-appletv-📡 ",
+      "matched": [
+        "s-appletv"
+      ]
+    },
+    {
+      "case": "network-s-appletv-Network: ",
+      "matched": [
+        "s-appletv"
+      ]
+    },
+    {
+      "case": "network-s-appletv-[FIGUZ_NETWORK=",
+      "matched": [
+        "s-appletv"
+      ]
+    },
+    {
+      "case": "network-s-prime-📡 ",
+      "matched": [
+        "s-prime"
+      ]
+    },
+    {
+      "case": "network-s-prime-Network: ",
+      "matched": [
+        "s-prime"
+      ]
+    },
+    {
+      "case": "network-s-prime-[FIGUZ_NETWORK=",
+      "matched": [
+        "s-prime"
+      ]
+    },
+    {
+      "case": "network-s-disney-📡 ",
+      "matched": [
+        "s-disney"
+      ]
+    },
+    {
+      "case": "network-s-disney-Network: ",
+      "matched": [
+        "s-disney"
+      ]
+    },
+    {
+      "case": "network-s-disney-[FIGUZ_NETWORK=",
+      "matched": [
+        "s-disney"
+      ]
+    },
+    {
+      "case": "network-s-hbomax-📡 ",
+      "matched": [
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "network-s-hbomax-Network: ",
+      "matched": [
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "network-s-hbomax-[FIGUZ_NETWORK=",
+      "matched": [
+        "s-hbomax"
+      ]
+    },
+    {
+      "case": "network-s-skyshowtime-📡 ",
+      "matched": [
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "network-s-skyshowtime-Network: ",
+      "matched": [
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "network-s-skyshowtime-[FIGUZ_NETWORK=",
+      "matched": [
+        "s-skyshowtime"
+      ]
+    },
+    {
+      "case": "network-s-paramount-📡 ",
+      "matched": [
+        "s-paramount"
+      ]
+    },
+    {
+      "case": "network-s-paramount-Network: ",
+      "matched": [
+        "s-paramount"
+      ]
+    },
+    {
+      "case": "network-s-paramount-[FIGUZ_NETWORK=",
+      "matched": [
+        "s-paramount"
+      ]
+    },
+    {
+      "case": "network-s-peacock-📡 ",
+      "matched": [
+        "s-peacock"
+      ]
+    },
+    {
+      "case": "network-s-peacock-Network: ",
+      "matched": [
+        "s-peacock"
+      ]
+    },
+    {
+      "case": "network-s-peacock-[FIGUZ_NETWORK=",
+      "matched": [
+        "s-peacock"
+      ]
+    },
+    {
+      "case": "network-s-hulu-📡 ",
+      "matched": [
+        "s-hulu"
+      ]
+    },
+    {
+      "case": "network-s-hulu-Network: ",
+      "matched": [
+        "s-hulu"
+      ]
+    },
+    {
+      "case": "network-s-hulu-[FIGUZ_NETWORK=",
+      "matched": [
+        "s-hulu"
+      ]
+    },
+    {
+      "case": "no-service-0",
+      "matched": [
+        "r-1080",
+        "q-webdl"
+      ]
+    },
+    {
+      "case": "no-service-1",
+      "matched": [
+        "r-2160",
+        "q-webdl"
+      ]
+    },
+    {
+      "case": "no-service-2",
+      "matched": []
+    },
+    {
+      "case": "no-service-3",
+      "matched": []
+    },
+    {
+      "case": "no-service-4",
+      "matched": []
+    },
+    {
+      "case": "no-service-5",
+      "matched": []
+    },
+    {
+      "case": "no-service-6",
+      "matched": [
+        "q-webdl"
+      ]
+    },
+    {
+      "case": "no-service-7",
+      "matched": [
+        "r-1080",
+        "q-webdl"
+      ]
+    },
+    {
+      "case": "no-service-8",
+      "matched": [
+        "r-1080",
+        "q-webdl"
+      ]
+    },
+    {
+      "case": "no-service-9",
+      "matched": [
+        "q-webdl"
+      ]
+    },
+    {
+      "case": "no-service-10",
+      "matched": [
+        "q-webdl"
+      ]
+    },
+    {
+      "case": "no-service-11",
+      "matched": [
+        "q-webdl"
+      ]
+    },
+    {
+      "case": "no-service-12",
+      "matched": [
+        "q-webdl"
+      ]
+    },
+    {
+      "case": "no-service-13",
+      "matched": [
+        "r-1080",
+        "q-webdl"
+      ]
+    },
+    {
+      "case": "no-service-14",
+      "matched": [
+        "q-webdl"
+      ]
+    },
+    {
+      "case": "codec-H265",
+      "matched": [
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "codec-H.265",
+      "matched": [
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "codec-H-265",
+      "matched": [
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "codec-H_265",
+      "matched": [
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "codec-x265",
+      "matched": [
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "codec-HEVC",
+      "matched": [
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "codec-H264",
+      "matched": [
+        "c-avc"
+      ]
+    },
+    {
+      "case": "codec-H.264",
+      "matched": [
+        "c-avc"
+      ]
+    },
+    {
+      "case": "codec-x264",
+      "matched": [
+        "c-avc"
+      ]
+    },
+    {
+      "case": "codec-AVC",
+      "matched": [
+        "c-avc"
+      ]
+    },
+    {
+      "case": "codec-AV1",
+      "matched": [
+        "c-av1"
+      ]
+    },
+    {
+      "case": "codec-dedupe",
+      "matched": [
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "codec-priority-av1",
+      "matched": [
+        "c-av1"
+      ]
+    },
+    {
+      "case": "codec-priority-hevc",
+      "matched": [
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "codec-no-partials",
+      "matched": []
+    },
+    {
+      "case": "audio-TrueHD5.1",
+      "matched": [
+        "a-truehd",
+        "ch-51"
+      ]
+    },
+    {
+      "case": "audio-TrueHD.5.1",
+      "matched": [
+        "a-truehd",
+        "ch-51"
+      ]
+    },
+    {
+      "case": "audio-TrueHD7.1",
+      "matched": [
+        "a-truehd",
+        "ch-71"
+      ]
+    },
+    {
+      "case": "audio-TrueHD.7.1",
+      "matched": [
+        "a-truehd",
+        "ch-71"
+      ]
+    },
+    {
+      "case": "audio-TRUE-HD",
+      "matched": [
+        "a-truehd"
+      ]
+    },
+    {
+      "case": "audio-true_hd",
+      "matched": [
+        "a-truehd"
+      ]
+    },
+    {
+      "case": "audio-TrueHD.Atmos",
+      "matched": [
+        "a-truehd-atmos"
+      ]
+    },
+    {
+      "case": "audio-TrueHD5.1.Atmos",
+      "matched": [
+        "a-truehd-atmos",
+        "ch-51"
+      ]
+    },
+    {
+      "case": "audio-TrueHD.7.1.Atmos",
+      "matched": [
+        "a-truehd-atmos",
+        "ch-71"
+      ]
+    },
+    {
+      "case": "audio-Atmos.TrueHD",
+      "matched": [
+        "a-truehd-atmos"
+      ]
+    },
+    {
+      "case": "audio-DDP5.1",
+      "matched": [
+        "a-ddplus",
+        "ch-51"
+      ]
+    },
+    {
+      "case": "audio-DDP.5.1",
+      "matched": [
+        "a-ddplus",
+        "ch-51"
+      ]
+    },
+    {
+      "case": "audio-DD+",
+      "matched": [
+        "a-ddplus"
+      ]
+    },
+    {
+      "case": "audio-EAC3",
+      "matched": [
+        "a-ddplus"
+      ]
+    },
+    {
+      "case": "audio-E-AC-3",
+      "matched": [
+        "a-ddplus"
+      ]
+    },
+    {
+      "case": "audio-EC3",
+      "matched": [
+        "a-ddplus"
+      ]
+    },
+    {
+      "case": "audio-Dolby Digital Plus",
+      "matched": [
+        "a-ddplus"
+      ]
+    },
+    {
+      "case": "audio-DDP5.1.Atmos",
+      "matched": [
+        "a-ddp-atmos",
+        "ch-51"
+      ]
+    },
+    {
+      "case": "audio-EAC3.Atmos",
+      "matched": [
+        "a-ddp-atmos"
+      ]
+    },
+    {
+      "case": "audio-DD+.5.1.Atmos",
+      "matched": [
+        "a-ddp-atmos",
+        "ch-51"
+      ]
+    },
+    {
+      "case": "audio-Atmos.EAC3",
+      "matched": [
+        "a-ddp-atmos"
+      ]
+    },
+    {
+      "case": "audio-Dolby Digital Plus Atmos",
+      "matched": [
+        "a-ddp-atmos"
+      ]
+    },
+    {
+      "case": "audio-Atmos",
+      "matched": [
+        "a-atmos-unknown"
+      ]
+    },
+    {
+      "case": "audio-TrueHD.AAC.Atmos",
+      "matched": [
+        "a-atmos-unknown"
+      ]
+    },
+    {
+      "case": "audio-TrueHD7.1.DDP5.1.Atmos",
+      "matched": [
+        "a-atmos-multi",
+        "ch-71"
+      ]
+    },
+    {
+      "case": "audio-TrueHD.Atmos.DDP5.1",
+      "matched": [
+        "a-atmos-multi",
+        "ch-51"
+      ]
+    },
+    {
+      "case": "audio-DD5.1",
+      "matched": [
+        "a-dd",
+        "ch-51"
+      ]
+    },
+    {
+      "case": "audio-DD.5.1",
+      "matched": [
+        "a-dd",
+        "ch-51"
+      ]
+    },
+    {
+      "case": "audio-AC3",
+      "matched": [
+        "a-dd"
+      ]
+    },
+    {
+      "case": "audio-AC-3.5.1",
+      "matched": [
+        "a-dd",
+        "ch-51"
+      ]
+    },
+    {
+      "case": "audio-Dolby Digital",
+      "matched": [
+        "a-dd"
+      ]
+    },
+    {
+      "case": "audio-DTS:X",
+      "matched": [
+        "a-dtsx"
+      ]
+    },
+    {
+      "case": "audio-DTS.X",
+      "matched": [
+        "a-dtsx"
+      ]
+    },
+    {
+      "case": "audio-DTS-X",
+      "matched": [
+        "a-dtsx"
+      ]
+    },
+    {
+      "case": "audio-DTSX",
+      "matched": [
+        "a-dtsx"
+      ]
+    },
+    {
+      "case": "audio-DTS:X.DTS-HD.MA.7.1",
+      "matched": [
+        "a-dtsx",
+        "ch-71"
+      ]
+    },
+    {
+      "case": "audio-DTS-HD.MA.7.1",
+      "matched": [
+        "a-dtsma",
+        "ch-71"
+      ]
+    },
+    {
+      "case": "audio-DTS-HD.MA.5.1",
+      "matched": [
+        "a-dtsma",
+        "ch-51"
+      ]
+    },
+    {
+      "case": "audio-DTS-HD MA",
+      "matched": [
+        "a-dtsma"
+      ]
+    },
+    {
+      "case": "audio-DTSHDMA5.1",
+      "matched": [
+        "a-dtsma",
+        "ch-51"
+      ]
+    },
+    {
+      "case": "audio-DTS Master Audio",
+      "matched": [
+        "a-dtsma"
+      ]
+    },
+    {
+      "case": "audio-DTS-HD",
+      "matched": [
+        "a-dtshd"
+      ]
+    },
+    {
+      "case": "audio-DTS.HD.5.1",
+      "matched": [
+        "a-dtshd",
+        "ch-51"
+      ]
+    },
+    {
+      "case": "audio-DTS",
+      "matched": [
+        "a-dts"
+      ]
+    },
+    {
+      "case": "audio-DTS5.1",
+      "matched": [
+        "a-dts",
+        "ch-51"
+      ]
+    },
+    {
+      "case": "audio-negative-0",
+      "matched": [
+        "a-truehd",
+        "ch-51"
+      ]
+    },
+    {
+      "case": "audio-negative-1",
+      "matched": [
+        "a-truehd"
+      ]
+    },
+    {
+      "case": "audio-negative-2",
+      "matched": [
+        "a-truehd",
+        "ch-71"
+      ]
+    },
+    {
+      "case": "audio-negative-3",
+      "matched": [
+        "a-truehd",
+        "a-dtsma",
+        "ch-71"
+      ]
+    },
+    {
+      "case": "audio-negative-4",
+      "matched": [
+        "r-1080"
+      ]
+    },
+    {
+      "case": "audio-negative-5",
+      "matched": []
+    },
+    {
+      "case": "audio-negative-6",
+      "matched": [
+        "ch-51"
+      ]
+    },
+    {
+      "case": "audio-negative-7",
+      "matched": []
+    },
+    {
+      "case": "audio-negative-8",
+      "matched": []
+    },
+    {
+      "case": "no-ma-in-dtshd",
+      "matched": [
+        "a-dtshd",
+        "ch-71"
+      ]
+    },
+    {
+      "case": "no-ma-in-matrix",
+      "matched": [
+        "a-dtshd",
+        "ch-71"
+      ]
+    },
+    {
+      "case": "audio-dedupe",
+      "matched": [
+        "a-ddp-atmos",
+        "ch-51"
+      ]
+    },
+    {
+      "case": "no-language-multi",
+      "matched": [
+        "q-webdl"
+      ]
+    },
+    {
+      "case": "no-language-dl",
+      "matched": [
+        "r-1080"
+      ]
+    },
+    {
+      "case": "subtitles-only",
+      "matched": [
+        "r-1080"
+      ]
+    },
+    {
+      "case": "edition-Unrated",
+      "matched": [
+        "r-1080",
+        "q-bluray",
+        "e-unrated"
+      ]
+    },
+    {
+      "case": "edition-Extended",
+      "matched": [
+        "r-1080",
+        "q-bluray",
+        "e-extended"
+      ]
+    },
+    {
+      "case": "edition-Director's.Cut",
+      "matched": [
+        "r-1080",
+        "q-bluray",
+        "e-directors-cut"
+      ]
+    },
+    {
+      "case": "edition-Directors-Cut",
+      "matched": [
+        "r-1080",
+        "q-bluray",
+        "e-directors-cut"
+      ]
+    },
+    {
+      "case": "edition-Director’s Cut",
+      "matched": [
+        "r-1080",
+        "q-bluray",
+        "e-directors-cut"
+      ]
+    },
+    {
+      "case": "edition-Theatrical",
+      "matched": [
+        "r-1080",
+        "q-bluray",
+        "e-theatrical"
+      ]
+    },
+    {
+      "case": "edition-PROPER",
+      "matched": [
+        "r-1080",
+        "q-bluray",
+        "e-proper"
+      ]
+    },
+    {
+      "case": "edition-REPACK2",
+      "matched": [
+        "r-1080",
+        "q-bluray",
+        "e-repack"
+      ]
+    },
+    {
+      "case": "edition-HYBRID",
+      "matched": [
+        "r-1080",
+        "q-bluray",
+        "e-hybrid"
+      ]
+    },
+    {
+      "case": "multiple-editions",
+      "matched": [
+        "r-1080",
+        "e-unrated",
+        "e-extended",
+        "e-directors-cut",
+        "e-theatrical",
+        "e-proper",
+        "e-repack",
+        "e-hybrid"
+      ]
+    },
+    {
+      "case": "edition-title-negative",
+      "matched": [
+        "r-1080",
+        "q-webdl"
+      ]
+    },
+    {
+      "case": "extended-title-negative",
+      "matched": [
+        "r-1080",
+        "q-webdl"
+      ]
+    },
+    {
+      "case": "release-unrated-and-hybrid",
+      "matched": [
+        "a-dtsma",
+        "v-dolbyvision",
+        "ch-71",
+        "r-2160",
+        "q-remux",
+        "q-bluray",
+        "c-hevc",
+        "e-unrated",
+        "e-hybrid"
+      ]
+    },
+    {
+      "case": "release-seadex-and-extended",
+      "matched": [
+        "r-1080",
+        "q-bluray",
+        "v-seadex",
+        "c-hevc",
+        "e-extended"
+      ]
+    },
+    {
+      "case": "release-seadex-extended-hybrid",
+      "matched": [
+        "a-truehd",
+        "v-dolbyvision",
+        "v-hdr10",
+        "ch-71",
+        "r-2160",
+        "q-remux",
+        "q-bluray",
+        "v-seadex",
+        "c-hevc",
+        "e-extended",
+        "e-hybrid"
+      ]
+    },
+    {
+      "case": "usenet-amzn-ddp-atmos",
+      "matched": [
+        "a-ddp-atmos",
+        "ch-51",
+        "r-2160",
+        "q-webdl",
+        "s-prime",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "usenet-atvp-dv-hdr",
+      "matched": [
+        "a-ddp-atmos",
+        "v-dolbyvision",
+        "v-hdr10plus",
+        "ch-51",
+        "r-2160",
+        "q-webdl",
+        "s-appletv",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "usenet-directors-truehd",
+      "matched": [
+        "a-truehd",
+        "ch-51",
+        "r-2160",
+        "q-remux",
+        "q-bluray",
+        "c-hevc",
+        "e-directors-cut"
+      ]
+    },
+    {
+      "case": "usenet-dsnp-av1",
+      "matched": [
+        "a-ddp-atmos",
+        "ch-51",
+        "r-2160",
+        "q-webdl",
+        "s-disney",
+        "c-av1"
+      ]
+    },
+    {
+      "case": "usenet-unknown-service",
+      "matched": [
+        "a-truehd",
+        "ch-51",
+        "r-2160",
+        "q-webdl",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "usenet-repack-audio",
+      "matched": [
+        "a-dtsma",
+        "ch-51",
+        "r-1080",
+        "q-bluray",
+        "c-avc",
+        "e-repack"
+      ]
+    },
+    {
+      "case": "layout-stress",
+      "matched": [
+        "a-truehd-atmos",
+        "v-dolbyvision",
+        "v-hdr10plus",
+        "ch-71",
+        "r-2160",
+        "q-remux",
+        "q-bluray",
+        "v-imax-enh",
+        "c-hevc",
+        "e-extended",
+        "e-proper",
+        "e-hybrid"
+      ]
+    },
+    {
+      "case": "priority-resolution",
+      "matched": [
+        "r-2160"
+      ]
+    },
+    {
+      "case": "priority-hdr",
+      "matched": [
+        "v-hdr10plus"
+      ]
+    },
+    {
+      "case": "priority-imax",
+      "matched": [
+        "v-imax-enh"
+      ]
+    },
+    {
+      "case": "priority-channels",
+      "matched": [
+        "ch-71"
+      ]
+    },
+    {
+      "case": "priority-source",
+      "matched": [
+        "q-remux",
+        "q-bluray"
+      ]
+    },
+    {
+      "case": "seadex-preserved",
+      "matched": [
+        "v-seadex"
+      ]
+    },
+    {
+      "case": "legacy-smoke-r-1440",
+      "matched": [
+        "r-1440"
+      ]
+    },
+    {
+      "case": "legacy-smoke-r-720",
+      "matched": [
+        "r-720"
+      ]
+    },
+    {
+      "case": "legacy-smoke-r-480",
+      "matched": [
+        "r-480"
+      ]
+    },
+    {
+      "case": "legacy-smoke-v-sdr",
+      "matched": [
+        "v-sdr"
+      ]
+    },
+    {
+      "case": "legacy-smoke-v-imax",
+      "matched": [
+        "v-imax"
+      ]
+    },
+    {
+      "case": "legacy-smoke-ch-61",
+      "matched": [
+        "ch-61"
+      ]
+    },
+    {
+      "case": "legacy-smoke-ch-20",
+      "matched": [
+        "ch-20"
+      ]
+    },
+    {
+      "case": "legacy-smoke-ch-10",
+      "matched": [
+        "ch-10"
+      ]
+    },
+    {
+      "case": "repeated-fields",
+      "matched": [
+        "a-dtsma",
+        "v-dolbyvision",
+        "ch-71",
+        "r-2160",
+        "q-remux",
+        "q-bluray",
+        "c-hevc",
+        "e-unrated",
+        "e-hybrid"
+      ]
+    },
+    {
+      "case": "split-fields-atmos-pair",
+      "matched": [
+        "a-truehd-atmos",
+        "a-atmos-unknown",
+        "a-truehd",
+        "ch-51"
+      ]
+    },
+    {
+      "case": "client-limit-conflicting-codecs",
+      "matched": [
+        "c-av1",
+        "c-hevc"
+      ]
+    },
+    {
+      "case": "client-limit-split-audio",
+      "matched": [
+        "a-truehd-atmos",
+        "a-atmos-unknown",
+        "a-truehd",
+        "ch-51"
+      ]
+    }
+  ]
+}

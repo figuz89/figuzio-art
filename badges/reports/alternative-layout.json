@@ -1,0 +1,125 @@
+{
+  "film-A": {
+    "mobileViewportDp": 326,
+    "tvViewportDp": 416,
+    "items": [
+      {
+        "id": "v-dolbyvision",
+        "startDp": 0.0,
+        "endDp": 93.0
+      },
+      {
+        "id": "v-hdr",
+        "startDp": 97.0,
+        "endDp": 150.33333333333334
+      },
+      {
+        "id": "r-2160",
+        "startDp": 154.33333333333334,
+        "endDp": 194.33333333333334
+      },
+      {
+        "id": "q-webdl",
+        "startDp": 198.33333333333334,
+        "endDp": 294.0
+      },
+      {
+        "id": "s-netflix",
+        "startDp": 298.0,
+        "endDp": 357.6666666666667
+      }
+    ]
+  },
+  "film-B": {
+    "mobileViewportDp": 326,
+    "tvViewportDp": 416,
+    "items": [
+      {
+        "id": "a-dtsma",
+        "startDp": 0.0,
+        "endDp": 93.33333333333333
+      },
+      {
+        "id": "v-dolbyvision",
+        "startDp": 97.33333333333333,
+        "endDp": 190.33333333333334
+      },
+      {
+        "id": "ch-71",
+        "startDp": 194.33333333333334,
+        "endDp": 234.33333333333334
+      },
+      {
+        "id": "r-2160",
+        "startDp": 238.33333333333334,
+        "endDp": 278.3333333333333
+      },
+      {
+        "id": "q-remux",
+        "startDp": 282.3333333333333,
+        "endDp": 361.0
+      },
+      {
+        "id": "q-bluray",
+        "startDp": 365.0,
+        "endDp": 445.3333333333333
+      },
+      {
+        "id": "c-hevc",
+        "startDp": 449.3333333333333,
+        "endDp": 514.0
+      },
+      {
+        "id": "e-unrated",
+        "startDp": 518.0,
+        "endDp": 607.3333333333334
+      },
+      {
+        "id": "e-hybrid",
+        "startDp": 611.3333333333334,
+        "endDp": 701.3333333333334
+      }
+    ]
+  },
+  "film-C": {
+    "mobileViewportDp": 326,
+    "tvViewportDp": 416,
+    "items": [
+      {
+        "id": "a-truehd",
+        "startDp": 0.0,
+        "endDp": 98.0
+      },
+      {
+        "id": "v-dolbyvision",
+        "startDp": 102.0,
+        "endDp": 195.0
+      },
+      {
+        "id": "v-hdr10",
+        "startDp": 199.0,
+        "endDp": 275.0
+      },
+      {
+        "id": "ch-51",
+        "startDp": 279.0,
+        "endDp": 319.0
+      },
+      {
+        "id": "r-2160",
+        "startDp": 323.0,
+        "endDp": 363.0
+      },
+      {
+        "id": "q-remux",
+        "startDp": 367.0,
+        "endDp": 445.6666666666667
+      },
+      {
+        "id": "q-bluray",
+        "startDp": 449.6666666666667,
+        "endDp": 530.0
+      }
+    ]
+  }
+}
