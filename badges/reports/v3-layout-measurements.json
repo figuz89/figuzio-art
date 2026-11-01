@@ -1,0 +1,280 @@
+{
+  "A": {
+    "badgeRowDp": 327.0,
+    "tvAvailableDp": 416,
+    "mobileAvailableDp": 326,
+    "tvInitialFullyVisible": [
+      "v-dolbyvision",
+      "v-hdr",
+      "r-2160",
+      "q-webdl",
+      "s-netflix"
+    ],
+    "mobileInitialFullyVisible": [
+      "v-dolbyvision",
+      "v-hdr",
+      "r-2160",
+      "q-webdl"
+    ],
+    "tvGeometry": [
+      {
+        "id": "v-dolbyvision",
+        "startDp": 0.0,
+        "endDp": 81.0
+      },
+      {
+        "id": "v-hdr",
+        "startDp": 85.0,
+        "endDp": 130.5
+      },
+      {
+        "id": "r-2160",
+        "startDp": 134.5,
+        "endDp": 174.5
+      },
+      {
+        "id": "q-webdl",
+        "startDp": 178.5,
+        "endDp": 263.0
+      },
+      {
+        "id": "s-netflix",
+        "startDp": 267.0,
+        "endDp": 327.0
+      }
+    ],
+    "mobileGeometry": [
+      {
+        "id": "v-dolbyvision",
+        "startDp": 0.0,
+        "endDp": 81.33333333333333
+      },
+      {
+        "id": "v-hdr",
+        "startDp": 85.33333333333333,
+        "endDp": 130.66666666666666
+      },
+      {
+        "id": "r-2160",
+        "startDp": 134.66666666666666,
+        "endDp": 174.66666666666666
+      },
+      {
+        "id": "q-webdl",
+        "startDp": 178.66666666666666,
+        "endDp": 263.3333333333333
+      },
+      {
+        "id": "s-netflix",
+        "startDp": 267.3333333333333,
+        "endDp": 327.0
+      }
+    ]
+  },
+  "B": {
+    "badgeRowDp": 632.0,
+    "tvAvailableDp": 416,
+    "mobileAvailableDp": 326,
+    "tvInitialFullyVisible": [
+      "a-dtsma",
+      "v-dolbyvision",
+      "ch-71",
+      "r-2160",
+      "q-remux",
+      "q-bluray"
+    ],
+    "mobileInitialFullyVisible": [
+      "a-dtsma",
+      "v-dolbyvision",
+      "ch-71",
+      "r-2160"
+    ],
+    "tvGeometry": [
+      {
+        "id": "a-dtsma",
+        "startDp": 0.0,
+        "endDp": 91.5
+      },
+      {
+        "id": "v-dolbyvision",
+        "startDp": 95.5,
+        "endDp": 176.5
+      },
+      {
+        "id": "ch-71",
+        "startDp": 180.5,
+        "endDp": 220.5
+      },
+      {
+        "id": "r-2160",
+        "startDp": 224.5,
+        "endDp": 264.5
+      },
+      {
+        "id": "q-remux",
+        "startDp": 268.5,
+        "endDp": 330.0
+      },
+      {
+        "id": "q-bluray",
+        "startDp": 334.0,
+        "endDp": 405.5
+      },
+      {
+        "id": "c-hevc",
+        "startDp": 409.5,
+        "endDp": 467.0
+      },
+      {
+        "id": "e-unrated",
+        "startDp": 471.0,
+        "endDp": 548.0
+      },
+      {
+        "id": "e-hybrid",
+        "startDp": 552.0,
+        "endDp": 632.0
+      }
+    ],
+    "mobileGeometry": [
+      {
+        "id": "a-dtsma",
+        "startDp": 0.0,
+        "endDp": 91.33333333333333
+      },
+      {
+        "id": "v-dolbyvision",
+        "startDp": 95.33333333333333,
+        "endDp": 176.66666666666666
+      },
+      {
+        "id": "ch-71",
+        "startDp": 180.66666666666666,
+        "endDp": 220.66666666666666
+      },
+      {
+        "id": "r-2160",
+        "startDp": 224.66666666666666,
+        "endDp": 264.6666666666667
+      },
+      {
+        "id": "q-remux",
+        "startDp": 268.6666666666667,
+        "endDp": 330.0
+      },
+      {
+        "id": "q-bluray",
+        "startDp": 334.0,
+        "endDp": 405.6666666666667
+      },
+      {
+        "id": "c-hevc",
+        "startDp": 409.6666666666667,
+        "endDp": 467.0
+      },
+      {
+        "id": "e-unrated",
+        "startDp": 471.0,
+        "endDp": 548.3333333333334
+      },
+      {
+        "id": "e-hybrid",
+        "startDp": 552.3333333333334,
+        "endDp": 632.0
+      }
+    ]
+  },
+  "C": {
+    "badgeRowDp": 471.0,
+    "tvAvailableDp": 416,
+    "mobileAvailableDp": 326,
+    "tvInitialFullyVisible": [
+      "a-truehd",
+      "v-dolbyvision",
+      "v-hdr10",
+      "ch-51",
+      "r-2160",
+      "q-remux"
+    ],
+    "mobileInitialFullyVisible": [
+      "a-truehd",
+      "v-dolbyvision",
+      "v-hdr10",
+      "ch-51"
+    ],
+    "tvGeometry": [
+      {
+        "id": "a-truehd",
+        "startDp": 0.0,
+        "endDp": 91.0
+      },
+      {
+        "id": "v-dolbyvision",
+        "startDp": 95.0,
+        "endDp": 176.0
+      },
+      {
+        "id": "v-hdr10",
+        "startDp": 180.0,
+        "endDp": 242.0
+      },
+      {
+        "id": "ch-51",
+        "startDp": 246.0,
+        "endDp": 286.0
+      },
+      {
+        "id": "r-2160",
+        "startDp": 290.0,
+        "endDp": 330.0
+      },
+      {
+        "id": "q-remux",
+        "startDp": 334.0,
+        "endDp": 395.5
+      },
+      {
+        "id": "q-bluray",
+        "startDp": 399.5,
+        "endDp": 471.0
+      }
+    ],
+    "mobileGeometry": [
+      {
+        "id": "a-truehd",
+        "startDp": 0.0,
+        "endDp": 91.0
+      },
+      {
+        "id": "v-dolbyvision",
+        "startDp": 95.0,
+        "endDp": 176.33333333333334
+      },
+      {
+        "id": "v-hdr10",
+        "startDp": 180.33333333333334,
+        "endDp": 242.66666666666666
+      },
+      {
+        "id": "ch-51",
+        "startDp": 246.66666666666666,
+        "endDp": 286.6666666666667
+      },
+      {
+        "id": "r-2160",
+        "startDp": 290.6666666666667,
+        "endDp": 330.6666666666667
+      },
+      {
+        "id": "q-remux",
+        "startDp": 334.6666666666667,
+        "endDp": 396.0
+      },
+      {
+        "id": "q-bluray",
+        "startDp": 400.0,
+        "endDp": 471.6666666666667
+      }
+    ]
+  }
+}
