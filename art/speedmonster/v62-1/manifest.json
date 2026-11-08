@@ -1,0 +1,157 @@
+{
+  "version": "v62.1",
+  "createdOn": "2026-11-09",
+  "font": "Arial Black",
+  "assets": [
+    {
+      "title": "1940s Movies",
+      "repositoryPath": "art/speedmonster/v62-1/by-decade/1940s/cover.webp",
+      "bytes": 554038,
+      "sha256": "c45c88582bac81a25d8e10ebbf759d8da8b5b3a750a75695ce00bad426537d02",
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false
+    },
+    {
+      "title": "1940s Movies",
+      "repositoryPath": "art/speedmonster/v62-1/by-decade/1940s/hero.webp",
+      "bytes": 525074,
+      "sha256": "0fde9bf5f7a5781a62368a8154a2b75ac13df3da8700c242f827609daf9e359c",
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false
+    },
+    {
+      "title": "1940s Movies",
+      "repositoryPath": "art/speedmonster/v62-1/by-decade/1940s/title-logo.png",
+      "bytes": 10059,
+      "sha256": "f6c9d0284646134a67154788267bec65d83fa29029be92577b5481ea47dde012",
+      "format": "png",
+      "width": 1200,
+      "height": 360,
+      "hasAlpha": true
+    },
+    {
+      "title": "1930s Movies",
+      "repositoryPath": "art/speedmonster/v62-1/by-decade/1930s/cover.webp",
+      "bytes": 528542,
+      "sha256": "3e8560939b3d0ca8c0ebcf6f19882d89623d15c3dc0a43259dcea12b99175335",
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false
+    },
+    {
+      "title": "1930s Movies",
+      "repositoryPath": "art/speedmonster/v62-1/by-decade/1930s/hero.webp",
+      "bytes": 521344,
+      "sha256": "23a1d5baeefef87bfe157a1ed19b913ff3c052228c38b044d1eff92e342c2aa9",
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false
+    },
+    {
+      "title": "1930s Movies",
+      "repositoryPath": "art/speedmonster/v62-1/by-decade/1930s/title-logo.png",
+      "bytes": 10277,
+      "sha256": "1b2741c9624a01efdfd2bdccf1afceb1dc6f2f80c66eb7dc7434c0b9f6752aff",
+      "format": "png",
+      "width": 1200,
+      "height": 360,
+      "hasAlpha": true
+    },
+    {
+      "title": "Silent Cinema",
+      "repositoryPath": "art/speedmonster/v62-1/by-decade/silent-cinema/cover.webp",
+      "bytes": 503556,
+      "sha256": "56cd3df6cfe8c00df1b1e1ded4c2d8e7f7efd96efb9a029574b362bebb6bbee5",
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false
+    },
+    {
+      "title": "Silent Cinema",
+      "repositoryPath": "art/speedmonster/v62-1/by-decade/silent-cinema/hero.webp",
+      "bytes": 461888,
+      "sha256": "30c8e4d08dbbe1c81904afc57fbb8d56187014f34f455f8f1d84d589ec8edc15",
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false
+    },
+    {
+      "title": "Silent Cinema",
+      "repositoryPath": "art/speedmonster/v62-1/by-decade/silent-cinema/title-logo.png",
+      "bytes": 18063,
+      "sha256": "24c89f8dca5dab37808ac058e99648083d3dbe68b6df5b909150b2d00595470d",
+      "format": "png",
+      "width": 1200,
+      "height": 360,
+      "hasAlpha": true
+    },
+    {
+      "title": "Christmas & Holiday Favorites",
+      "repositoryPath": "art/speedmonster/v62-1/kids-and-family/christmas-holiday-favorites/cover.webp",
+      "bytes": 468714,
+      "sha256": "6843d20e3c26f38c7e65574316e085f6e510cd0104d640c31a7392e7d0590f44",
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false
+    },
+    {
+      "title": "Christmas & Holiday Favorites",
+      "repositoryPath": "art/speedmonster/v62-1/kids-and-family/christmas-holiday-favorites/hero.webp",
+      "bytes": 436430,
+      "sha256": "29f7287bddf9dea4263a3317733fa5da639a33db1d315415fcbcbbb0f52556b4",
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false
+    },
+    {
+      "title": "Christmas & Holiday Favorites",
+      "repositoryPath": "art/speedmonster/v62-1/kids-and-family/christmas-holiday-favorites/title-logo.png",
+      "bytes": 28647,
+      "sha256": "ca1668be6e0a4f0e75d8f3cd222ad23e959810fc615055fd0ab3ff10012550ed",
+      "format": "png",
+      "width": 1200,
+      "height": 360,
+      "hasAlpha": true
+    },
+    {
+      "title": "Norwegian & Nordic Family Favorites",
+      "repositoryPath": "art/speedmonster/v62-1/kids-and-family/norwegian-nordic-family-favorites/cover.webp",
+      "bytes": 467834,
+      "sha256": "29cde3a99913f6b6a790c9205c19ab44e05038316762c96e46bc8005f945754b",
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false
+    },
+    {
+      "title": "Norwegian & Nordic Family Favorites",
+      "repositoryPath": "art/speedmonster/v62-1/kids-and-family/norwegian-nordic-family-favorites/hero.webp",
+      "bytes": 487598,
+      "sha256": "49a0a7981202f9bf3b81915b94a34fc413ae23742f0fb61b20efaa912327c5c5",
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false
+    },
+    {
+      "title": "Norwegian & Nordic Family Favorites",
+      "repositoryPath": "art/speedmonster/v62-1/kids-and-family/norwegian-nordic-family-favorites/title-logo.png",
+      "bytes": 32527,
+      "sha256": "5d6edc8e4c4135fdcba342bd17fc154c4c0eb349fbc870a2287f3737e5e8621b",
+      "format": "png",
+      "width": 1200,
+      "height": 360,
+      "hasAlpha": true
+    }
+  ]
+}
