@@ -1,0 +1,116 @@
+{
+  "version": "v62.4",
+  "purpose": "Full-screen decade hero reframing; whole vehicles above the catalog rows",
+  "files": [
+    {
+      "path": "art/speedmonster/v62-4/by-decade/2020s/hero.webp",
+      "bytes": 541788,
+      "sha256": "9e3f2e01dfa98ca79acad266eeba0d12772108876e423f4d235f0bd86c0d5072",
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "originVersion": "v62.4"
+    },
+    {
+      "path": "art/speedmonster/v62-4/by-decade/2010s/hero.webp",
+      "bytes": 698828,
+      "sha256": "3551a0f75f33dbf7270be1db87404da6731f85d87ae01f35b5fb62a18d871f16",
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "originVersion": "v62.4"
+    },
+    {
+      "path": "art/speedmonster/v62-4/by-decade/2000s/hero.webp",
+      "bytes": 789110,
+      "sha256": "6171494c2d13c616421f7a6cf2b5430a2eef123399f5800975897a385ea7fd9c",
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "originVersion": "v62.4"
+    },
+    {
+      "path": "art/speedmonster/v62-4/by-decade/1990s/hero.webp",
+      "bytes": 800616,
+      "sha256": "2fff48f953fbc311e66126254ee675631b1c09aa3339e2894f020887775f8e6d",
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "originVersion": "v62.4"
+    },
+    {
+      "path": "art/speedmonster/v62-4/by-decade/1980s/hero.webp",
+      "bytes": 584322,
+      "sha256": "ec2440ccf8a07a36cfbb446154184b553c6483e2ba8779c65542e821e67eace8",
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "originVersion": "v62.4"
+    },
+    {
+      "path": "art/speedmonster/v62-4/by-decade/1970s/hero.webp",
+      "bytes": 728484,
+      "sha256": "593b383912e79a808a7fb6f96864eb4c81d0231eb0519a0afbc680c596684734",
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "originVersion": "v62.4"
+    },
+    {
+      "path": "art/speedmonster/v62-4/by-decade/1960s/hero.webp",
+      "bytes": 818752,
+      "sha256": "20df085bdc3b8489f6aef457e307a8bfc51657902c033d4df218e462867d730a",
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "originVersion": "v62.4"
+    },
+    {
+      "path": "art/speedmonster/v62-4/by-decade/1950s/hero.webp",
+      "bytes": 682178,
+      "sha256": "286312d9cc381dca0f6901a1b382e438e08cb9a6eb6aa1d3a2088f7255267d31",
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "originVersion": "v62.4"
+    },
+    {
+      "path": "art/speedmonster/v62-4/by-decade/1940s/hero.webp",
+      "bytes": 821400,
+      "sha256": "4c0bf8a82a9d00497ea36a9d18788631ac5780902efdacecdb697c1c10a07b85",
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "originVersion": "v62.4"
+    },
+    {
+      "path": "art/speedmonster/v62-4/by-decade/1930s/hero.webp",
+      "bytes": 708222,
+      "sha256": "21c6d77fce6dc4eb0c06ce53409871af9f7611b557e96a7ceae17ae1d3692038",
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "originVersion": "v62.4"
+    },
+    {
+      "path": "art/speedmonster/v62-4/by-decade/silent-cinema/hero.webp",
+      "bytes": 657270,
+      "sha256": "6b8962eab952a263925f7710e274c896214ab2237c22585f7ffad0c99b2c7791",
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "originVersion": "v62.4"
+    }
+  ]
+}
