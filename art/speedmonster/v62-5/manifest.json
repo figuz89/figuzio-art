@@ -1,0 +1,1075 @@
+{
+  "version": "v62.5",
+  "images": [
+    {
+      "path": "art/speedmonster/v62-5/international-cinema/norwegian-cinema/hero.webp",
+      "bytes": 592832,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "4b8d89ed05adda04809818ac545cc383d3661d3a743cacc63072b6664ecde113",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/international-cinema/moroccan-cinema/hero.webp",
+      "bytes": 623914,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "d5f5436d5966067d70b5f646c1bc6202b6abe4dd7f1f64eb7922200ddedd5656",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/international-cinema/argentine-cinema/hero.webp",
+      "bytes": 635614,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "361bd18a84e1511b5310b3722956d2fa80095967f5ae8290307087071f5050f4",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/international-cinema/ethiopian-cinema/hero.webp",
+      "bytes": 781020,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "76e21f94d79e8253cf1fde2ad7fb84d2c2d3d4de96299b579601029d02c1e48e",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/international-cinema/filipino-cinema/hero.webp",
+      "bytes": 692890,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "929b9c7534502c77533e22b44d68f8e532e500cf2f8bfe175057dc2dcf0cbd1b",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/international-cinema/indonesian-cinema/hero.webp",
+      "bytes": 605760,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "9fbf03ca218d61070e5e98e3ef36d12b34c68c2c93b0e5457b2d3c8f21e02142",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/international-cinema/irish-cinema/hero.webp",
+      "bytes": 774336,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "06b5073871ab301c4311c6e8f2ef676148b7013c94294c886b33061b806969ea",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/international-cinema/israeli-cinema/hero.webp",
+      "bytes": 773902,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "41c5f38e58daf1b7c4441bd7ec3d8c274c0199cfe72a30b340b8222de10715ec",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/international-cinema/italian-cinema/hero.webp",
+      "bytes": 864384,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "a9ef0a3ffe52b4244eca081e2325aa69167e351b71c112c81b7a711d0b016558",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/international-cinema/kenyan-cinema/hero.webp",
+      "bytes": 715656,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "487cf81d8cafb178864a19e886865b2e2b41eabd19df43e84346ae6c0c120a4f",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/international-cinema/korean-cinema/hero.webp",
+      "bytes": 800160,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "8d965067c93508999f4a8c8f129ac0de23c3f37407412d062fc6ce36465bc54b",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/international-cinema/nepali-cinema/hero.webp",
+      "bytes": 666174,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "332916a9e8de09669e93bfd802e1687d4124fc75ed2f8480abae71b9279a928c",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/international-cinema/nigerian-cinema/hero.webp",
+      "bytes": 939970,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "a1df0d49448e81588d86cd1a01e597ca5015ab51abb4492256fc420e68c1e725",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/international-cinema/portuguese-cinema/hero.webp",
+      "bytes": 626048,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "3231f624f12b928f2f784c1b1739f702a2ac2a6009b58ee86b1f8b56bb95def8",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/international-cinema/saudi-cinema/hero.webp",
+      "bytes": 556940,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "1dda1b5856ec80c1331caeca934334bc111cf3c226e1c550cbafc1c8f18d25dc",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/international-cinema/senegalese-cinema/hero.webp",
+      "bytes": 511706,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "5e99b87f8300eae1c70db82a712bdc5fd48c610b7c2b5222f4e59a1d1c8bd084",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/international-cinema/spanish-cinema/hero.webp",
+      "bytes": 735798,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "0d25ddbfba1ea07d43adf1e8094ae98a9e8e506e93d6476d74b22a8684ae01f0",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/international-cinema/sri-lankan-cinema/hero.webp",
+      "bytes": 650188,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "cb219af9df14648aa31756aafe3cfeee00960b7b1afdde10815039f6aef28258",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/international-cinema/tunisian-cinema/hero.webp",
+      "bytes": 705444,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "4562a5a644ea80fe70fa7b9130a657cc574a8ca379324acc7fda755f6d44cb1b",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/international-cinema/turkish-cinema/hero.webp",
+      "bytes": 654490,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "ae99727f99467eeef36e2c5956448697626f1fb20630161c77ac60be9aff4421",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/international-cinema/vietnamese-cinema/hero.webp",
+      "bytes": 532750,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "085680e0726693290c498c99297af945d1cf02c7282f978140eebb7c3af35994",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/based-on/true-story/hero.webp",
+      "bytes": 698274,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "abc552e93487739474925beaf814d2a9f8618290a488960ec97672fd1f366485",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/based-on/video-games/hero.webp",
+      "bytes": 600744,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "45f4baaeca97c395a95980fe216eb7673bcc1061caa61229014bff25c0364c91",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/based-on/book/hero.webp",
+      "bytes": 523840,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "3e200ae103f74bf2531f2a465531d6e29ef6c2205cac842a5b3994edc65d6605",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/based-on/play/hero.webp",
+      "bytes": 415054,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "ca2c835b6bff88cb915e9f4d8baa67c3d659e440bec30c3e88f634197960728a",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/based-on/toy/hero.webp",
+      "bytes": 448604,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "c26b7ee435e2e521a2eea7b0fd0fe6fd1fbed54e377c8c1536bd595e5ee657b6",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/based-on/tv-show/hero.webp",
+      "bytes": 303528,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "285f54f866e8cb34552a0e0b517d30055cde9b7a6b042339672681ced202f1c0",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/based-on/short-story/hero.webp",
+      "bytes": 473344,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "39427d86a928b36c19471fac5136a9c01b472202942bdb69f885d02e40d246f3",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/documentaries/true-crime-and-serial-killers/hero.webp",
+      "bytes": 408264,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "efe100e73d6f081765f5f724623dd4d3f05acb7e95318fe6cf78f2def8e418cd",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/documentaries/science-tech-and-cosmos/hero.webp",
+      "bytes": 438534,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "4375dc610b426d596ec7ed35563a95d210d922962a13d8aff1c66346b2a5ca7a",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/documentaries/nature-wildlife-and-earth/hero.webp",
+      "bytes": 513648,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "9f868d8b7e4c677f765d02b7449940fe044c41d7c27ecde1eaf9e346c56788f3",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/documentaries/history-war-and-civilizations/hero.webp",
+      "bytes": 498794,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "e3405a66225d1db5a7867098872af4e21afb84b48156b81b17ed209d782064ff",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/documentaries/investigative-and-scandals/hero.webp",
+      "bytes": 302564,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "63965d4152252471e8e0c3547f0bfc77f4d640580fcdfa8a0512b5e71f207b8e",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/documentaries/music-and-concert-documentaries/hero.webp",
+      "bytes": 395758,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "1bc2d8a0b0717b568cbc9269507ebc0596cee73412b9a2e388ffe9790935db8c",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/documentaries/sports-and-athletic-stories/hero.webp",
+      "bytes": 516964,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "3bb3135fdbaa2b98e20c378719d9750fb487e1317acfeb05600e36d9b2c5e097",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/reality-tv/90-day-universe/hero.webp",
+      "bytes": 354520,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "4c0dfb7af29522649d1e36b5e3a0218466eccf16fc958f65ef9e63a2701e8d57",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/reality-tv/discover-reality-tv/hero.webp",
+      "bytes": 405652,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "521d2988862092a4ce8370eea059f2c522c67cd4ecd73b5b98c281871a5c1210",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/reality-tv/high-stakes-competition-and-survival/hero.webp",
+      "bytes": 580198,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "3026bafb9a8ef615c0599d386027a94babeeaf29bd254f5997fa89c9265492fe",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/reality-tv/culinary-battles-and-cooking-shows/hero.webp",
+      "bytes": 378722,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "ea3d218913e2271c380a988ba0f2d358d96cbf95de32cedfcb0b66d83c8c28e2",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/reality-tv/game-shows-talent-and-trivia/hero.webp",
+      "bytes": 310890,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "2214c1fb818ccd8ec5f1ac1a0f78ebc57f953883bde3663d45f2909c635320d7",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/reality-tv/juicy-drama-dating-and-relationship/hero.webp",
+      "bytes": 355036,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "0256c52ea5e6635e6cda9aba4c4441739f110a15e4c6eebfe3924659939a95f3",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/reality-tv/real-estate-home-and-lifestyle-makeovers/hero.webp",
+      "bytes": 430630,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "ea36278055d9c78a0fe5ba65a97be47ae56f16eae63efc39208c3383a2a27b57",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/kids-and-family/norwegian-and-nordic-family/hero.webp",
+      "bytes": 680302,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "c74af76908010cbc4b4cdd2d7379e004e54dc0fde77531450479687078777dba",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/kids-and-family/christmas-and-holiday/hero.webp",
+      "bytes": 612636,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "34e51b8ae974b2f131acccea969298d2bb4c2968b74fd5bc0ff125618bd86096",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/kids-and-family/family-movie-night/hero.webp",
+      "bytes": 439076,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "c6a0f3515aa1dacb41590b2ad136f53cfb3b8ba5f0baca411e1c1d402a8459c6",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/kids-and-family/discover-family/hero.webp",
+      "bytes": 664876,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "bf42bcbe9770510e7d8b54e4907d35182208a82b610224643b41caeb35dad656",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/kids-and-family/animated-studio-spotlight/hero.webp",
+      "bytes": 450612,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "3b7e20cdbbfa36d0050a14b9082dcf7f67c509549a84676ffe1c660ada88eebd",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/kids-and-family/saturday-morning-and-nostalgic-cartoons/hero.webp",
+      "bytes": 447352,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "2f38e1363cca4e83a340b7157eb55645b9a4aa6b517cc481adbc42dc0faf3a33",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/kids-and-family/preschool-toddlers-and-little-kids/hero.webp",
+      "bytes": 460864,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "66dab05c25794582f7a24b963dcb3db0bdbf8fe0b0eae3463f25f688b8d254a1",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/kids-and-family/disney-channel-and-family-tv-series/hero.webp",
+      "bytes": 413572,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "d041fdd5463c21759e6f2fed63937e1bfbf33c9f556b9931f168bb6fc744cec0",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/awards/academy-awards/hero.webp",
+      "bytes": 190482,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "cfcd34b429e0fa5d4cd00cbdc53bf61b044b29ab6746f3c9a6eef13c463f7335",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/awards/academy-awards/title-logo.png",
+      "bytes": 28671,
+      "format": "png",
+      "width": 1200,
+      "height": 360,
+      "hasAlpha": true,
+      "sha256": "7f47ed7c86d663a312ad61b934ca1e6fd0e69d935a0d5d88b89760b7dab5f7dd",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/awards/festival-de-cannes/hero.webp",
+      "bytes": 155100,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "4eb80776afad1ab0c4e381534ac5c5c9962179434e766aa9c9fb3d410d3053d8",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/awards/festival-de-cannes/title-logo.png",
+      "bytes": 25764,
+      "format": "png",
+      "width": 1200,
+      "height": 360,
+      "hasAlpha": true,
+      "sha256": "41cbb8ad02cac97078d2474cb8fe647fea5b5b7aed15424eb89ef9aa03d991ca",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/awards/golden-globes/hero.webp",
+      "bytes": 244700,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "b14743680eb94dcc6659dcdfd49e9f39719adebdad9bd8642da38f23dc56e38c",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/awards/golden-globes/title-logo.png",
+      "bytes": 27702,
+      "format": "png",
+      "width": 1200,
+      "height": 360,
+      "hasAlpha": true,
+      "sha256": "9da45b068bce04392b1ec83455ee49a0f4c095d5061ea70ae51b7bfa17964163",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/awards/amanda/hero.webp",
+      "bytes": 171750,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "b71c43ee8de4a0e5e767b8582b1c0241d5012105bf336489315998e0fbf327b6",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/awards/emmy/hero.webp",
+      "bytes": 144564,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "ab47bf6b7c6c615ad2b2e0e47e336505613ea9d047a71b391412b3f61455546d",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/awards/bafta/hero.webp",
+      "bytes": 171276,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "3a3d4289a030f38c5df2b4a5bc190c61739b08a7237bcd3ca019211eaa539c92",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/film-collections/action-collections/hero.webp",
+      "bytes": 481304,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "eccd2d9d6bac31a8f59500f81ad3e99fc273c84ff2d7cc11f11d95307c44127f",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/film-collections/comedy-collections/hero.webp",
+      "bytes": 258096,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "b8e18cf0b1625ed6dd805773da6b80e496aedf43f366db2cecbcfda79746eb33",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/film-collections/crime-collections/hero.webp",
+      "bytes": 492772,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "5e1bb96e7d73ee268969b0edeb59a5b95a53616442465e1e5141c3e8050ec214",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/film-collections/epic-directors/hero.webp",
+      "bytes": 350612,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "96fd2d8e6c321f12cd389df05b54edd9497d4b8483e1d8c3f973b4d294f42672",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/film-collections/fantasy-collections/hero.webp",
+      "bytes": 608260,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "49f1b965da32a816997afcf395761167468f9d59deef6573002a2301f41c5bd3",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/film-collections/mystery-collections/hero.webp",
+      "bytes": 524542,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "c4dc45976b3c26ca5905233ccbe4f39544dfef2266685446b7f59638f7e0c9db",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/film-collections/sci-fi-collections/hero.webp",
+      "bytes": 388916,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "72c0254c068840a28cdb599fe09c9b5845ef743fa28460390fad46c2c7556140",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/film-collections/superhero-collections/hero.webp",
+      "bytes": 485014,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "9a2a2a99c5768119594cfefe494ae7fcf49c3e91f96f602b22a42f99d0127298",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/film-collections/superhero-collections/cover.webp",
+      "bytes": 426490,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "628bd21a1a0c246da6caa090c074aaa8897750c4c8523e9f4c9a8c1de52f5117",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/film-collections/superhero-collections/title-logo.png",
+      "bytes": 14713,
+      "format": "png",
+      "width": 1200,
+      "height": 360,
+      "hasAlpha": true,
+      "sha256": "89512335b0c00e2cffc5ddd83933739e01b02e2eebdff342c58e18e238b0ec84",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/film-collections/norwegian-and-nordic-collections/hero.webp",
+      "bytes": 327556,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "30e83d9b0df0c138b8d0de20780ee171ee5f5bf7152c4d4dc06644fa64ba68ba",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/film-collections/norwegian-and-nordic-collections/cover.webp",
+      "bytes": 363474,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "779842ac2a39e1d3aacafe1f32213c0cef6595b82a6013d94d29186caef398ad",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/film-collections/norwegian-and-nordic-collections/title-logo.png",
+      "bytes": 18870,
+      "format": "png",
+      "width": 1200,
+      "height": 360,
+      "hasAlpha": true,
+      "sha256": "1395b85c9ea9a27feaf7922521c2bd5736bb931232c462c97670ec4c5b5164a3",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/film-collections/romance-and-musical-collections/hero.webp",
+      "bytes": 349758,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "295f8479061b7851849b5b2541b3f6a2832ba45fb7f25ae61317bfb82c152c85",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/film-collections/romance-and-musical-collections/cover.webp",
+      "bytes": 390776,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "ff2e8811b9bad441de92db50157c55057e521758230ddc52b3f7dc08582ce259",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/film-collections/romance-and-musical-collections/title-logo.png",
+      "bytes": 18272,
+      "format": "png",
+      "width": 1200,
+      "height": 360,
+      "hasAlpha": true,
+      "sha256": "086aa3f644f1d27984ab85ff5dbef6046578c09860ee81d205e45f753bc31ac3",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/film-collections/western-collections/hero.webp",
+      "bytes": 526742,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "451207587e7ff6b43aa8abe0b67e3f08bebb5cb2d494fb66dedf8e65d267769c",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/film-collections/western-collections/cover.webp",
+      "bytes": 377352,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "7f5585771c4fa66a6e9d65c9bb3c55df6988a4a4bfffc9c04e9dda26efe6fd36",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/film-collections/western-collections/title-logo.png",
+      "bytes": 14177,
+      "format": "png",
+      "width": 1200,
+      "height": 360,
+      "hasAlpha": true,
+      "sha256": "f81988c0f3dd48a60aba2128a343bd263f95444cf47bf8405234b5a58bf76e64",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/moods-and-vibes/cozy-and-comforting/hero.webp",
+      "bytes": 486784,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "e0f991549cd6a646650afda9594fdfc8f001b3c8f97dd53ec91697b2f9211d6e",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/moods-and-vibes/nordic-dark-and-unusual/hero.webp",
+      "bytes": 282892,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "01c4b0c4b16b59b06e72aa93f5266bf337e9c812c97a2b6ffe688a3ffb04bcdf",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/moods-and-vibes/feel-good/hero.webp",
+      "bytes": 648632,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "3c04484aa3278ff4feb27d6f697c4ced475ba6e645efe2aba9e20a243909fa26",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/moods-and-vibes/emotional/hero.webp",
+      "bytes": 520204,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "3876b7b6a0d03bf5b2461be7c8ffe6efaf25611f7c53131da0c21dadbc068a57",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/moods-and-vibes/80s-and-90s-vibes/hero.webp",
+      "bytes": 569022,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "85666fb00fd5451f72f6fc3316c31ef9a6eb0038da5602a1a69536039a4830f3",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/moods-and-vibes/puzzle-box-mysteries/hero.webp",
+      "bytes": 392390,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "1f02db0edd31d9e42debf1aad663f9d8d3f738dfc9ad174754d2f74b75de1c86",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/moods-and-vibes/hackers-and-tech-culture/hero.webp",
+      "bytes": 436178,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "7fac8dedad601bea4926df51ee0e3270d3fa05390cbc8a1203cc56231a374e26",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/moods-and-vibes/conspiracies-and-cover-ups/hero.webp",
+      "bytes": 350826,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "e6046f821257698e5d2d4f722a6a7c1608011d7781aba8fd0fca9893043b7827",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/moods-and-vibes/social-strategy-and-mind-games/hero.webp",
+      "bytes": 285638,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "fe10ca4c3c982632b1c89df27c593404a1b7249858d8357d50f68b6259b8bfbc",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/moods-and-vibes/survival-against-the-odds/hero.webp",
+      "bytes": 492536,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "247a4dee0e9b60074aa10bf19fb3516109b94a39fb618edfc7b5cd22d628c9ee",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/genres/norske-filmer/hero.webp",
+      "bytes": 373076,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "60cfb09b4f0989227a48d38612151236c92b0f0cd202de88b03fe6162a443246",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/genres/norske-serier/hero.webp",
+      "bytes": 516780,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "7d4bcccdea3a91f6a826e2c1bffd4684fbbe81a30c25b4c1bfa07817c4764753",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/genres/action/hero.webp",
+      "bytes": 493960,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "0aea7c93258dd5ae007b422f195b8996e6561c7fd68ccbccc7747db63446f7cb",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/genres/crime/hero.webp",
+      "bytes": 499546,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "ae38b963a15b8195bcf28ea5650aa8a487c461a9537e4e97ee3ebee2be365d95",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/genres/family/hero.webp",
+      "bytes": 474156,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "28b53caf123657418ae855ca22a8e504596fa02551249e2d6a9b50de15b505c8",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/genres/martial-arts/hero.webp",
+      "bytes": 395870,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "b3e830dbd5597dd1b02ed6dafb666b1da689d7f7ac4b8191a052a7fca667e76f",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/genres/science-fiction/hero.webp",
+      "bytes": 453422,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "2b33e9c1db55ab7c86dc4ccd11b109bb75f2800542b53f041bec34d490e9008f",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/genres/music-musical/hero.webp",
+      "bytes": 403784,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "a2b708d73de9f04a945fdf86604e4d54b90195a79c6935882d3b01dec8bf7860",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/genres/stand-up-comedy/hero.webp",
+      "bytes": 317252,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "0c64bf2f249aba1936339079c4eb15fe4aaa2fd805d5d55228f90abadb4aaf3c",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/genres/sports/hero.webp",
+      "bytes": 513132,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "cbe6d25da0ceb06d49c49cd0813f419b007df1d06dbcdc61ec0b237dbd1eb845",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/genres/drama/hero.webp",
+      "bytes": 470508,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "4af43ac41e6aab4680568ec22e66af77f6e5e0409e6ee227069aa9d825dce7cd",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/genres/anime/hero.webp",
+      "bytes": 530526,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "e9d5ff8c5b7fd5fa38ad8f50461b442b5a4b5d969c316509d053fc12cfa3ef67",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/genres/k-drama/hero.webp",
+      "bytes": 503720,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "759c8f9424c1b3d479f7acecb49da3b9042debd773434cac8814bfdcedcdc837",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/genres/romance/hero.webp",
+      "bytes": 495790,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "65b69d57d80531b0ecf43213e534c6f7e625158a569196b631452ff9ec5799c8",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/genres/romantic-comedy/hero.webp",
+      "bytes": 788048,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "bd978526e59bc221b3c15a1745bd8ec9e7d41f4cfd8276f1c7f8b003141e1580",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/discover/popular-series/hero.webp",
+      "bytes": 446724,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "9743c70fcb663030f1bccc69eee354d32fe94eb203cfc067644fd614cf6920a6",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/discover/new-movies/hero.webp",
+      "bytes": 383754,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "a2af42c2a0c92b6948353a0dafbf2f7168bda9d9f9fcda70ff9aa409474db5b5",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/discover/new-series/hero.webp",
+      "bytes": 363466,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "dc8cce142215a857d593ea4da87a97aa21e02f26d45bfe7c9d7974f93835f092",
+      "originVersion": "v62.5"
+    },
+    {
+      "path": "art/speedmonster/v62-5/discover/top-series/hero.webp",
+      "bytes": 358268,
+      "format": "webp",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "sha256": "6b931652eac4a8c0d539863347680e789912df6393c58560d3459d089e66f700",
+      "originVersion": "v62.5"
+    }
+  ]
+}
