@@ -1,0 +1,102 @@
+{
+  "version": "v62.2",
+  "createdOn": "2026-11-09",
+  "style": "Dark marble and warm gold light, matching existing award cards",
+  "typography": {
+    "font": "Century Gothic",
+    "coverCapHeight": 160,
+    "logoCapHeight": 130
+  },
+  "assets": [
+    {
+      "title": "Amanda",
+      "repositoryPath": "art/speedmonster/v62-2/awards/amanda/cover.webp",
+      "bytes": 224532,
+      "sha256": "0535fc2e4aa0fa4f51e2ae34155cdd92b708188966f5d3ccf72b0cde7e15fb55",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "format": "webp"
+    },
+    {
+      "title": "Amanda",
+      "repositoryPath": "art/speedmonster/v62-2/awards/amanda/hero.webp",
+      "bytes": 173116,
+      "sha256": "f37d78b775e87e0c4e1118c7d234f437c9131dabb47a47ef2bbb7d928e6fa92a",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "format": "webp"
+    },
+    {
+      "title": "Amanda",
+      "repositoryPath": "art/speedmonster/v62-2/awards/amanda/title-logo.png",
+      "bytes": 27601,
+      "sha256": "bc9df6d3e47c284bc78f117f81e4d989382c23ea2914126b9232d7fc58842624",
+      "width": 1200,
+      "height": 360,
+      "hasAlpha": true,
+      "format": "png"
+    },
+    {
+      "title": "Emmy",
+      "repositoryPath": "art/speedmonster/v62-2/awards/emmy/cover.webp",
+      "bytes": 210376,
+      "sha256": "be1a4653e6d89d622bb57a24ce80eb8110b88c8294f75715cff2bc1257ebc6ef",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "format": "webp"
+    },
+    {
+      "title": "Emmy",
+      "repositoryPath": "art/speedmonster/v62-2/awards/emmy/hero.webp",
+      "bytes": 182774,
+      "sha256": "8e6fab3245bf9172cde42e8e7823a897ca5bf362317acabfdddd84b3b16f7985",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "format": "webp"
+    },
+    {
+      "title": "Emmy",
+      "repositoryPath": "art/speedmonster/v62-2/awards/emmy/title-logo.png",
+      "bytes": 20585,
+      "sha256": "3c1c27c6fd9bbb08c9a37d5f4b69980fbab6bc25128796e8eec41e39dfc64730",
+      "width": 1200,
+      "height": 360,
+      "hasAlpha": true,
+      "format": "png"
+    },
+    {
+      "title": "BAFTA",
+      "repositoryPath": "art/speedmonster/v62-2/awards/bafta/cover.webp",
+      "bytes": 212790,
+      "sha256": "3ca1085daf2929f32a982558690ba11512bb3cce68537f18e52d2e863c540911",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "format": "webp"
+    },
+    {
+      "title": "BAFTA",
+      "repositoryPath": "art/speedmonster/v62-2/awards/bafta/hero.webp",
+      "bytes": 188092,
+      "sha256": "289b867c78e1bd0d5a9607ee8d21a2e87fcca40d44c5937423131e45383ce9cd",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "format": "webp"
+    },
+    {
+      "title": "BAFTA",
+      "repositoryPath": "art/speedmonster/v62-2/awards/bafta/title-logo.png",
+      "bytes": 17661,
+      "sha256": "45f6177cba542cdd8f999461d8b12f4311f35c1b978efc65c5c0b39785d26741",
+      "width": 1200,
+      "height": 360,
+      "hasAlpha": true,
+      "format": "png"
+    }
+  ]
+}
