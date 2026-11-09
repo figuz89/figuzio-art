@@ -1,0 +1,58 @@
+{
+  "version": "v62.3",
+  "createdOn": "2026-11-09",
+  "change": "Remove Favorites from two family folder images; correct oversized title logos",
+  "typography": {
+    "font": "Arial Black",
+    "coverCapHeight": 102,
+    "logoCapHeight": 90,
+    "logoSafePadding": {
+      "left": 40,
+      "top": 77,
+      "rightAtLeast": 60,
+      "bottom": 77
+    }
+  },
+  "assets": [
+    {
+      "title": "Norwegian & Nordic Family",
+      "repositoryPath": "art/speedmonster/v62-3/kids-and-family/norwegian-nordic-family/cover.webp",
+      "bytes": 500192,
+      "sha256": "3af56b47fb93d412fd633bee6341362cc515bab015a1a0d5860d5bb386e8fe26",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "format": "webp"
+    },
+    {
+      "title": "Norwegian & Nordic Family",
+      "repositoryPath": "art/speedmonster/v62-3/kids-and-family/norwegian-nordic-family/title-logo.png",
+      "bytes": 24997,
+      "sha256": "cb05bea2c7d6f790edd3e4eb66ed330804c5574ced17b188c9509a17b7d61fc4",
+      "width": 1200,
+      "height": 360,
+      "hasAlpha": true,
+      "format": "png"
+    },
+    {
+      "title": "Christmas & Holiday",
+      "repositoryPath": "art/speedmonster/v62-3/kids-and-family/christmas-holiday/cover.webp",
+      "bytes": 494866,
+      "sha256": "ae18bc309e10bf4d1fcc671b8dc69b1afdeff3c2e8578f1fee439a3ac5160d7d",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": false,
+      "format": "webp"
+    },
+    {
+      "title": "Christmas & Holiday",
+      "repositoryPath": "art/speedmonster/v62-3/kids-and-family/christmas-holiday/title-logo.png",
+      "bytes": 18645,
+      "sha256": "bb85be226cdaf60423406207511109ee24a4e5627ed87f6d908fe95afabb2d54",
+      "width": 1200,
+      "height": 360,
+      "hasAlpha": true,
+      "format": "png"
+    }
+  ]
+}
