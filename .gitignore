@@ -1,0 +1,4 @@
+.v3-cache/
+__pycache__/
+*.class
+node_modules/
