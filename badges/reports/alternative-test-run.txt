@@ -1,0 +1,14 @@
+test_filename_cases_with_java_pattern (test_v3.FilenameTests.test_filename_cases_with_java_pattern) ... ok
+test_additive_schema_and_groups (test_v3.PackTests.test_additive_schema_and_groups) ... ok
+test_all_original_badges_and_artwork_are_preserved (test_v3.PackTests.test_all_original_badges_and_artwork_are_preserved) ... ok
+test_new_png_transparency_size_and_sources (test_v3.PackTests.test_new_png_transparency_size_and_sources) ... ok
+test_order_and_membership (test_v3.PackTests.test_order_and_membership) ... ok
+test_all_images_and_quality_tiers (test_v3_alternative.AlternativeTests.test_all_images_and_quality_tiers) ... ok
+test_display_category_order_and_unchanged_priorities (test_v3_alternative.AlternativeTests.test_display_category_order_and_unchanged_priorities) ... ok
+test_matching_and_fixed_order_regressions (test_v3_alternative.AlternativeTests.test_matching_and_fixed_order_regressions) ... ok
+test_only_image_urls_and_display_order_change (test_v3_alternative.AlternativeTests.test_only_image_urls_and_display_order_change) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 2.073s
+
+OK

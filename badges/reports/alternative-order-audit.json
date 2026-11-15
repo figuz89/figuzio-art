@@ -1,0 +1,29 @@
+{
+  "baselineCommit": "68d6a7ca30a418ad39bb52225bfa529cf38b1532",
+  "filters": 52,
+  "groups": 11,
+  "onlyFiltersArrayOrderChanged": true,
+  "allFilterFieldsIncludingImageURLsUnchanged": true,
+  "all52BadgePngsByteIdentical": true,
+  "regexChanges": 0,
+  "groupChanges": 0,
+  "firstBadgeId": "r-2160",
+  "categoryOrder": [
+    "gr",
+    "gvision",
+    "ghdr",
+    "gdolby",
+    "gdts",
+    "gc",
+    "gq",
+    "gimax",
+    "gseadex",
+    "gstreaming",
+    "gcodec"
+  ],
+  "unitTestMethods": 9,
+  "alternativeCases": 391,
+  "orderRegressionCases": 23,
+  "upstreamExecutions": 1173,
+  "physicalTestOfFix": false
+}

@@ -1,0 +1,9 @@
+{
+  "assetCommit": "9b5433262445441f706bd4e5ce2e73987f12db5a",
+  "basePackCommit": "b9666fa48b774a49b21b9ca6553c093b67e98224",
+  "style": "Alternative sculpted metal",
+  "displayGroupOrder": [
+    "gr", "gvision", "ghdr", "gdolby", "gdts", "gc",
+    "gq", "gimax", "gseadex", "gstreaming", "gcodec"
+  ]
+}

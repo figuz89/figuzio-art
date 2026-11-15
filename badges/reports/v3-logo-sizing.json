@@ -1,0 +1,81 @@
+{
+  "baselineCommit": "41a1870f67a6cda74b098789760ced582d0e5639",
+  "method": "Uniform scaling of original SVG alpha; 4 px face-height increase, unchanged gradient and 2 px relief; no SVG path edits",
+  "logos": [
+    {
+      "id": "s-netflix",
+      "beforeSize": [
+        215,
+        64
+      ],
+      "afterSize": [
+        215,
+        64
+      ],
+      "beforeInkHeightPx": 58,
+      "afterInkHeightPx": 58,
+      "scaleOfFace": 1,
+      "originalVectorUnchanged": true
+    },
+    {
+      "id": "s-prime",
+      "beforeSize": [
+        190,
+        64
+      ],
+      "afterSize": [
+        203,
+        64
+      ],
+      "beforeInkHeightPx": 58,
+      "afterInkHeightPx": 62,
+      "scaleOfFace": 1.0714285714285714,
+      "originalVectorUnchanged": true
+    },
+    {
+      "id": "s-disney",
+      "beforeSize": [
+        111,
+        64
+      ],
+      "afterSize": [
+        119,
+        64
+      ],
+      "beforeInkHeightPx": 58,
+      "afterInkHeightPx": 62,
+      "scaleOfFace": 1.0714285714285714,
+      "originalVectorUnchanged": true
+    },
+    {
+      "id": "s-skyshowtime",
+      "beforeSize": [
+        250,
+        64
+      ],
+      "afterSize": [
+        267,
+        64
+      ],
+      "beforeInkHeightPx": 58,
+      "afterInkHeightPx": 62,
+      "scaleOfFace": 1.0714285714285714,
+      "originalVectorUnchanged": true
+    },
+    {
+      "id": "s-paramount",
+      "beforeSize": [
+        251,
+        64
+      ],
+      "afterSize": [
+        269,
+        64
+      ],
+      "beforeInkHeightPx": 58,
+      "afterInkHeightPx": 62,
+      "scaleOfFace": 1.0714285714285714,
+      "originalVectorUnchanged": true
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "baselineCommit": "41a1870f67a6cda74b098789760ced582d0e5639",
+  "badgeCount": 52,
+  "legacyBadgeCount": 33,
+  "newBadgeCount": 19,
+  "groupChanges": 0,
+  "regexChangesSincePreviousPR": [
+    "s-skyshowtime"
+  ],
+  "regexChangeReason": "Verified SKST and SKYSHO aliases for existing SkyShowtime badge; still requires WEB context. No v2 regex changed in this review round.",
+  "changedBadgeImageURLs": [
+    "s-disney",
+    "s-paramount",
+    "s-prime",
+    "s-skyshowtime"
+  ],
+  "changedPNGs": [
+    "s-disney",
+    "s-paramount",
+    "s-prime",
+    "s-skyshowtime"
+  ],
+  "unchangedNewPNGs": 15,
+  "unchangedOriginalSVGs": 9,
+  "v2FileAndArtworkUnchanged": true,
+  "displayOrderChanged": true,
+  "criticalBadgesFitInitialModelledViewportsForABC": true,
+  "physicalDeviceTests": false,
+  "iosBinaryTests": false
+}

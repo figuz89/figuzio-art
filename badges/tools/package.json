@@ -1,0 +1,8 @@
+{
+  "name": "figuz-v3-artwork-tools",
+  "private": true,
+  "description": "Vector rasterization for the additive Figuz v3 badge assets",
+  "dependencies": {
+    "sharp": "0.35.5"
+  }
+}
