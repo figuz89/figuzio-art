@@ -1,0 +1,3 @@
+
+# Claude Code: lokale innstillinger kan inneholde nøkler/passord – skal aldri i git
+.claude/settings.local.json
